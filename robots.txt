@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mikurin39.github.io/my-tokyo/sitemap.xml
