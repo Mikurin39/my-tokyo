@@ -16,7 +16,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗼</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -100,172 +100,185 @@
 </script>
 <style>
 :root{
-  --navy:#182a4e; --text:#243352; --muted:#68748f; --bg:#f6f8fb; --card:#ffffff;
-  --line:#e5e9f2; --orange:#f05a28; --orange2:#d84a1b; --blue:#2f6fb5;
-  --radius:14px; --maxw:1100px; --shadow:0 4px 18px rgba(24,42,78,.08);
+  --navy:#1c2b4a; --text:#2b3852; --muted:#6b7280; --bg:#f6f3ee; --card:#ffffff;
+  --line:#e8e4dc; --orange:#e8622c; --orange2:#d4551f; --cream:#faf1e6; --cream-line:#f0e2cf;
+  --ico-bg:#fbe7dc;
+  --radius:10px; --maxw:1060px; --shadow:0 2px 10px rgba(28,43,74,.06);
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:'Poppins',-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+body{font-family:'Inter',-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.55;font-size:14px;-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}
-a{color:var(--blue);text-decoration:none}
+a{color:var(--orange);text-decoration:none}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
-section{padding:54px 0}
-h2{font-size:clamp(24px,3.4vw,32px);color:var(--navy);font-weight:800;letter-spacing:-.01em}
-.sec-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:26px}
-.sec-link{font-weight:600;font-size:14.5px;color:var(--navy)}
+section{padding:40px 0}
+h2{font-size:24px;color:var(--navy);font-weight:700;letter-spacing:-.01em}
+.sec-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:20px}
+.sec-link{font-weight:600;font-size:13px;color:var(--navy)}
 .sec-link:hover{color:var(--orange)}
-.btn{display:inline-block;background:var(--orange);color:#fff;font-weight:700;padding:12px 26px;border-radius:10px;border:none;cursor:pointer;font-size:15px;transition:.2s;text-align:center;font-family:inherit}
-.btn:hover{background:var(--orange2);transform:translateY(-1px)}
-.btn.small{padding:9px 18px;font-size:13.5px}
+.btn{display:inline-block;background:var(--orange);color:#fff;font-weight:600;padding:10px 20px;border-radius:7px;border:none;cursor:pointer;font-size:13.5px;transition:.2s;text-align:center;font-family:inherit}
+.btn:hover{background:var(--orange2)}
+.btn.small{padding:8px 15px;font-size:12.5px;border-radius:6px}
 /* header */
-header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 1px 8px rgba(24,42,78,.05)}
-.nav{display:flex;align-items:center;justify-content:space-between;height:66px;gap:16px}
-.logo{display:flex;align-items:center;gap:9px;color:var(--navy)}
-.logo .tower{font-size:26px;color:var(--orange)}
-.logo b{font-size:19px;font-weight:800;display:block;line-height:1.15}
-.logo small{font-size:10.5px;color:var(--muted);display:block;font-weight:500}
-.nav-links{display:flex;gap:24px;align-items:center;font-size:14px}
-.nav-links a{color:var(--navy);font-weight:600}
+header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:54px;gap:16px}
+.logo{display:flex;align-items:center;gap:7px;color:var(--navy)}
+.logo .tower{font-size:21px}
+.logo b{font-size:15.5px;font-weight:800;display:block;line-height:1.15}
+.logo small{font-size:9.5px;color:var(--muted);display:block;font-weight:500}
+.nav-links{display:flex;gap:20px;align-items:center;font-size:13px}
+.nav-links a{color:var(--navy);font-weight:500}
 .nav-links a:hover{color:var(--orange)}
-.nav-links a.btn,.nav-links a.btn:hover{color:#fff}
+.nav-links a.btn,.nav-links a.btn:hover{color:#fff;font-weight:600}
 /* hero carousel */
-.hero{position:relative;height:min(64vh,470px);overflow:hidden;background:#182a4e}
+.hero{position:relative;height:min(56vh,440px);overflow:hidden;background:var(--navy)}
 .slide{position:absolute;inset:0;opacity:0;transition:opacity .8s ease}
 .slide.on{opacity:1}
-.slide img{width:100%;height:100%;object-fit:cover;filter:brightness(.55)}
+.slide img{width:100%;height:100%;object-fit:cover;filter:brightness(.6)}
 .hero-content{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;z-index:5;color:#fff;padding:0 22px}
-.hero-content h1{font-size:clamp(32px,5.5vw,52px);font-weight:800;line-height:1.15;text-shadow:0 2px 18px rgba(0,0,0,.45);margin-bottom:14px}
-.hero-content p{font-size:clamp(14.5px,2vw,17px);max-width:520px;margin-bottom:26px;text-shadow:0 1px 10px rgba(0,0,0,.5);font-weight:500}
-.hero-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:6;width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.92);border:none;cursor:pointer;font-size:18px;color:var(--navy);display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow)}
+.hero-content h1{font-size:clamp(30px,4.6vw,44px);font-weight:800;line-height:1.16;text-shadow:0 2px 16px rgba(0,0,0,.4);margin-bottom:12px;letter-spacing:-.01em}
+.hero-content p{font-size:14.5px;max-width:480px;margin-bottom:22px;text-shadow:0 1px 8px rgba(0,0,0,.5);font-weight:500}
+.hero-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:6;width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,.92);border:none;cursor:pointer;font-size:16px;color:var(--navy);display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow)}
 .hero-arrow:hover{background:#fff}
-.hero-arrow.prev{left:18px}.hero-arrow.next{right:18px}
-.hero-dots{position:absolute;bottom:18px;left:0;right:0;display:flex;gap:9px;justify-content:center;z-index:6}
-.hero-dots button{width:9px;height:9px;border-radius:50%;border:none;background:rgba(255,255,255,.45);cursor:pointer;padding:0}
+.hero-arrow.prev{left:16px}.hero-arrow.next{right:16px}
+.hero-dots{position:absolute;bottom:16px;left:0;right:0;display:flex;gap:8px;justify-content:center;z-index:6}
+.hero-dots button{width:8px;height:8px;border-radius:50%;border:none;background:rgba(255,255,255,.45);cursor:pointer;padding:0}
 .hero-dots button.on{background:#fff}
+/* why + quiz */
+.why-grid{display:grid;grid-template-columns:1fr 1.08fr;gap:38px;align-items:center}
+.why-text h2{margin-bottom:10px}
+.why-text>p{color:var(--muted);font-size:13.5px;margin-bottom:24px;max-width:340px}
+.feat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.feat .ico{width:52px;height:52px;border-radius:50%;background:var(--ico-bg);display:flex;align-items:center;justify-content:center;font-size:22px;margin-bottom:10px}
+.feat b{display:block;color:var(--navy);font-size:13.5px;margin-bottom:3px;font-weight:700}
+.feat small{color:var(--muted);font-size:11.5px;line-height:1.45;display:block}
+.quiz-card{background:var(--cream);border:1px solid var(--cream-line);border-radius:12px;overflow:hidden;display:grid;grid-template-columns:1.1fr .9fr;min-height:250px}
+.quiz-text{padding:30px 6px 30px 30px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
+.quiz-text .new{color:var(--orange);font-weight:800;font-size:12.5px;letter-spacing:.08em;margin-bottom:8px}
+.quiz-text h2{font-size:26px;line-height:1.2;margin-bottom:10px}
+.quiz-text p{color:var(--muted);font-size:13px;margin-bottom:18px;max-width:220px}
+.quiz-img{margin:14px 14px 14px 8px;border-radius:8px;overflow:hidden}
+.quiz-img img{width:100%;height:100%;object-fit:cover}
 /* tour cards */
-.tour-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
-.tour{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;transition:.2s}
-.tour:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(24,42,78,.13)}
-.tour-img{height:215px}
+.tour-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.tour{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;transition:.15s}
+.tour:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(28,43,74,.1)}
+.tour-img{height:180px}
 .tour-img img{width:100%;height:100%;object-fit:cover}
-.tour-body{padding:20px 22px 22px;display:flex;flex-direction:column;flex:1}
-.tour-body h3{font-size:19px;color:var(--navy);font-weight:700;margin-bottom:7px}
-.tour-meta{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:13px;margin-bottom:10px;font-weight:500}
-.tour-body p{color:var(--muted);font-size:14px;margin-bottom:16px}
+.tour-body{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
+.tour-body h3{font-size:16px;color:var(--navy);font-weight:700;margin-bottom:6px}
+.tour-meta{display:flex;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:12px;margin-bottom:8px;font-weight:500}
+.tour-body p{color:var(--muted);font-size:12.5px;margin-bottom:14px}
 .tour-footer{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px}
-.price{font-size:13px;color:var(--muted)}
-.price b{font-size:20px;color:var(--orange);font-weight:800}
-/* finder banner */
-.finder{position:relative;border-radius:18px;overflow:hidden;box-shadow:var(--shadow);display:grid;grid-template-columns:1fr .55fr;align-items:center;background:linear-gradient(115deg,#dceafd 0%,#eaf3fe 55%,#f7fbff 100%)}
-.finder-text{padding:44px 20px 44px 44px;position:relative;z-index:2}
-.finder-text h2{margin-bottom:8px}
-.finder-text .lead{color:var(--blue);font-weight:600;margin-bottom:10px}
-.finder-text p{color:var(--muted);font-size:14.5px;max-width:420px;margin-bottom:22px}
-.finder-img{height:100%;min-height:260px}
-.finder-img img{width:100%;height:100%;object-fit:cover}
-/* why */
-.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}
-.why-grid>img{border-radius:var(--radius);box-shadow:var(--shadow);height:100%;max-height:360px;width:100%;object-fit:cover}
-.why-text>p{color:var(--muted);font-size:15px;margin:10px 0 26px}
-.feat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
-.feat{text-align:center}
-.feat .ico{width:56px;height:56px;border-radius:50%;background:#fdeae2;display:flex;align-items:center;justify-content:center;font-size:24px;margin:0 auto 10px}
-.feat b{display:block;color:var(--navy);font-size:14.5px;margin-bottom:3px}
-.feat small{color:var(--muted);font-size:12.5px;line-height:1.45;display:block}
+.price{font-size:12px;color:var(--muted)}
+.price b{font-size:14.5px;color:var(--orange);font-weight:800}
 /* booking */
 #book{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.book-sub{color:var(--muted);max-width:620px;margin:8px 0 30px;font-size:15px}
-.book-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:30px;align-items:start}
-.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow)}
-.tour-choice{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px}
-.choice{border:1.5px solid var(--line);border-radius:12px;padding:14px;cursor:pointer;transition:.15s;background:var(--bg)}
-.choice.active{border-color:var(--orange);background:#fdf1ec}
-.choice h4{font-size:14px;line-height:1.35;color:var(--navy)}
-.choice small{color:var(--muted);font-size:12.5px}
-.cal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
-.cal-head b{font-size:16px;color:var(--navy)}
+.book-sub{color:var(--muted);max-width:600px;margin:6px 0 24px;font-size:13.5px}
+.book-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:24px;align-items:start}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow)}
+.tour-choice{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:18px}
+.choice{border:1.5px solid var(--line);border-radius:8px;padding:12px;cursor:pointer;transition:.15s;background:var(--bg)}
+.choice.active{border-color:var(--orange);background:var(--cream)}
+.choice h4{font-size:13px;line-height:1.35;color:var(--navy)}
+.choice small{color:var(--muted);font-size:11.5px}
+.cal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.cal-head b{font-size:14.5px;color:var(--navy)}
 .cal-nav{display:flex;gap:8px}
-.cal-nav button{background:var(--bg);border:1px solid var(--line);color:var(--navy);width:34px;height:34px;border-radius:9px;cursor:pointer;font-size:15px}
+.cal-nav button{background:var(--bg);border:1px solid var(--line);color:var(--navy);width:32px;height:32px;border-radius:7px;cursor:pointer;font-size:14px}
 .cal-nav button:hover:not(:disabled){border-color:var(--orange)}
 .cal-nav button:disabled{opacity:.3;cursor:default}
-.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:5px;text-align:center}
-.cal .dow{font-size:11px;color:var(--muted);font-weight:700;padding:6px 0;text-transform:uppercase}
-.cal .day{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border-radius:10px;font-size:14px;cursor:pointer;border:1.5px solid transparent;color:var(--text)}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}
+.cal .dow{font-size:10.5px;color:var(--muted);font-weight:700;padding:5px 0;text-transform:uppercase}
+.cal .day{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border-radius:7px;font-size:13px;cursor:pointer;border:1.5px solid transparent;color:var(--text)}
 .cal .day:hover:not(.off):not(.past){border-color:var(--orange)}
-.cal .day.past,.cal .day.off{color:#c3cad9;cursor:default}
-.cal .day.sel{background:var(--orange);color:#fff;font-weight:800}
-.cal .day.busy{color:#d9b8ae;text-decoration:line-through;cursor:default}
-.slots{display:flex;gap:9px;flex-wrap:wrap;margin-top:16px}
-.slot{border:1.5px solid var(--line);background:var(--bg);color:var(--text);border-radius:10px;padding:9px 16px;font-size:14px;cursor:pointer;font-weight:600;font-family:inherit}
+.cal .day.past,.cal .day.off{color:#c8cdd6;cursor:default}
+.cal .day.sel{background:var(--orange);color:#fff;font-weight:700}
+.cal .day.busy{color:#dcb8a8;text-decoration:line-through;cursor:default}
+.slots{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.slot{border:1.5px solid var(--line);background:var(--bg);color:var(--text);border-radius:7px;padding:8px 14px;font-size:13px;cursor:pointer;font-weight:600;font-family:inherit}
 .slot.sel{background:var(--orange);border-color:var(--orange);color:#fff}
 .slot.busy{opacity:.35;cursor:default;text-decoration:line-through}
-.field{margin-bottom:14px}
-.field label{display:block;font-size:13px;font-weight:600;color:var(--navy);margin-bottom:6px}
-.field input,.field select,.field textarea{width:100%;background:#fff;border:1.5px solid var(--line);border-radius:10px;color:var(--text);padding:11px 13px;font-size:15px;font-family:inherit}
+.field{margin-bottom:12px}
+.field label{display:block;font-size:12px;font-weight:600;color:var(--navy);margin-bottom:5px}
+.field input,.field select,.field textarea{width:100%;background:#fff;border:1.5px solid var(--line);border-radius:7px;color:var(--text);padding:10px 12px;font-size:13.5px;font-family:inherit}
 .field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--orange)}
-.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.summary{background:var(--bg);border:1px dashed #c9d3e6;border-radius:12px;padding:14px;font-size:14px;color:var(--text);margin-bottom:16px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+.summary{background:var(--bg);border:1px dashed #d8d2c6;border-radius:8px;padding:12px;font-size:13px;color:var(--text);margin-bottom:14px}
 .summary b{color:var(--orange)}
-#bookMsg{margin-top:14px;font-size:14px;border-radius:10px;padding:12px 14px;display:none}
+#bookMsg{margin-top:12px;font-size:13px;border-radius:8px;padding:11px 13px;display:none}
 #bookMsg.ok{display:block;background:#e8f7ee;border:1px solid #9ed9b5;color:#1f7a45}
 #bookMsg.err{display:block;background:#fdeeec;border:1px solid #f0b3ab;color:#b3262e}
 /* tour details */
-.tdetails{margin-bottom:18px}
-.tdetails .chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
-.tdetails .chip{background:var(--bg);border:1px solid var(--line);border-radius:99px;padding:5px 12px;font-size:12px;font-weight:600;color:var(--navy)}
-.tdetails h5{font-size:13px;color:var(--navy);font-weight:700;margin:14px 0 6px;text-transform:uppercase;letter-spacing:.04em}
-.tdetails p,.tdetails li{font-size:13.5px;color:var(--muted)}
+.tdetails{margin-bottom:16px}
+.tdetails .chips{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:12px}
+.tdetails .chip{background:var(--bg);border:1px solid var(--line);border-radius:99px;padding:4px 11px;font-size:11px;font-weight:600;color:var(--navy)}
+.tdetails h5{font-size:11.5px;color:var(--navy);font-weight:700;margin:12px 0 5px;text-transform:uppercase;letter-spacing:.05em}
+.tdetails p,.tdetails li{font-size:12.5px;color:var(--muted)}
 .tdetails ul{list-style:none}
-.tdetails ul li{padding:2.5px 0 2.5px 22px;position:relative}
-.tdetails ul.inc li::before{content:'✓';position:absolute;left:2px;color:#1f9d55;font-weight:800}
-.tdetails ul.exc li::before{content:'✕';position:absolute;left:2px;color:#c25454;font-weight:800}
-.tdetails ol{padding-left:20px}
-.tdetails ol li{padding:2.5px 0}
+.tdetails ul li{padding:2px 0 2px 20px;position:relative}
+.tdetails ul.inc li::before{content:'✓';position:absolute;left:1px;color:#1f9d55;font-weight:800}
+.tdetails ul.exc li::before{content:'✕';position:absolute;left:1px;color:#c25454;font-weight:800}
+.tdetails ol{padding-left:18px}
+.tdetails ol li{padding:2px 0}
 /* spots */
-.rank-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+.rank-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
 .rank-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;position:relative;box-shadow:var(--shadow)}
-.rank-card img{height:165px;width:100%;object-fit:cover}
-.rank-num{position:absolute;top:12px;left:12px;background:var(--orange);color:#fff;font-weight:800;width:38px;height:38px;border-radius:11px;display:flex;align-items:center;justify-content:center;font-size:16px;box-shadow:0 2px 8px rgba(0,0,0,.25)}
-.rank-body{padding:15px 18px}
-.rank-body h3{font-size:16px;color:var(--navy);font-weight:700;margin-bottom:4px}
-.rank-body p{font-size:13.5px;color:var(--muted)}
-/* duo cards */
-.duo{display:grid;grid-template-columns:1fr 1fr;gap:22px}
-.duo-card{position:relative;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);min-height:150px;display:flex;align-items:center}
-.duo-card>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.65)}
-.duo-inner{position:relative;z-index:2;display:flex;align-items:center;gap:18px;padding:24px;color:#fff;width:100%}
-.duo-inner h3{font-size:19px;font-weight:800;margin-bottom:3px;text-shadow:0 1px 8px rgba(0,0,0,.4)}
-.duo-inner p{font-size:13.5px;margin-bottom:8px;text-shadow:0 1px 8px rgba(0,0,0,.5)}
-.duo-inner a{color:#fff;font-weight:700;font-size:14px;border-bottom:2px solid var(--orange)}
+.rank-card img{height:150px;width:100%;object-fit:cover}
+.rank-num{position:absolute;top:10px;left:10px;background:var(--orange);color:#fff;font-weight:800;width:34px;height:34px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:14.5px;box-shadow:0 2px 8px rgba(0,0,0,.22)}
+.rank-body{padding:13px 16px 15px}
+.rank-body h3{font-size:14.5px;color:var(--navy);font-weight:700;margin-bottom:3px}
+.rank-body p{font-size:12px;color:var(--muted)}
+/* utility cards */
+.util-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.util{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);text-align:center;padding-bottom:16px}
+.util-img{height:110px;position:relative;margin-bottom:28px}
+.util-img img{width:100%;height:100%;object-fit:cover}
+.util-ico{position:absolute;left:50%;bottom:-21px;transform:translateX(-50%);width:42px;height:42px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;box-shadow:var(--shadow);border:1px solid var(--line)}
+.util h3{font-size:14.5px;color:var(--navy);font-weight:700;margin-bottom:4px}
+.util p{font-size:11.5px;color:var(--muted);padding:0 14px;margin-bottom:8px}
+.util a{font-size:12px;font-weight:600}
+/* about */
+.about-grid{display:grid;grid-template-columns:250px 1fr;gap:32px;align-items:start}
+.about-img{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line)}
+.about-img img{width:100%;aspect-ratio:1;object-fit:cover;object-position:top}
+.about-text .kicker{color:var(--orange);font-weight:800;font-size:12px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px}
+.about-text h2{margin-bottom:10px}
+.about-text p{color:var(--muted);font-size:13.5px;margin-bottom:12px;max-width:640px}
+.about-text .about-sign{color:var(--navy);font-weight:600}
 /* faq */
-details{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:10px;overflow:hidden;box-shadow:var(--shadow)}
-summary{padding:16px 20px;font-weight:600;cursor:pointer;font-size:15px;list-style:none;display:flex;justify-content:space-between;align-items:center;color:var(--navy)}
-summary::after{content:'+';color:var(--orange);font-size:20px;font-weight:400}
+details{background:var(--card);border:1px solid var(--line);border-radius:8px;margin-bottom:8px;overflow:hidden;box-shadow:var(--shadow)}
+summary{padding:13px 16px;font-weight:600;cursor:pointer;font-size:13.5px;list-style:none;display:flex;justify-content:space-between;align-items:center;color:var(--navy)}
+summary::after{content:'+';color:var(--orange);font-size:18px;font-weight:400}
 details[open] summary::after{content:'−'}
-details .a{padding:0 20px 16px;color:var(--muted);font-size:14px}
+details .a{padding:0 16px 13px;color:var(--muted);font-size:12.5px}
 /* footer */
-footer{background:var(--navy);color:#c6cee0;font-size:13.5px;padding:44px 0 30px;margin-top:54px}
-.foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:30px;margin-bottom:30px}
-.foot-grid h4{color:#fff;font-size:14px;margin-bottom:12px;font-weight:700}
-.foot-grid a{display:block;color:#c6cee0;margin-bottom:8px;font-size:13.5px}
+footer{background:var(--navy);color:#c3cadb;font-size:12.5px;padding:36px 0 24px;margin-top:40px}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px;margin-bottom:24px}
+.foot-grid h4{color:#fff;font-size:12.5px;margin-bottom:10px;font-weight:700}
+.foot-grid a{display:block;color:#c3cadb;margin-bottom:7px;font-size:12px}
 .foot-grid a:hover{color:#fff}
-.foot-logo{display:flex;align-items:center;gap:9px;margin-bottom:12px}
-.foot-logo .tower{font-size:24px;color:var(--orange)}
-.foot-logo b{color:#fff;font-size:17px;display:block;line-height:1.15}
-.foot-logo small{font-size:10px;color:#8fa0c4;display:block}
-.foot-bottom{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12.5px;color:#8fa0c4}
-.credits{font-size:11px;color:#8fa0c4;line-height:1.8;margin-top:14px}
-.credits summary{padding:0;font-size:11.5px;color:#8fa0c4;background:none;font-weight:500}
+.foot-logo{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+.foot-logo .tower{font-size:21px}
+.foot-logo b{color:#fff;font-size:15px;display:block;line-height:1.15}
+.foot-logo small{font-size:9px;color:#8a97b5;display:block}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.12);padding-top:15px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:11.5px;color:#8a97b5}
+.credits{font-size:10.5px;color:#8a97b5;line-height:1.8;margin-top:12px}
+.credits summary{padding:0;font-size:11px;color:#8a97b5;background:none;font-weight:500}
 .credits summary::after{content:''}
 @media(max-width:880px){
-  .tour-grid,.book-grid,.why-grid,.duo,.finder{grid-template-columns:1fr}
-  .foot-grid{grid-template-columns:1fr 1fr}
+  .tour-grid,.book-grid,.why-grid,.quiz-card{grid-template-columns:1fr}
+  .util-grid,.foot-grid{grid-template-columns:1fr 1fr}
+  .about-grid{grid-template-columns:1fr}
+  .about-img{max-width:250px}
   .nav-links a:not(.btn){display:none}
-  section{padding:40px 0}
-  .finder-text{padding:30px 26px}
-  .finder-img{min-height:190px}
-  .hero{height:56vh}
+  section{padding:32px 0}
+  .quiz-img{margin:0 14px 14px;height:150px}
+  .quiz-text{padding:24px 24px 16px}
+  .hero{height:48vh}
+}
+@media(max-width:520px){
+  .util-grid{grid-template-columns:1fr}
 }
 </style>
 </head>
@@ -277,8 +290,9 @@ footer{background:var(--navy);color:#c6cee0;font-size:13.5px;padding:44px 0 30px
     <nav class="nav-links">
       <a href="#">Home</a>
       <a href="#tours">Tours</a>
-      <a href="#finder">Travel Style Finder</a>
+      <a href="#quiz">Tokyo Quiz</a>
       <a href="#spots">Spots</a>
+      <a href="#about">About</a>
       <a href="#faq">FAQ</a>
       <a href="#book" class="btn small">Book a Tour</a>
     </nav>
@@ -300,7 +314,30 @@ footer{background:var(--navy);color:#c6cee0;font-size:13.5px;padding:44px 0 30px
   <div class="hero-dots" id="heroDots"></div>
 </div>
 
-<section id="tours">
+<section id="quiz">
+  <div class="wrap why-grid">
+    <div class="why-text">
+      <h2>Why My Tokyo?</h2>
+      <p>We're a team of local guides who love this city. From must-see highlights to secret spots, we'll show you the real Tokyo.</p>
+      <div class="feat-row">
+        <div class="feat"><div class="ico">👥</div><b>Local Guides</b><small>Friendly, knowledgeable, and passionate locals</small></div>
+        <div class="feat"><div class="ico">📍</div><b>Hidden Gems</b><small>Discover places most travelers miss</small></div>
+        <div class="feat"><div class="ico">❤️</div><b>Small Groups</b><small>More personal, deeper connections</small></div>
+      </div>
+    </div>
+    <div class="quiz-card">
+      <div class="quiz-text">
+        <div class="new">NEW!</div>
+        <h2>Tokyo Trip Quiz</h2>
+        <p>Answer a few questions and get your perfect Tokyo plan!</p>
+        <a class="btn" href="https://mikurin39.github.io/tokyo-trip-finder/" target="_blank" rel="noopener">Start the Quiz →</a>
+      </div>
+      <div class="quiz-img"><img src="img/goldengai.jpg" alt="Lantern-lit izakaya alley in Tokyo" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<section id="tours" style="padding-top:8px">
   <div class="wrap">
     <div class="sec-head">
       <h2>Popular Tours</h2>
@@ -316,7 +353,7 @@ footer{background:var(--navy);color:#c6cee0;font-size:13.5px;padding:44px 0 30px
           <p>Explore Omoide Yokocho & Golden Gai — hidden bars and authentic izakayas in Shinjuku with a local guide. 8+ tastings and 2 drinks included.</p>
           <div class="tour-footer">
             <div class="price"><b>¥15,000</b> / per person</div>
-            <div style="display:flex;gap:14px;align-items:center">
+            <div style="display:flex;gap:12px;align-items:center">
               <a href="#book" class="sec-link" onclick="viewDetails('izakaya');return false">Details</a>
               <button class="btn small" onclick="selectTour('izakaya')">Book →</button>
             </div>
@@ -332,7 +369,7 @@ footer{background:var(--navy);color:#c6cee0;font-size:13.5px;padding:44px 0 30px
           <p>Create your perfect Tokyo adventure. You choose the places — anime, food, temples, hidden neighborhoods — we handle the rest.</p>
           <div class="tour-footer">
             <div class="price"><b>From ¥8,000</b> / per person</div>
-            <div style="display:flex;gap:14px;align-items:center">
+            <div style="display:flex;gap:12px;align-items:center">
               <a href="#book" class="sec-link" onclick="viewDetails('custom');return false">Details</a>
               <button class="btn small" onclick="selectTour('custom')">Book →</button>
             </div>
@@ -341,35 +378,6 @@ footer{background:var(--navy);color:#c6cee0;font-size:13.5px;padding:44px 0 30px
       </article>
 
     </div>
-  </div>
-</section>
-
-<section id="finder" style="padding-top:0">
-  <div class="wrap">
-    <div class="finder">
-      <div class="finder-text">
-        <h2>Tokyo Travel Style Finder</h2>
-        <div class="lead">Discover your perfect Tokyo experience!</div>
-        <p>Answer a few simple questions and we'll recommend the best spots and a day-by-day itinerary for you — free, no sign-up.</p>
-        <a class="btn" href="https://mikurin39.github.io/tokyo-trip-finder/" target="_blank" rel="noopener">Start the Finder →</a>
-      </div>
-      <div class="finder-img"><img src="img/skytree.jpg" alt="Tokyo Skytree above the city" loading="lazy"></div>
-    </div>
-  </div>
-</section>
-
-<section id="why" style="padding-top:0">
-  <div class="wrap why-grid">
-    <div class="why-text">
-      <h2>Why My Tokyo?</h2>
-      <p>We're local guides who love this city. From must-see highlights to secret spots that aren't in any guidebook, we'll show you the real Tokyo.</p>
-      <div class="feat-row">
-        <div class="feat"><div class="ico">👥</div><b>Local Guides</b><small>Friendly, knowledgeable, and passionate locals</small></div>
-        <div class="feat"><div class="ico">📍</div><b>Hidden Gems</b><small>Discover places most tourists never find</small></div>
-        <div class="feat"><div class="ico">❤️</div><b>Small Groups</b><small>Max 12 guests — personal, deeper connections</small></div>
-      </div>
-    </div>
-    <img src="img/akiba.jpg" alt="Neon-lit street in Tokyo at night" loading="lazy">
   </div>
 </section>
 
@@ -387,7 +395,7 @@ footer{background:var(--navy);color:#c6cee0;font-size:13.5px;padding:44px 0 30px
           </div>
           <div class="choice" id="choice-custom" onclick="selectTour('custom')">
             <h4>🗼 Custom Tokyo Tour</h4>
-            <small>3–8 h · from ¥8,000/person</small>
+            <small>3–8 h · from ¥18,000/person</small>
           </div>
         </div>
         <div id="tourDetails"></div>
@@ -419,18 +427,18 @@ footer{background:var(--navy);color:#c6cee0;font-size:13.5px;padding:44px 0 30px
           </div>
           <div class="field" id="durField" style="display:none"><label>Tour length *</label>
             <select id="fDuration" onchange="renderSummary()">
-              <option value="3">3 hours — ¥8,000 / person</option>
-              <option value="4">4 hours — ¥10,000 / person</option>
-              <option value="5">5 hours — ¥12,000 / person</option>
-              <option value="6">6 hours — ¥14,000 / person</option>
-              <option value="7">7 hours — ¥16,000 / person</option>
-              <option value="8">8 hours — ¥18,000 / person</option>
+              <option value="3">3 hours — ¥18,000 / person</option>
+              <option value="4">4 hours — ¥21,000 / person</option>
+              <option value="5">5 hours — ¥24,000 / person</option>
+              <option value="6">6 hours — ¥27,000 / person</option>
+              <option value="7">7 hours — ¥30,000 / person</option>
+              <option value="8">8 hours — ¥33,000 / person</option>
             </select>
           </div>
           <div class="field"><label>Requests / dietary restrictions</label><textarea id="fNotes" rows="3" placeholder="Vegetarian, love anime, first time in Japan…"></textarea></div>
           <button class="btn" type="submit" style="width:100%" id="submitBtn">Request booking</button>
           <div id="bookMsg"></div>
-          <p style="font-size:12px;color:var(--muted);margin-top:12px">You'll receive a confirmation email once your date is locked in.</p>
+          <p style="font-size:11.5px;color:var(--muted);margin-top:10px">You'll receive a confirmation email once your date is locked in.</p>
         </form>
       </div>
 
@@ -449,26 +457,44 @@ footer{background:var(--navy);color:#c6cee0;font-size:13.5px;padding:44px 0 30px
 </section>
 
 <section id="social" style="padding-top:0">
-  <div class="wrap duo">
-    <div class="duo-card">
-      <img src="img/takeshita.jpg" alt="Takeshita Street, Harajuku" loading="lazy">
-      <div class="duo-inner">
-        <div>
-          <h3>Instagram</h3>
-          <p>Follow us for daily Tokyo tips and inspiration!</p>
-          <a href="https://www.instagram.com/mytokyo39/" id="igLink" target="_blank" rel="noopener">Visit Instagram →</a>
-        </div>
-      </div>
+  <div class="wrap util-grid">
+    <div class="util">
+      <div class="util-img"><img src="img/fuji.jpg" alt="Mt. Fuji and Chureito Pagoda" loading="lazy"><div class="util-ico">❓</div></div>
+      <h3>Tokyo Trip Quiz</h3>
+      <p>Find your perfect Tokyo experience!</p>
+      <a href="https://mikurin39.github.io/tokyo-trip-finder/" target="_blank" rel="noopener">Start the Quiz →</a>
     </div>
-    <div class="duo-card">
-      <img src="img/shibuyasky.jpg" alt="View from SHIBUYA SKY" loading="lazy">
-      <div class="duo-inner">
-        <div>
-          <h3>Tokyo Spots</h3>
-          <p>Explore our favorite spots in Tokyo!</p>
-          <a href="#spots">Explore Spots →</a>
-        </div>
-      </div>
+    <div class="util">
+      <div class="util-img"><img src="img/takeshita.jpg" alt="Takeshita Street, Harajuku" loading="lazy"><div class="util-ico">📸</div></div>
+      <h3>Instagram</h3>
+      <p>Follow us for daily Tokyo tips and inspiration!</p>
+      <a href="https://www.instagram.com/mytokyo39/" id="igLink" target="_blank" rel="noopener">Visit Instagram →</a>
+    </div>
+    <div class="util">
+      <div class="util-img"><img src="img/meiji.jpg" alt="Meiji Shrine, Tokyo" loading="lazy"><div class="util-ico">👥</div></div>
+      <h3>Join Our Team</h3>
+      <p>Love Tokyo? Work with us as a tour guide!</p>
+      <a href="mailto:mytokyo39@gmail.com?subject=Tour%20guide%20application">Contact Us →</a>
+    </div>
+    <div class="util">
+      <div class="util-img"><img src="img/skytree.jpg" alt="Tokyo Skytree" loading="lazy"><div class="util-ico">📍</div></div>
+      <h3>Tokyo Spots</h3>
+      <p>Explore our favorite spots in Tokyo!</p>
+      <a href="#spots">Explore Spots →</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" style="padding-top:0">
+  <div class="wrap about-grid">
+    <div class="about-img"><img src="img/mikuri.jpg?v=3" alt="Mikuri, your local tour guide in Tokyo" loading="lazy"></div>
+    <div class="about-text">
+      <div class="kicker">Your Guide</div>
+      <h2>Hi, I'm Mikuri 👋</h2>
+      <p>I was born in Okinawa and moved to Tokyo a year ago. To make friends in my new city, I went everywhere — little solo adventures through every corner of town. Along the way I collected my favorite discoveries: local places that aren't on the map, the kind of spots no guidebook will ever show you. Those are exactly the places I want to share with you.</p>
+      <p>I love showing visitors the city behind the guidebooks — the 6-seat bars, the backstreet shrines, the food counters with no English menu and no tourists.</p>
+      <p>I started My Tokyo because the best moments of travel happen in places you'd never enter alone. My job is to open those doors, handle every bit of Japanese for you, and send you home with stories (and a map of my favorite spots for the rest of your trip).</p>
+      <p class="about-sign">— See you in Tokyo! 🏮</p>
     </div>
   </div>
 </section>
@@ -496,14 +522,15 @@ footer{background:var(--navy);color:#c6cee0;font-size:13.5px;padding:44px 0 30px
       <div>
         <h4>Quick Links</h4>
         <a href="#tours">Tours</a>
-        <a href="#finder">Tokyo Travel Style Finder</a>
+        <a href="#quiz">Tokyo Trip Quiz</a>
         <a href="#spots">Spots</a>
         <a href="#book">Book a Tour</a>
       </div>
       <div>
         <h4>Info</h4>
         <a href="#faq">FAQ</a>
-        <a href="mailto:mytokyo39@gmail.com">mytokyo39@gmail.com</a>
+        <a href="mailto:mytokyo39@gmail.com">Contact</a>
+        <a href="mailto:mytokyo39@gmail.com?subject=Tour%20guide%20application">Jobs</a>
       </div>
       <div>
         <h4>Follow Us</h4>
@@ -544,7 +571,7 @@ const TOURS = {
     name: "Custom Tokyo Tour",
     slots: ["09:00","10:00","13:00","18:00"],
     hours: 3,
-    priceLabel: "from ¥8,000 × guests"
+    priceLabel: "from ¥18,000 × guests"
   }
 };
 
