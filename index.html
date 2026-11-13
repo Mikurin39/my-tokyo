@@ -292,6 +292,7 @@ footer{background:var(--navy);color:#c3cadb;font-size:12.5px;padding:36px 0 24px
       <a href="#tours">Tours</a>
       <a href="#quiz">Tokyo Quiz</a>
       <a href="#spots">Spots</a>
+      <!--BLOG-NAV--><a href="blog/">Blog</a><!--/BLOG-NAV-->
       <a href="#about">About</a>
       <a href="#faq">FAQ</a>
       <a href="#book" class="btn small">Book a Tour</a>
@@ -456,6 +457,33 @@ footer{background:var(--navy);color:#c3cadb;font-size:12.5px;padding:36px 0 24px
   </div>
 </section>
 
+<!--BLOG-SECTION-->
+<section id="blog" style="padding-top:0">
+  <style>
+  #blog .posts{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  #blog .post-link{color:var(--text);display:block}
+  #blog .thumb{aspect-ratio:4/3;border-radius:8px;overflow:hidden;margin-bottom:10px;background:var(--line)}
+  #blog .thumb img{width:100%;height:100%;object-fit:cover}
+  #blog .meta{font-size:12px;color:var(--muted);font-weight:500}
+  #blog .meta .cat{color:var(--orange);font-weight:600}
+  #blog h3{font-size:15.5px;color:var(--navy);line-height:1.4;margin:3px 0 4px}
+  #blog .post-link:hover h3{color:var(--orange)}
+  #blog p{font-size:13px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  @media(max-width:880px){#blog .posts{grid-template-columns:1fr 1fr}}
+  @media(max-width:520px){#blog .posts{grid-template-columns:1fr}}
+  </style>
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>From the Blog</h2>
+      <a href="blog/" class="sec-link">Read the blog →</a>
+    </div>
+    <div class="posts">
+<a class="post-link" href="blog/en/schmatz-shimokitazawa/"><div class="thumb"><img src="blog/img/schmatz-shimokitazawa/01.jpg" alt="Three grilled sausages with sauerkraut and grainy mustard on a cast-iron plate" loading="lazy" decoding="async"></div><div class="meta"><span class="cat">Restaurant</span> · <time datetime="2026-11-13">Nov 13, 2026</time></div><h3>SCHMATZ Shimokitazawa: German Beer and Sausages for a Slow Evening</h3><p>A calm German beer restaurant right by Shimokitazawa Station. Three kinds of sausage, a seven-page beer menu, and about ¥3,000 per person.</p></a>
+    </div>
+  </div>
+</section>
+<!--/BLOG-SECTION-->
+
 <section id="social" style="padding-top:0">
   <div class="wrap util-grid">
     <div class="util">
@@ -524,6 +552,7 @@ footer{background:var(--navy);color:#c3cadb;font-size:12.5px;padding:36px 0 24px
         <a href="#tours">Tours</a>
         <a href="#quiz">Tokyo Trip Quiz</a>
         <a href="#spots">Spots</a>
+        <!--BLOG-FOOT--><a href="blog/">Blog</a><!--/BLOG-FOOT-->
         <a href="#book">Book a Tour</a>
       </div>
       <div>

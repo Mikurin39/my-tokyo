@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<title>My Tokyo Blog</title>
+<meta name="robots" content="noindex">
+<script>
+(function(){
+  var langs=["en", "ja", "ko", "zh-Hant", "fr"], pick='en';
+  try{var s=localStorage.getItem('mytokyo_lang'); if(s&&langs.indexOf(s)>-1){location.replace(s+'/');return;}}catch(e){}
+  var n=(navigator.languages||[navigator.language||'en']);
+  for(var i=0;i<n.length;i++){var l=(n[i]||'').toLowerCase();
+    if(l.indexOf('zh')===0){pick='zh-Hant';break}
+    var b=l.split('-')[0]; if(langs.indexOf(b)>-1){pick=b;break}}
+  location.replace(pick+'/');
+})();
+</script>
+<meta http-equiv="refresh" content="2;url=en/">
+</head><body><a href="en/">My Tokyo Blog</a></body></html>

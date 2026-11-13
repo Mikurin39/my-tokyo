@@ -1,9 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mikurin39.github.io/my-tokyo/</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/blog/en/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/blog/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/blog/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/blog/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/blog/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/blog/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/blog/en/"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/blog/ja/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/blog/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/blog/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/blog/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/blog/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/blog/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/blog/en/"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/blog/ko/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/blog/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/blog/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/blog/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/blog/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/blog/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/blog/en/"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/blog/zh-Hant/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/blog/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/blog/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/blog/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/blog/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/blog/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/blog/en/"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/blog/fr/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/blog/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/blog/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/blog/ko/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/blog/zh-Hant/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/blog/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/blog/en/"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/blog/en/schmatz-shimokitazawa/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/blog/en/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/blog/ja/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/blog/ko/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/blog/zh-Hant/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/blog/fr/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/blog/en/schmatz-shimokitazawa/"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/blog/ja/schmatz-shimokitazawa/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/blog/en/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/blog/ja/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/blog/ko/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/blog/zh-Hant/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/blog/fr/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/blog/en/schmatz-shimokitazawa/"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/blog/ko/schmatz-shimokitazawa/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/blog/en/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/blog/ja/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/blog/ko/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/blog/zh-Hant/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/blog/fr/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/blog/en/schmatz-shimokitazawa/"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/blog/zh-Hant/schmatz-shimokitazawa/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/blog/en/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/blog/ja/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/blog/ko/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/blog/zh-Hant/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/blog/fr/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/blog/en/schmatz-shimokitazawa/"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/blog/fr/schmatz-shimokitazawa/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/blog/en/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/blog/ja/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/blog/ko/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/blog/zh-Hant/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/blog/fr/schmatz-shimokitazawa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/blog/en/schmatz-shimokitazawa/"/>
   </url>
 </urlset>
