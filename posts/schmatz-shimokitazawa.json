@@ -4,7 +4,6 @@
   "category": "restaurant",
   "place": {
     "name": "SCHMATZ Shimokitazawa",
-    "name_local": "シュマッツ 下北沢",
     "area": "Shimokitazawa",
     "area_i18n": {
       "ja": "下北沢",
@@ -30,8 +29,8 @@
       "file": "02.jpg",
       "alt": {
         "en": "A tall glass of SCHMATZ beer with a thick head of foam",
-        "ja": "泡たっぷりのシュマッツのビール",
-        "ko": "거품이 풍성한 슈마츠 맥주 한 잔",
+        "ja": "泡たっぷりの SCHMATZ のビール",
+        "ko": "거품이 풍성한 SCHMATZ 맥주 한 잔",
         "zh-Hant": "泡沫綿密的 SCHMATZ 啤酒",
         "fr": "Un grand verre de bière SCHMATZ avec une belle mousse"
       }
@@ -49,29 +48,54 @@
   ],
   "i18n": {
     "en": {
-      "title": "SCHMATZ Shimokitazawa: German Beer and Sausages for a Slow Evening",
-      "description": "A calm German beer restaurant right by Shimokitazawa Station. Three kinds of sausage, a seven-page beer menu, and about ¥3,000 per person.",
-      "body": "Shimokitazawa is famous for vintage shops and live music, but when I just want a relaxed drink and a proper conversation, I like SCHMATZ. It is a German beer restaurant about five minutes on foot from Shimokitazawa Station.\n\nI went with a friend from abroad who lives nearby, just the two of us. It wasn't crowded and we got a table right away.\n\n## The sausages\nThe sausage plate came with three kinds. If I remember right, they were cheese, smoked and a classic one, served with sauerkraut and grainy mustard. Each one tasted different, so it is fun to share.\n\n## The beer\n![The beer was so easy to drink](02.jpg)\n\nThe beer was really easy to drink and really good. The beer menu alone is about seven pages long, so if you like trying different styles, you will have a lot to choose from.\n\nWe also ordered the carbonara.\n\n![Rigatoni carbonara](03.jpg)\n\n## The atmosphere\nThe restaurant is fairly calm, and voices carry well, so you don't have to shout to hear each other. It is a good place when you want to sit and talk for a while. We saw quite a few international guests, too.\n\n## Price\nFor two of us, one sausage plate, one carbonara and about two drinks each came to around ¥6,000, so roughly ¥3,000 per person. I'd call it normal to slightly pricey for Tokyo.\n\n## Who I'd recommend it to\n- Beer lovers who want more than the usual lager\n- Anyone who wants a quiet dinner and a long chat after walking around Shimokitazawa"
+      "title": "SCHMATZ Shimokitazawa: A German Beer Spot Where You Can Actually Talk",
+      "description": "About seven pages of beer, a plate of three sausages, and a calm room five minutes from Shimokitazawa Station. Here's what we ordered and what we paid.",
+      "info": {
+        "access": "About a 5-minute walk from Shimokitazawa Station",
+        "price": "About ¥3,000 per person (we paid around ¥6,000 for two)",
+        "good_for": "Beer lovers, and long, easy conversations"
+      },
+      "body": "Shimokitazawa is loud in the best way: vintage shops, small live music venues, people everywhere. But this time we ended up somewhere much calmer: SCHMATZ.\n\nIt's a German beer restaurant about five minutes on foot from Shimokitazawa Station. I went with a friend from abroad who lives in the neighborhood, just the two of us. It wasn't crowded, and we walked straight in.\n\n## The sausages\n\nThe sausage plate comes with three kinds. If I remember right, we had a cheese one, a smoked one and a classic one, with sauerkraut and grainy mustard on the side.\n\nEach one tastes different, so this is the dish to share.\n\n> Order the sausage plate first and split it. You get to try three kinds without ordering three dishes.\n\n## The beer (about seven pages of it)\n\n![Cheers to life, indeed](02.jpg)\n\nThe beer was so easy to drink. Really, really good.\n\nAnd the beer menu? About **seven pages** long. If you like trying new styles, give yourself time to flip through it.\n\nWe also had the carbonara, made with big rigatoni.\n\n![Rigatoni carbonara with plenty of cheese and pepper](03.jpg)\n\n## The vibe\n\nWhen we were there, the room was pretty calm and voices carried well, so we didn't have to shout across the table.\n\nIt felt like a place to sit for a while and talk. We also noticed plenty of international guests.\n\n## What it cost\n\nFor two people, one sausage plate, one carbonara and about two drinks each came to around ¥6,000. That's roughly ¥3,000 per person.\n\nI'd call it normal to a little on the pricey side.\n\n## Should you go?\n\nGo if you love beer, or if you've spent the day walking around Shimokitazawa and want somewhere calm to sit down and catch up.\n\n"
     },
     "ja": {
-      "title": "シュマッツ 下北沢｜ドイツビールとソーセージで、ゆっくり話せる夜",
-      "description": "下北沢駅から歩いて5分ほどのドイツビールのお店。ソーセージは3種類、ビールのメニューは7ページほど。2人で6,000円ほどでした。",
-      "body": "下北沢は古着屋やライブハウスで有名ですが、落ち着いて飲みながらゆっくり話したいときは、シュマッツがおすすめです。下北沢駅から歩いて5分ほどの、ドイツビールとドイツ料理のお店です。\n\n近所に住む外国人の友達と、2人で行きました。混んでいなくて、すぐに入れました。\n\n## ソーセージ\nソーセージの盛り合わせは3種類でした。記憶では、チーズ、スモーク、ノーマルの3つです。ザワークラウトと粒マスタードが添えてあります。それぞれ味が違うので、シェアして食べ比べるのが楽しいです。\n\n## ビール\n![とても飲みやすかったビール](02.jpg)\n\nビールはすごく飲みやすくて、おいしかったです。ビールのメニューだけで7ページほどあって、種類がとても多いです。いろいろ試してみたい人には楽しいと思います。\n\nカルボナーラも頼みました。\n\n![リガトーニのカルボナーラ](03.jpg)\n\n## お店の雰囲気\nお店は落ち着いていて、声がよく通るので、大きな声を出さなくても会話ができます。ゆっくり話したいときにおすすめです。外国人のお客さんも多かったです。\n\n## 値段\n2人で、ソーセージとカルボナーラ、ドリンクをそれぞれ2杯ほど頼んで、6,000円くらいでした。1人3,000円ほどなので、普通か少し高めだと思います。\n\n## こんな人におすすめ\n- いろいろなビールを飲み比べたい人\n- 下北沢を歩いたあと、落ち着いた場所でゆっくり話したい人"
+      "title": "SCHMATZ 下北沢｜ビールのメニューが7ページほど。ゆっくり話せるドイツビールのお店",
+      "description": "下北沢駅から歩いて5分ほど。3種類のソーセージと、7ページほどあるビールのメニュー。落ち着いて話せるお店でした。頼んだものと値段も書いています。",
+      "info": {
+        "access": "下北沢駅から歩いて5分ほど",
+        "price": "1人3,000円ほど（2人で6,000円くらいでした）",
+        "good_for": "ビールが好きな人、ゆっくり話したいとき"
+      },
+      "body": "下北沢は、古着屋にライブハウス、どこを歩いても人でいっぱいのにぎやかな街です。でも、この日行った SCHMATZ は、ずっと落ち着いたお店でした。\n\n下北沢駅から歩いて5分ほどの、ドイツビールのお店です。近所に住んでいる外国人の友達と2人で行きました。混んでいなくて、そのまますぐに入れました。\n\n## ソーセージ\n\nソーセージの盛り合わせは3種類。記憶では、チーズ、スモーク、ノーマルの3つでした。ザワークラウトと粒マスタードが添えてあります。\n\nそれぞれ味が違うので、シェアするのにぴったりです。\n\n> 最初にソーセージの盛り合わせを頼んで、みんなで分けるのがおすすめ。1皿で3種類食べ比べられます。\n\n## ビール（メニューが7ページほど）\n\n![グラスには「cheers to life」](02.jpg)\n\nビールがとにかく飲みやすくて、すごくおいしかったです。\n\nしかもビールのメニューは、なんと**7ページほど**。いろいろ試したい人は、メニューをめくる時間も楽しんでください。\n\n大きなリガトーニのカルボナーラも頼みました。\n\n![チーズと黒こしょうたっぷりのカルボナーラ](03.jpg)\n\n## お店の雰囲気\n\n私たちが行ったときは、お店はわりと落ち着いていて、声がよく通るので、大きな声を出さなくても会話ができました。\n\n腰を落ち着けて、ゆっくり話したいときにちょうどいいと感じました。外国人のお客さんも多かったです。\n\n## 値段\n\n2人で、ソーセージの盛り合わせ、カルボナーラ、ドリンクをそれぞれ2杯ほど頼んで、6,000円くらい。1人3,000円ほどです。\n\n普通か、少し高めかなと思いました。\n\n## 行くべき？\n\nビールが好きな人や、下北沢を歩き回ったあとに、落ち着いて話せる場所を探している人におすすめです。"
     },
     "ko": {
-      "title": "슈마츠 시모키타자와｜독일 맥주와 소시지로 느긋하게 이야기하는 밤",
-      "description": "시모키타자와역에서 걸어서 5분 정도인 독일 맥주 레스토랑. 소시지 세 종류, 7페이지짜리 맥주 메뉴, 1인당 3,000엔 정도였어요.",
-      "body": "시모키타자와는 빈티지 숍과 라이브 하우스로 유명하지만, 차분하게 한잔하면서 오래 이야기하고 싶을 때는 슈마츠를 추천해요. 시모키타자와역에서 걸어서 5분 정도 걸리는 독일 맥주와 독일 요리 가게예요.\n\n근처에 사는 외국인 친구와 둘이서 갔어요. 붐비지 않아서 바로 들어갈 수 있었어요.\n\n## 소시지\n소시지 모둠은 세 종류였어요. 제 기억으로는 치즈, 훈제, 기본 소시지였고, 사워크라우트와 홀그레인 머스터드가 함께 나와요. 맛이 다 달라서 나눠 먹으면서 비교하는 재미가 있어요.\n\n## 맥주\n![정말 술술 넘어갔던 맥주](02.jpg)\n\n맥주는 정말 부드럽게 넘어가고 맛있었어요. 맥주 메뉴만 7페이지 정도라서 종류가 아주 많아요. 여러 가지 마셔 보고 싶은 분이라면 고르는 재미가 있을 거예요.\n\n카르보나라도 주문했어요.\n\n![리가토니 카르보나라](03.jpg)\n\n## 분위기\n가게는 꽤 차분하고 목소리가 잘 들려서, 크게 말하지 않아도 대화가 돼요. 천천히 이야기하고 싶을 때 딱 좋아요. 외국인 손님도 많았어요.\n\n## 가격\n둘이서 소시지, 카르보나라, 그리고 음료를 각자 두 잔 정도 주문해서 6,000엔 정도 나왔어요. 1인당 3,000엔쯤이라 보통이거나 조금 비싼 편이라고 생각해요.\n\n## 이런 분께 추천해요\n- 여러 종류의 맥주를 마셔 보고 싶은 분\n- 시모키타자와를 구경한 뒤 조용한 곳에서 오래 이야기하고 싶은 분"
+      "title": "SCHMATZ 시모키타자와｜맥주 메뉴만 7페이지 정도, 대화하기 좋은 독일 맥주집",
+      "description": "시모키타자와역에서 걸어서 5분 정도. 소시지 세 종류와 7페이지 정도 되는 맥주 메뉴, 그리고 차분하게 이야기할 수 있는 분위기. 뭘 먹었고 얼마였는지 정리했어요.",
+      "info": {
+        "access": "시모키타자와역에서 걸어서 5분 정도",
+        "price": "1인 3,000엔 정도 (둘이서 6,000엔쯤 나왔어요)",
+        "good_for": "맥주를 좋아하는 분, 느긋하게 대화하고 싶을 때"
+      },
+      "body": "시모키타자와는 빈티지 숍, 작은 라이브 하우스, 어딜 가나 사람으로 북적이는 활기찬 동네예요. 그런데 이날 간 SCHMATZ는 훨씬 차분한 곳이었어요.\n\n시모키타자와역에서 걸어서 5분 정도 걸리는 독일 맥주 가게예요. 이날은 근처에 사는 외국인 친구와 둘이서 갔어요. 붐비지 않아서 바로 들어갈 수 있었어요.\n\n## 소시지\n\n소시지 모둠은 세 종류예요. 제 기억으로는 치즈, 훈제, 기본 소시지였고, 사워크라우트와 홀그레인 머스터드가 곁들여 나와요.\n\n맛이 다 달라서 나눠 먹기 딱 좋아요.\n\n> 소시지 모둠을 먼저 시켜서 나눠 드세요. 한 접시로 세 가지 맛을 비교할 수 있어요.\n\n## 맥주 (메뉴만 7페이지 정도)\n\n![잔에 적힌 cheers to life](02.jpg)\n\n맥주가 정말 술술 넘어가고, 진짜 맛있었어요.\n\n게다가 맥주 메뉴가 무려 **7페이지 정도**예요. 여러 가지 마셔 보고 싶다면 메뉴를 넘겨 보는 시간도 즐겨 보세요.\n\n큼직한 리가토니로 만든 카르보나라도 주문했어요.\n\n![치즈와 후추를 듬뿍 올린 카르보나라](03.jpg)\n\n## 분위기\n\n저희가 갔을 때는 가게가 꽤 차분하고 목소리가 잘 들려서, 크게 말하지 않아도 대화가 됐어요.\n\n오래 앉아서 이야기하기 좋다고 느꼈어요. 외국인 손님도 많았어요.\n\n## 가격\n\n둘이서 소시지 모둠, 카르보나라, 그리고 각자 음료 두 잔 정도를 주문해서 6,000엔쯤 나왔어요. 1인당 3,000엔 정도예요.\n\n보통이거나 조금 비싼 편이라고 생각해요.\n\n## 가 볼 만할까요?\n\n맥주를 좋아하거나, 시모키타자와를 하루 종일 돌아다닌 뒤 조용히 앉아 이야기할 곳을 찾는다면 추천해요."
     },
     "zh-Hant": {
-      "title": "SCHMATZ 下北澤｜德國啤酒配香腸，適合慢慢聊天的夜晚",
-      "description": "從下北澤站走路約5分鐘的德國啤酒餐廳。三種香腸、啤酒菜單就有7頁，兩個人大約6,000日圓。",
-      "body": "下北澤以古著店和 Live House 聞名，不過想找個地方好好喝一杯、慢慢聊天的時候，我會推薦 SCHMATZ。這是一家從下北澤站走路大約5分鐘的德國啤酒與德國料理餐廳。\n\n我和住在附近的外國朋友兩個人一起去。店裡不太擠，馬上就有位子。\n\n## 香腸\n香腸拼盤有三種。印象中是起司、煙燻和原味，旁邊附上德國酸菜和顆粒芥末醬。每一種味道都不同，大家分著吃、比較一下很有趣。\n\n## 啤酒\n![非常順口的啤酒](02.jpg)\n\n啤酒非常順口，真的很好喝。光是啤酒菜單就有7頁左右，種類非常多。喜歡嘗試各種啤酒的人一定會選得很開心。\n\n我們也點了培根蛋麵。\n\n![水管麵培根蛋麵](03.jpg)\n\n## 店內氣氛\n店裡相當安靜，說話聲音很清楚，不用提高音量也能好好聊天。想慢慢聊的時候很適合。外國客人也不少。\n\n## 價格\n兩個人點了香腸、培根蛋麵，加上每人大約兩杯飲料，總共大約6,000日圓。一個人約3,000日圓，我覺得算是普通或稍微偏高。\n\n## 推薦給這樣的人\n- 想比較各種啤酒的人\n- 逛完下北澤後，想找個安靜地方慢慢聊天的人"
+      "title": "SCHMATZ 下北澤｜啤酒菜單大約7頁，能好好聊天的德國啤酒餐廳",
+      "description": "從下北澤站走路約5分鐘。三種香腸、大約7頁的啤酒菜單，還有能安靜聊天的氣氛。點了什麼、花了多少，都整理在這裡。",
+      "info": {
+        "access": "從下北澤站走路約5分鐘",
+        "price": "每人約3,000日圓（兩人大約6,000日圓）",
+        "good_for": "喜歡啤酒的人、想慢慢聊天的時候"
+      },
+      "body": "下北澤是個熱鬧的地方：古著店、小小的 Live House，走到哪裡都是人。不過那天去的 SCHMATZ，是個安靜許多的地方。\n\n這是一家從下北澤站走路大約5分鐘的德國啤酒餐廳。那天我和住在附近的外國朋友兩個人一起去。店裡不擠，我們直接就進去了。\n\n## 香腸\n\n香腸拼盤有三種。印象中是起司、煙燻和原味，旁邊附上德國酸菜和顆粒芥末醬。\n\n每一種味道都不一樣，很適合大家分著吃。\n\n> 先點香腸拼盤一起分。一盤就能比較三種口味。\n\n## 啤酒（菜單大約7頁）\n\n![杯子上寫著 cheers to life](02.jpg)\n\n啤酒非常順口，真的很好喝。\n\n而且啤酒菜單居然有 **大約7頁**。喜歡嘗試各種啤酒的話，翻菜單的時間也很享受。\n\n我們也點了用大水管麵做的培根蛋麵。\n\n![撒滿起司和黑胡椒的培根蛋麵](03.jpg)\n\n## 店內氣氛\n\n我們去的時候，店裡相當安靜，說話聲音很清楚，不用提高音量也能聊天。\n\n感覺很適合坐下來慢慢聊。外國客人也不少。\n\n## 價格\n\n兩個人點了香腸拼盤、培根蛋麵，加上每人大約兩杯飲料，總共大約6,000日圓。一個人約3,000日圓。\n\n我覺得算普通或稍微偏高。\n\n## 值得去嗎？\n\n如果你喜歡啤酒，或是逛了一整天下北澤，想找個安靜的地方坐下來聊天，很推薦。"
     },
     "fr": {
-      "title": "SCHMATZ Shimokitazawa : bière allemande et saucisses pour une soirée tranquille",
-      "description": "Un restaurant de bière allemande calme, à cinq minutes de la gare de Shimokitazawa. Trois saucisses, sept pages de bières, environ 3 000 ¥ par personne.",
-      "body": "Shimokitazawa est connu pour ses friperies et ses salles de concert, mais quand j'ai envie de boire un verre au calme et de vraiment discuter, je vais chez SCHMATZ. C'est un restaurant de bière et de cuisine allemandes, à environ cinq minutes à pied de la gare de Shimokitazawa.\n\nJ'y ai dîné avec quelqu'un du quartier, venu de l'étranger, juste nous deux. Il n'y avait pas trop de monde et nous avons eu une table tout de suite.\n\n## Les saucisses\nL'assiette comptait trois saucisses. Si je me souviens bien : une au fromage, une fumée et une classique, servies avec de la choucroute et de la moutarde à l'ancienne. Elles ont chacune leur goût, c'est sympa de les partager.\n\n## La bière\n![Une bière qui se boit toute seule](02.jpg)\n\nLa bière était vraiment facile à boire et très bonne. La carte des bières fait à elle seule environ sept pages : si vous aimez goûter différents styles, vous aurez l'embarras du choix.\n\nNous avons aussi pris la carbonara.\n\n![Rigatoni à la carbonara](03.jpg)\n\n## L'ambiance\nLe restaurant est plutôt calme et on s'entend bien sans élever la voix. C'est idéal pour rester longtemps à discuter. Il y avait aussi pas mal de clients étrangers.\n\n## Le prix\nÀ deux, avec l'assiette de saucisses, la carbonara et environ deux verres chacun, nous en avons eu pour à peu près 6 000 ¥, soit environ 3 000 ¥ par personne. Je dirais que c'est dans la moyenne, voire un peu cher.\n\n## Pour qui ?\n- Les amateurs de bière qui veulent sortir des lagers habituelles\n- Ceux qui cherchent un dîner au calme pour discuter après une balade dans Shimokitazawa"
+      "title": "SCHMATZ Shimokitazawa : la brasserie allemande où l'on peut vraiment discuter",
+      "description": "Environ sept pages de bières, une assiette de trois saucisses et une salle calme à cinq minutes de la gare de Shimokitazawa. Ce qu'on a commandé, et combien ça a coûté.",
+      "info": {
+        "access": "Environ 5 minutes à pied de la gare de Shimokitazawa",
+        "price": "Environ 3 000 ¥ par personne (à peu près 6 000 ¥ pour deux)",
+        "good_for": "Les amateurs de bière, et les longues conversations"
+      },
+      "body": "Shimokitazawa, c'est bruyant, dans le bon sens : friperies, petites salles de concert, du monde partout. Mais ce jour-là, on a atterri dans un endroit bien plus calme : SCHMATZ.\n\nC'est une brasserie allemande à environ cinq minutes à pied de la gare de Shimokitazawa. J'y ai partagé un repas avec une personne amie venue de l'étranger, qui habite le quartier. Juste nous deux. Il n'y avait pas foule : on a eu une table tout de suite.\n\n## Les saucisses\n\nL'assiette de saucisses en propose trois. Si je me souviens bien : une au fromage, une fumée et une classique, avec de la choucroute et de la moutarde à l'ancienne.\n\nElles ont chacune leur goût : c'est le plat à partager.\n\n> Commandez l'assiette de saucisses en premier et partagez-la. Vous goûtez trois saucisses sans commander trois plats.\n\n## La bière (environ sept pages)\n\n![« Cheers to life », dit le verre](02.jpg)\n\nLa bière se boit toute seule. Vraiment très bonne.\n\nEt la carte des bières ? Environ **sept pages**, oui. Si vous aimez découvrir de nouveaux styles, prenez le temps de la feuilleter.\n\nNous avons aussi pris la carbonara, avec de gros rigatoni.\n\n![Rigatoni à la carbonara, avec beaucoup de fromage et de poivre](03.jpg)\n\n## L'ambiance\n\nQuand on y était, la salle était plutôt calme et on s'entendait bien : pas besoin de crier d'un bout à l'autre de la table.\n\nOn a eu l'impression d'un endroit où l'on peut rester longtemps à discuter. Il y avait aussi pas mal de clients étrangers.\n\n## Combien ça coûte\n\nÀ deux, l'assiette de saucisses, la carbonara et environ deux verres chacun nous ont coûté à peu près 6 000 ¥, soit environ 3 000 ¥ par personne.\n\nJe dirais que c'est dans la moyenne, voire un peu cher.\n\n## Faut-il y aller ?\n\nOui si vous aimez la bière, ou si vous avez passé la journée à arpenter Shimokitazawa et cherchez un endroit calme pour vous poser et discuter."
     }
   }
 }

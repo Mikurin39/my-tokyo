@@ -25,11 +25,11 @@ BLOG_DIR = ROOT / "blog"
 
 # Order = order in the language dropdown. "en" is the default / x-default.
 LANGS = {
-    "en": {"label": "English", "html": "en", "og": "en_US", "font": None},
-    "ja": {"label": "日本語", "html": "ja", "og": "ja_JP", "font": "Noto+Sans+JP"},
-    "ko": {"label": "한국어", "html": "ko", "og": "ko_KR", "font": "Noto+Sans+KR"},
-    "zh-Hant": {"label": "繁體中文", "html": "zh-Hant", "og": "zh_TW", "font": "Noto+Sans+TC"},
-    "fr": {"label": "Français", "html": "fr", "og": "fr_FR", "font": None},
+    "en": {"label": "English", "html": "en", "og": "en_US", "font": None, "serif": None},
+    "ja": {"label": "日本語", "html": "ja", "og": "ja_JP", "font": "Noto+Sans+JP", "serif": "Noto+Serif+JP"},
+    "ko": {"label": "한국어", "html": "ko", "og": "ko_KR", "font": "Noto+Sans+KR", "serif": "Noto+Serif+KR"},
+    "zh-Hant": {"label": "繁體中文", "html": "zh-Hant", "og": "zh_TW", "font": "Noto+Sans+TC", "serif": "Noto+Serif+TC"},
+    "fr": {"label": "Français", "html": "fr", "og": "fr_FR", "font": None, "serif": None},
 }
 DEFAULT = "en"
 
@@ -84,17 +84,52 @@ UI = {
     },
     "fr": {
         "blog": "Blog", "blog_title": "Blog My Tokyo — Mes adresses préférées à Tokyo",
-        "blog_desc": "Restaurants, cafés et parcs de Tokyo, testés et racontés par une guide locale.",
+        "blog_desc": "Restaurants, cafés et parcs de Tokyo, testés et racontés par quelqu'un qui y vit.",
         "blog_lead": "Uniquement des endroits où je vais vraiment. Vraies photos, avis sincères.",
         "home": "Accueil", "tours": "Visites", "book": "Réserver une visite", "lang": "Langue",
         "all_posts": "← Tous les articles", "read": "Lire", "map": "Ouvrir dans Google Maps",
         "place": "Adresse", "area": "Quartier", "empty": "Les premiers articles arrivent bientôt.",
-        "cta_h": "Envie d'y aller avec une locale ?",
+        "cta_h": "Envie d'y aller avec quelqu'un d'ici ?",
         "cta_p": "Je peux vous emmener dans ce genre d'endroits lors d'une visite privée sur mesure.",
-        "cta_btn": "Voir les visites", "by": "Mikuri, votre guide locale",
+        "cta_btn": "Voir les visites", "by": "Mikuri, votre guide à Tokyo",
         "from_blog": "Le blog", "more": "Lire le blog →",
     },
 }
+
+UI_POST = {
+    "en": {"published": "Published", "updated": "Updated", "role": "Local guide in Tokyo", "tip": "My tip",
+           "essentials": "The essentials", "access": "Getting there", "price": "Price",
+           "good_for": "Best for", "directions": "Directions on Google Maps",
+           "bio_h": "Hi, I'm Mikuri",
+           "bio_p": "I grew up in Okinawa and moved to Tokyo, where I explored the city one neighborhood at a time. I write about the places I actually go to, and I guide small private tours to them.",
+           "bio_link": "Tour with me →", "related": "More from the blog"},
+    "ja": {"published": "公開", "updated": "更新", "role": "東京のローカルガイド", "tip": "ひとことメモ",
+           "essentials": "お店の基本情報", "access": "アクセス", "price": "予算",
+           "good_for": "こんな人に", "directions": "Google マップで道順を見る",
+           "bio_h": "こんにちは、Mikuri です",
+           "bio_p": "沖縄で生まれ育ち、東京に引っ越してから街をひとつずつ歩いてきました。自分で行ったお店や場所だけを書いていて、そうした場所を案内する少人数のプライベートツアーもしています。",
+           "bio_link": "ツアーを見る →", "related": "ほかの記事"},
+    "ko": {"published": "게시", "updated": "업데이트", "role": "도쿄 현지 가이드", "tip": "작은 팁",
+           "essentials": "기본 정보", "access": "가는 방법", "price": "가격",
+           "good_for": "이런 분께", "directions": "Google 지도에서 길찾기",
+           "bio_h": "안녕하세요, Mikuri예요",
+           "bio_p": "오키나와에서 나고 자라 도쿄로 이사 온 뒤, 동네를 하나씩 걸어 다니며 알아 왔어요. 직접 가 본 곳만 글로 쓰고, 그런 곳을 안내하는 소규모 프라이빗 투어도 하고 있어요.",
+           "bio_link": "투어 보기 →", "related": "블로그의 다른 글"},
+    "zh-Hant": {"published": "發布", "updated": "更新", "role": "東京在地導遊", "tip": "小提醒",
+                "essentials": "基本資訊", "access": "交通", "price": "價格",
+                "good_for": "推薦給", "directions": "用 Google 地圖導航",
+                "bio_h": "嗨，我是 Mikuri",
+                "bio_p": "我在沖繩長大，搬到東京後一區一區地走遍這座城市。這裡只寫我自己去過的店家和地點，我也帶小團的私人行程去這些地方。",
+                "bio_link": "查看行程 →", "related": "更多文章"},
+    "fr": {"published": "Publié le", "updated": "Mis à jour le", "role": "Guide à Tokyo", "tip": "Mon conseil",
+           "essentials": "Infos pratiques", "access": "Comment y aller", "price": "Prix",
+           "good_for": "Idéal pour", "directions": "Itinéraire sur Google Maps",
+           "bio_h": "Bonjour, moi c'est Mikuri",
+           "bio_p": "J'ai grandi à Okinawa, puis Tokyo est devenue ma ville : je l'explore quartier par quartier. Je n'écris que sur les endroits où je vais vraiment, et j'y emmène de petits groupes en visite privée.",
+           "bio_link": "Visiter avec moi →", "related": "À lire aussi"},
+}
+for _l in UI:
+    UI[_l].update(UI_POST[_l])
 
 CATEGORIES = {
     "restaurant": {"en": "Restaurant", "ja": "レストラン", "ko": "레스토랑", "zh-Hant": "餐廳", "fr": "Restaurant", "schema": "Restaurant"},
@@ -144,8 +179,8 @@ def photo_alt(post, file, lang, caption=""):
 
 
 def render_body(md, post, lang, img_prefix):
-    """Tiny markdown subset, line by line: ## heading, - list, ![caption](file.jpg), paragraphs."""
-    out, para, items = [], [], []
+    """Tiny markdown subset, line by line: ## heading, - list, > tip, ![caption](file.jpg), paragraphs."""
+    out, para, items, tip = [], [], [], []
 
     def flush():
         if para:
@@ -154,12 +189,19 @@ def render_body(md, post, lang, img_prefix):
         if items:
             out.append("<ul>" + "".join(f"<li>{inline(i)}</li>" for i in items) + "</ul>")
             items.clear()
+        if tip:
+            out.append(f'<aside class="tip"><b>{UI[lang]["tip"]}</b><p>{"<br>".join(inline(l) for l in tip)}</p></aside>')
+            tip.clear()
 
     for raw in md.strip().splitlines():
         line = raw.strip()
         img = re.fullmatch(r"!\[(.*?)\]\(([\w.\-]+)\)", line)
         if not line:
             flush()
+        elif line.startswith("> "):
+            if para or items:
+                flush()
+            tip.append(line[2:])
         elif line.startswith("## "):
             flush()
             out.append(f"<h2>{inline(line[3:])}</h2>")
@@ -174,11 +216,11 @@ def render_body(md, post, lang, img_prefix):
                 fig += f"<figcaption>{inline(cap)}</figcaption>"
             out.append(fig + "</figure>")
         elif line.startswith("- "):
-            if para:
+            if para or tip:
                 flush()
             items.append(line[2:])
         else:
-            if items:
+            if items or tip:
                 flush()
             para.append(line)
     flush()
@@ -248,34 +290,53 @@ main{padding:36px 0 56px}
 .post-link:hover .thumb img{transform:scale(1.03)}
 .meta{font-size:13px;color:var(--muted);font-weight:500}
 .meta .cat{color:var(--orange);font-weight:600}
-.post-link h2{font-size:18px;line-height:1.4;color:var(--navy);margin:4px 0 6px}
-.post-link:hover h2{color:var(--orange)}
-.post-link p{font-size:15px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.post-link h2,.post-link h3{font-family:'Fraunces',var(--cjk-serif),Georgia,serif;font-size:20px;line-height:1.3;color:var(--navy);margin:4px 0 6px}
+.post-link:hover h2,.post-link:hover h3{color:var(--orange)}
+.post-link p{font-size:16px;line-height:1.7;color:var(--muted);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .empty{color:var(--muted)}
 /* article */
-article{max-width:720px;margin:0 auto}
-article h1{font-size:clamp(26px,4vw,34px);color:var(--navy);line-height:1.3;letter-spacing:-.01em;margin:8px 0 10px}
-.byline{font-size:14px;color:var(--muted);margin-bottom:24px}
-.cover{border-radius:10px;overflow:hidden;margin-bottom:30px}
-.cover img{width:100%;max-height:520px;object-fit:cover}
-.body p{margin-bottom:1.15em}
-.body h2{font-size:21px;color:var(--navy);line-height:1.4;margin:1.8em 0 .6em}
-.body ul{margin:0 0 1.15em 1.2em}
-.body li{margin-bottom:.3em}
+article{max-width:680px;margin:0 auto}
+.post-head{max-width:680px;margin:0 auto}
+.serif,.post-head h1,.body h2,.ess h2,.bio h2,.related h2,.list-head h1,.post-link h2{font-family:'Fraunces',var(--cjk-serif),Georgia,serif;font-weight:700;letter-spacing:-.005em}
+.kicker{font-size:13px;font-weight:600;color:var(--muted);letter-spacing:.02em}
+.kicker .cat{color:var(--orange);text-transform:uppercase;letter-spacing:.08em;font-size:12px}
+article h1,.post-head h1{font-size:clamp(30px,5vw,44px);color:var(--navy);line-height:1.18;margin:10px 0 14px}
+.dek{font-size:19px;line-height:1.55;color:#4a5568;margin-bottom:22px}
+.author{display:flex;align-items:center;gap:12px;font-size:14px;color:var(--muted);margin-bottom:26px}
+.author img{width:44px;height:44px;border-radius:50%;object-fit:cover}
+.author b{color:var(--navy);display:block;font-size:15px}
+.cover{max-width:960px;margin:0 auto 34px}
+.cover img{width:100%;max-height:640px;object-fit:cover;border-radius:6px}
+.body{font-size:17.5px;line-height:1.8}
+.body>p:first-child{font-size:19.5px;line-height:1.7;color:var(--navy)}
+.body p{margin-bottom:1.2em}
+.body h2{font-size:26px;color:var(--navy);line-height:1.3;margin:1.9em 0 .55em}
+.body ul{margin:0 0 1.2em 1.2em}
+.body li{margin-bottom:.35em}
+.body li::marker{color:var(--orange)}
 .body strong{color:var(--navy)}
 .body a{text-decoration:underline;text-underline-offset:3px}
-.body figure{margin:1.6em 0}
-.body figure img{border-radius:8px;width:100%}
-.body figcaption{font-size:14px;color:var(--muted);margin-top:8px}
-.place{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 0;margin:36px 0 28px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
-.place dl{display:grid;grid-template-columns:auto 1fr;gap:4px 16px;font-size:15px}
-.place dt{color:var(--muted)}
-.place dd{color:var(--navy);font-weight:600}
+.body figure{margin:1.8em 0}
+.body figure img{border-radius:6px;width:100%;max-height:760px;object-fit:cover}
+.body figcaption{font-size:14.5px;font-style:italic;color:var(--muted);margin-top:8px;text-align:center}
+.tip{border-left:3px solid var(--orange);background:#fbefe6;padding:14px 18px;margin:1.6em 0;border-radius:0 6px 6px 0}
+.tip b{display:block;font-size:12.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--orange2);margin-bottom:4px}
+.tip p{margin:0;font-size:16.5px}
+.ess{margin:44px 0 0;padding:26px 0;border-top:2px solid var(--navy);border-bottom:1px solid var(--line)}
+.ess h2{font-size:22px;color:var(--navy);margin-bottom:14px}
+.ess dl{display:grid;grid-template-columns:max-content 1fr;gap:9px 22px;font-size:16px;margin-bottom:18px}
+.ess dt{color:var(--muted);font-weight:500}
+.ess dd{color:var(--navy)}
+.ess dd b{font-weight:700}
 .btn-line{display:inline-block;border:1.5px solid var(--navy);color:var(--navy);font-weight:600;font-size:14px;padding:9px 16px;border-radius:7px}
 .btn-line:hover{border-color:var(--orange);color:var(--orange)}
-.cta{background:#fff;border-radius:10px;padding:24px;display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
-.cta b{display:block;color:var(--navy);font-size:17px;margin-bottom:2px}
-.cta p{color:var(--muted);font-size:15px}
+.bio{display:grid;grid-template-columns:84px 1fr;gap:18px;align-items:start;margin:36px 0 0;padding:24px;background:#fff;border-radius:8px}
+.bio img{width:84px;height:84px;border-radius:50%;object-fit:cover}
+.bio h2{font-size:20px;color:var(--navy);margin-bottom:4px}
+.bio p{font-size:16px;color:var(--text);margin-bottom:8px;line-height:1.7}
+.bio a{font-weight:600;font-size:15px}
+.related{max-width:960px;margin:56px auto 0}
+.related h2{font-size:24px;color:var(--navy);margin-bottom:18px}
 footer{border-top:1px solid var(--line);padding:22px 0;font-size:13px;color:var(--muted)}
 footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 footer a{color:var(--navy)}
@@ -287,8 +348,16 @@ footer a{color:var(--navy)}
   .nav-links .btn{display:none}
   main{padding:24px 0 44px}
   .list-head h1{font-size:25px}
-  .cover{margin:0 -16px 24px;border-radius:0}
-  .cta{padding:20px}
+  .cover{margin:0 -16px 26px}
+  .cover img{border-radius:0;max-height:520px}
+  .dek{font-size:17.5px}
+  .body{font-size:17px}
+  .body>p:first-child{font-size:18px}
+  .body h2{font-size:23px}
+  .bio{grid-template-columns:60px 1fr;padding:18px;gap:14px}
+  .bio img{width:60px;height:60px}
+  .ess dl{grid-template-columns:1fr;gap:2px}
+  .ess dd{margin-bottom:10px}
 }
 """
 
@@ -298,11 +367,12 @@ def head(lang, title, desc, canonical, alternates, og_image, og_type, jsonld, de
     alt_links = "\n".join(
         f'<link rel="alternate" hreflang="{LANGS[l]["html"]}" href="{u}">' for l, u in alternates.items())
     alt_links += f'\n<link rel="alternate" hreflang="x-default" href="{alternates[DEFAULT]}">'
-    fams = "family=Inter:wght@400;500;600;700;800"
-    cjk = "sans-serif"
+    fams = "family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700"
+    cjk, cjk_serif = "sans-serif", "serif"
     if meta["font"]:
-        fams += f"&family={meta['font']}:wght@400;500;700"
+        fams += f"&family={meta['font']}:wght@400;500;700&family={meta['serif']}:wght@700"
         cjk = f"'{meta['font'].replace('+', ' ')}'"
+        cjk_serif = f"'{meta['serif'].replace('+', ' ')}'"
     ld = json.dumps(jsonld, ensure_ascii=False).replace("<", "\\u003c")  # no </script> breakout
     return f"""<!DOCTYPE html>
 <html lang="{meta['html']}">
@@ -326,7 +396,7 @@ def head(lang, title, desc, canonical, alternates, og_image, og_type, jsonld, de
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?{fams}&display=swap" rel="stylesheet">
 <script type="application/ld+json">{ld}</script>
-<style>:root{{--cjk:{cjk}}}{CSS}</style>
+<style>:root{{--cjk:{cjk};--cjk-serif:{cjk_serif}}}{CSS}</style>
 </head>
 <body>
 """
@@ -374,7 +444,7 @@ def post_url(lang, slug=None):
     return f"{SITE}/blog/{lang}/" + (f"{slug}/" if slug else "")
 
 
-def render_post(p, lang):
+def render_post(p, lang, posts):
     t = p["i18n"][lang]
     ui = UI[lang]
     cat = CATEGORIES[p["category"]]
@@ -398,32 +468,46 @@ def render_post(p, lang):
         "publisher": {"@type": "Organization", "name": "My Tokyo", "url": f"{SITE}/"},
         "about": place_ld,
     }
-    place_name = esc(place["name"])
-    if place.get("name_local") and place["name_local"] != place["name"]:
-        place_name += f' <span style="font-weight:500;color:var(--muted)">{esc(place["name_local"])}</span>'
-    rows = f"<dt>{ui['place']}</dt><dd>{place_name}</dd>"
     area = (place.get("area_i18n") or {}).get(lang) or place.get("area")
+    info = t.get("info", {})
+    rows = f"<dt>{ui['place']}</dt><dd><b>{esc(place['name'])}</b></dd>"
     if area:
         rows += f"<dt>{ui['area']}</dt><dd>{esc(area)}</dd>"
-    map_btn = (f'<a class="btn-line" href="{esc(place["maps_url"])}" target="_blank" rel="noopener">{ui["map"]}</a>'
+    for key in ("access", "price", "good_for"):
+        if info.get(key):
+            rows += f"<dt>{ui[key]}</dt><dd>{inline(info[key])}</dd>"
+    map_btn = (f'<a class="btn-line" href="{esc(place["maps_url"])}" target="_blank" rel="noopener">{ui["directions"]}</a>'
                if place.get("maps_url") else "")
+    if p.get("updated"):
+        when = f'{ui["updated"]} <time datetime="{p["updated"]}">{fmt_date(p["updated"], lang)}</time>'
+    else:
+        when = f'{ui["published"]} <time datetime="{p["date"]}">{fmt_date(p["date"], lang)}</time>'
+    others = [o for o in posts if o["slug"] != slug][:3]
+    related = ""
+    if others:
+        cards = "\n".join(card(o, lang, f"../{o['slug']}/", f"../../img/{o['slug']}/{o['cover']}", "h3") for o in others)
+        related = f'<section class="related"><h2>{ui["related"]}</h2><div class="posts">\n{cards}\n</div></section>'
     out = head(lang, f"{t['title']} | My Tokyo", t["description"], post_url(lang, slug), alternates,
                cover_abs, "article", jsonld, 3)
     out += header(lang, switch, 3)
     out += f"""<main>
   <div class="wrap">
-    <article>
+    <div class="post-head">
       <a class="crumb" href="../">{ui['all_posts']}</a>
-      <div class="meta"><span class="cat">{cat[lang]}</span> · {esc(area or '')}{' · ' if area else ''}<time datetime="{p['date']}">{fmt_date(p['date'], lang)}</time></div>
+      <div class="kicker"><span class="cat">{cat[lang]}</span>{' · ' + esc(area) if area else ''}</div>
       <h1>{esc(t['title'])}</h1>
-      <p class="byline">{ui['by']}</p>
-      <div class="cover"><img src="{img_prefix}{esc(p['cover'])}" alt="{esc(photo_alt(p, p['cover'], lang))}" fetchpriority="high"></div>
+      <p class="dek">{esc(t['description'])}</p>
+      <div class="author"><img src="../../../img/mikuri.jpg" alt="Mikuri" width="44" height="44"><div><b>Mikuri</b>{ui['role']} · {when}</div></div>
+    </div>
+    <div class="cover"><img src="{img_prefix}{esc(p['cover'])}" alt="{esc(photo_alt(p, p['cover'], lang))}" fetchpriority="high"></div>
+    <article>
       <div class="body">
 {render_body(t['body'], p, lang, img_prefix)}
       </div>
-      <div class="place"><dl>{rows}</dl>{map_btn}</div>
-      <div class="cta"><div><b>{ui['cta_h']}</b><p>{ui['cta_p']}</p></div><a class="btn" href="../../../#tours">{ui['cta_btn']}</a></div>
+      <section class="ess"><h2>{ui['essentials']}</h2><dl>{rows}</dl>{map_btn}</section>
+      <aside class="bio"><img src="../../../img/mikuri.jpg" alt="Mikuri" loading="lazy"><div><h2>{ui['bio_h']}</h2><p>{ui['bio_p']}</p><a href="../../../#tours">{ui['bio_link']}</a></div></aside>
     </article>
+    {related}
   </div>
 </main>
 """
@@ -571,7 +655,7 @@ def main():
         for p in posts:
             pd = d / p["slug"]
             pd.mkdir(exist_ok=True)
-            (pd / "index.html").write_text(render_post(p, l), encoding="utf-8")
+            (pd / "index.html").write_text(render_post(p, l, posts), encoding="utf-8")
     (BLOG_DIR / "index.html").write_text(REDIRECT % {"langs": json.dumps(list(LANGS))}, encoding="utf-8")
     update_home(posts)
     write_sitemap(posts)
