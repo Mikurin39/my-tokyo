@@ -44,7 +44,7 @@ UI = {
         "cta_h": "Want to go with a local?",
         "cta_p": "I can take you to places like this on a custom private tour.",
         "cta_btn": "See the tours", "by": "By Mikuri, your local guide",
-        "from_blog": "From the Blog", "more": "Read the blog →",
+        "from_blog": "From the Blog", "more": "Read the blog",
     },
     "ja": {
         "blog": "ブログ", "blog_title": "My Tokyo ブログ｜東京の好きなお店と場所",
@@ -56,7 +56,7 @@ UI = {
         "cta_h": "地元の人と一緒に行ってみませんか？",
         "cta_p": "オーダーメイドのプライベートツアーで、こうした場所をご案内します。",
         "cta_btn": "ツアーを見る", "by": "ガイド Mikuri",
-        "from_blog": "ブログ", "more": "ブログを読む →",
+        "from_blog": "ブログ", "more": "ブログを読む",
     },
     "ko": {
         "blog": "블로그", "blog_title": "My Tokyo 블로그 — 도쿄에서 좋아하는 곳들",
@@ -68,7 +68,7 @@ UI = {
         "cta_h": "현지인과 함께 가 보고 싶다면",
         "cta_p": "맞춤형 프라이빗 투어로 이런 곳들을 안내해 드려요.",
         "cta_btn": "투어 보기", "by": "현지 가이드 Mikuri",
-        "from_blog": "블로그", "more": "블로그 보기 →",
+        "from_blog": "블로그", "more": "블로그 보기",
     },
     "zh-Hant": {
         "blog": "部落格", "blog_title": "My Tokyo 部落格｜我喜歡的東京好店與景點",
@@ -80,7 +80,7 @@ UI = {
         "cta_h": "想和在地人一起去嗎？",
         "cta_p": "客製化私人行程，可以帶你去這樣的地方。",
         "cta_btn": "查看行程", "by": "在地導遊 Mikuri",
-        "from_blog": "部落格", "more": "閱讀部落格 →",
+        "from_blog": "部落格", "more": "閱讀部落格",
     },
     "fr": {
         "blog": "Blog", "blog_title": "Blog My Tokyo — Mes adresses préférées à Tokyo",
@@ -92,7 +92,7 @@ UI = {
         "cta_h": "Envie d'y aller avec quelqu'un d'ici ?",
         "cta_p": "Je peux vous emmener dans ce genre d'endroits lors d'une visite privée sur mesure.",
         "cta_btn": "Voir les visites", "by": "Mikuri, votre guide à Tokyo",
-        "from_blog": "Le blog", "more": "Lire le blog →",
+        "from_blog": "Le blog", "more": "Lire le blog",
     },
 }
 
@@ -255,7 +255,7 @@ def load_posts():
 
 
 CSS = """
-:root{--navy:#1c2b4a;--text:#2b3852;--muted:#6b7280;--bg:#f6f3ee;--line:#e8e4dc;--orange:#e8622c;--orange2:#d4551f;--maxw:1060px}
+:root{--navy:#1f1c19;--text:#2c2925;--muted:#6c675f;--bg:#f6f3ed;--line:#ddd7cc;--orange:#c2452d;--orange2:#a63a25;--maxw:1060px}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Inter',var(--cjk),-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.7;font-size:16px;-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}
@@ -289,7 +289,7 @@ main{padding:36px 0 56px}
 .post-link .thumb img{width:100%;height:100%;object-fit:cover;transition:transform .3s}
 .post-link:hover .thumb img{transform:scale(1.03)}
 .meta{font-size:13px;color:var(--muted);font-weight:500}
-.meta .cat{color:var(--orange);font-weight:600}
+.meta .cat{color:var(--orange);font-weight:600;margin-right:12px}
 .post-link h2,.post-link h3{font-family:'Fraunces',var(--cjk-serif),Georgia,serif;font-size:20px;line-height:1.3;color:var(--navy);margin:4px 0 6px}
 .post-link:hover h2,.post-link:hover h3{color:var(--orange)}
 .post-link p{font-size:16px;line-height:1.7;color:var(--muted);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
@@ -520,7 +520,7 @@ def card(p, lang, href, img_src, heading="h2"):
     cat = CATEGORIES[p["category"]][lang]
     return (f'<a class="post-link" href="{href}"><div class="thumb"><img src="{img_src}" '
             f'alt="{esc(photo_alt(p, p["cover"], lang))}" loading="lazy" decoding="async"></div>'
-            f'<div class="meta"><span class="cat">{cat}</span> · <time datetime="{p["date"]}">{fmt_date(p["date"], lang)}</time></div>'
+            f'<div class="meta"><span class="cat">{cat}</span><time datetime="{p["date"]}">{fmt_date(p["date"], lang)}</time></div>'
             f'<{heading}>{esc(t["title"])}</{heading}><p>{esc(t["description"])}</p></a>')
 
 
@@ -577,16 +577,22 @@ def home_block(posts):
                       for p in posts[:3])
     return f"""<section id="blog" style="padding-top:0">
   <style>
-  #blog .posts{{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}}
+  #blog .posts{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}}
   #blog .post-link{{color:var(--text);display:block}}
-  #blog .thumb{{aspect-ratio:4/3;border-radius:8px;overflow:hidden;margin-bottom:10px;background:var(--line)}}
+  #blog .thumb{{aspect-ratio:4/3;border-radius:4px;overflow:hidden;margin-bottom:12px;background:var(--line)}}
   #blog .thumb img{{width:100%;height:100%;object-fit:cover}}
-  #blog .meta{{font-size:12px;color:var(--muted);font-weight:500}}
-  #blog .meta .cat{{color:var(--orange);font-weight:600}}
-  #blog h3{{font-size:15.5px;color:var(--navy);line-height:1.4;margin:3px 0 4px}}
+  #blog .meta{{font-size:13.5px;color:var(--muted);font-weight:500}}
+  #blog .meta .cat{{color:var(--orange);font-weight:600;margin-right:12px}}
+  #blog h3{{font-family:var(--serif);font-size:21px;font-weight:600;color:var(--navy);line-height:1.3;margin:4px 0 6px}}
   #blog .post-link:hover h3{{color:var(--orange)}}
-  #blog p{{font-size:13px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}}
-  @media(max-width:880px){{#blog .posts{{grid-template-columns:1fr 1fr}}}}
+  #blog p{{font-size:16px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}}
+  #blog .posts.one{{grid-template-columns:minmax(0,1fr)}}
+  #blog .posts.one .post-link{{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);column-gap:40px;align-content:center}}
+  #blog .posts.one .post-link>*{{grid-column:2}}
+  #blog .posts.one .thumb{{grid-column:1;grid-row:1 / span 4;margin-bottom:0}}
+  #blog .posts.one .post-link{{align-items:start}}
+  #blog .posts.one h3{{font-size:28px}}
+  @media(max-width:880px){{#blog .posts{{grid-template-columns:1fr 1fr}}#blog .posts.one .post-link{{grid-template-columns:minmax(0,1fr)}}#blog .posts.one .post-link>*,#blog .posts.one .thumb{{grid-column:1;grid-row:auto}}#blog .posts.one .thumb{{margin-bottom:12px}}#blog .posts.one h3{{font-size:22px}}#blog .posts.one{{grid-template-columns:minmax(0,1fr)}}}}
   @media(max-width:520px){{#blog .posts{{grid-template-columns:1fr}}}}
   </style>
   <div class="wrap">
@@ -594,7 +600,7 @@ def home_block(posts):
       <h2>{UI[DEFAULT]['from_blog']}</h2>
       <a href="blog/" class="sec-link">{UI[DEFAULT]['more']}</a>
     </div>
-    <div class="posts">
+    <div class="posts{" one" if len(posts)==1 else ""}">
 {cards}
     </div>
   </div>
