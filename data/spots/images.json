@@ -1,0 +1,659 @@
+{
+ "shinjuku-gyoen": {
+  "img": "img/rank/nature-shinjuku-gyoen-national-garden.jpg",
+  "credit": {
+   "author": "Basile Morin",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Shinjuku_Gyoen_National_Garden_and_NTT_DoCoMo_Yoyogi_Building,_Tokyo,_Japan.jpg"
+  }
+ },
+ "ueno-park": {
+  "img": "img/rank/nature-ueno-park.jpg",
+  "credit": {
+   "author": "Nesnad",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Shinobazu_pond_sunset_Ueno_park_panorama_2024_July_29.jpeg"
+  }
+ },
+ "mt-takao": {
+  "img": "img/rank/nature-mt-takao.jpg",
+  "credit": {
+   "author": "Koda6029",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%AB%98%E5%B0%BE%E5%B1%B1%E5%B1%B1%E9%A0%82%E3%81%8B%E3%82%89%E4%B8%B9%E6%B2%A2%E5%B1%B1%E5%9C%B0%E3%82%84%E5%AF%8C%E5%A3%AB%E5%B1%B1%E3%81%AE%E7%9C%BA%E3%82%81.jpg"
+  }
+ },
+ "yoyogi-park": {
+  "img": "img/rank/nature-yoyogi-park.jpg",
+  "credit": {
+   "author": "ウィキ太郎 (Wiki Taro)",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Sakura_in_Yoyogi_Park_Tokyo_20170403.jpg"
+  }
+ },
+ "showa-kinen-park": {
+  "img": "img/rank/nature-showa-kinen-park.jpg",
+  "credit": {
+   "author": "Kakidai",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Showa_Commemorative_National_Government_Park_1.JPG"
+  }
+ },
+ "inokashira-park": {
+  "img": "img/rank/nature-inokashira-park.jpg",
+  "credit": {
+   "author": "Htanaungg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Inokashira_Pond.jpg"
+  }
+ },
+ "hamarikyu-gardens": {
+  "img": "img/rank/nature-hamarikyu-gardens.jpg",
+  "credit": {
+   "author": "MariaAngelesPhotography",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Hamarikiu_Gardens_in_Tokyo_Japan.jpg"
+  }
+ },
+ "rikugien": {
+  "img": "img/rank/nature-rikugien-gardens.jpg",
+  "credit": {
+   "author": "Katsutoshi Seki",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Rikugien_Park.jpg"
+  }
+ },
+ "kiyosumi-gardens": {
+  "img": "img/rank/nature-kiyosumi-gardens.jpg",
+  "credit": {
+   "author": "JuicyTomato56",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Kiyosumi_Garden_pond.jpg"
+  }
+ },
+ "koishikawa-korakuen": {
+  "img": "img/rank/nature-koishikawa-korakuen-gardens.jpg",
+  "credit": {
+   "author": "Gribeco",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Koishikawa_korakuen_-_Osensui_and_Horaijima.jpg"
+  }
+ },
+ "senso-ji": {
+  "img": "img/rank/history-senso-ji-temple.jpg",
+  "credit": {
+   "author": "Kakidai",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Asakusa_Sensoji_Kaminarimon_2012.JPG"
+  }
+ },
+ "meiji-jingu": {
+  "img": "img/rank/history-meiji-jingu.jpg",
+  "credit": {
+   "author": "Hyppolyte de Saint-Rambert",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Meiji-jing%C5%AB_grand_torii_d%27entr%C3%A9e.jpg"
+  }
+ },
+ "imperial-palace-east-gardens": {
+  "img": "img/rank/history-east-gardens-of-the-imperial-palace.jpg",
+  "credit": {
+   "author": "Guilhem Vellut",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Imperial_Palace_East_Garden_@_Tokyo_(11165579846).jpg"
+  }
+ },
+ "tokyo-national-museum": {
+  "img": "img/rank/history-tokyo-national-museum.jpg",
+  "credit": {
+   "author": "Wiiii",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Tokyo_National_Museum,_Honkan_2010.jpg"
+  }
+ },
+ "ghibli-museum-mitaka": {
+  "img": "img/rank/history-ghibli-museum-mitaka.jpg",
+  "credit": {
+   "author": "Stéphane Gallay",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Ghibli_Museum_Mitaka_09_(2385303604).jpg"
+  }
+ },
+ "zojoji-temple": {
+  "img": "img/rank/history-zojoji-temple.jpg",
+  "credit": {
+   "author": "KimonBerlin",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_and_Zojoji_temple_(7475558188).jpg"
+  }
+ },
+ "edo-tokyo-museum": {
+  "img": "img/rank/history-edo-tokyo-museum.jpg",
+  "credit": {
+   "author": "Guilhem Vellut",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Edo-Tokyo_Museum_@_Ryogoku_(9637053366).jpg"
+  }
+ },
+ "kabukiza-theatre": {
+  "img": "img/rank/history-kabukiza-theatre.jpg",
+  "credit": {
+   "author": "Chiba ryo",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:New_Kabukiza.JPG"
+  }
+ },
+ "yanaka-ginza": {
+  "img": "img/rank/history-yanaka-ginza.jpg",
+  "credit": {
+   "author": "1904.CC",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Yanaka_Ginza_entrance.jpg"
+  }
+ },
+ "gotokuji-temple": {
+  "img": "img/rank/history-gotokuji-temple.jpg",
+  "credit": {
+   "author": "Niwrat",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Maneki-neko_(Japanese_Lucky_Cat)_Statues_at_Gotokuji_Temple,_Tokyo.jpg"
+  }
+ },
+ "park-hyatt-tokyo": {
+  "img": "img/rank/stay-park-hyatt-tokyo.jpg",
+  "credit": {
+   "author": "Alexkom000",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:2024-10-20_Shinjuku_City,_Park_Hyatt_Tokyo.jpg"
+  }
+ },
+ "aman-tokyo": {
+  "img": "img/rank/stay-aman-tokyo.jpg",
+  "credit": {
+   "author": "Kakidai",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:%C5%8Ctemachi_Tower.jpg"
+  }
+ },
+ "the-peninsula-tokyo": {
+  "img": "img/rank/stay-the-peninsula-tokyo.jpg",
+  "credit": {
+   "author": "Asanagi",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Peninsula_Tokyo_2022-11-16.jpg"
+  }
+ },
+ "imperial-hotel-tokyo": {
+  "img": "img/rank/stay-imperial-hotel-tokyo.jpg",
+  "credit": {
+   "author": "Kakidai",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Imperial_Hotel_Tokyo.JPG"
+  }
+ },
+ "hoshinoya-tokyo": {
+  "img": "img/rank/stay-hoshinoya-tokyo.jpg",
+  "credit": {
+   "author": "ブツチチ",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%98%9F%E3%81%AE%E3%82%84%E6%9D%B1%E4%BA%AC.jpg"
+  }
+ },
+ "the-okura-tokyo": {
+  "img": "img/rank/stay-the-okura-tokyo.jpg",
+  "credit": {
+   "author": "江戸村のとくぞう",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Hotel_Okura_Tokyo_190912a13.jpg"
+  }
+ },
+ "hotel-gracery-shinjuku": {
+  "img": "img/rank/stay-hotel-gracery-shinjuku.jpg",
+  "credit": {
+   "author": "Kakidai",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Shinjuku_Toho_Building_from_Godzilla_Street.jpg"
+  }
+ },
+ "trunk-hotel-cat-street": {
+  "img": "img/rank/stay-trunk-hotel-cat-street.jpg",
+  "credit": {
+   "author": "Syced",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:TRUNK(HOTEL)_CAT_STREET.jpg"
+  }
+ },
+ "hotel-ryumeikan-tokyo": {
+  "img": "img/rank/stay-hotel-ryumeikan-tokyo.jpg",
+  "credit": {
+   "author": "Sasayumi",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:%E3%83%9B%E3%83%86%E3%83%AB%E9%BE%8D%E5%90%8D%E9%A4%A8%E6%9D%B1%E4%BA%AC%E5%A4%96%E8%A6%B3.JPG"
+  }
+ },
+ "tsukiji-outer-market": {
+  "img": "img/rank/food-tsukiji-outer-market.jpg",
+  "credit": {
+   "author": "Aw1805",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Tsukiji_Outer_Market_2.jpg"
+  }
+ },
+ "ichiran-shibuya": {
+  "img": "img/rank/food-ichiran-shibuya.jpg",
+  "credit": {
+   "author": "SkyChen",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Ichiran_ramen_by_SkyChen_in_Shibuya,_Tokyo.jpg"
+  }
+ },
+ "omoide-yokocho": {
+  "img": "img/rank/food-omoide-yokocho.jpg",
+  "credit": {
+   "author": "Grendelkhan",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Entrance_to_Omoide_Yokocho.jpg"
+  }
+ },
+ "ameyoko": {
+  "img": "img/rank/food-ameyoko-ameya-yokocho.jpg",
+  "credit": {
+   "author": "AugustGresh",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Ameya-Yokoch%C5%8D_Entrance.jpg"
+  }
+ },
+ "toyosu-market": {
+  "img": "img/rank/food-toyosu-market.jpg",
+  "credit": {
+   "author": "Arne Müseler",
+   "license": "CC BY-SA 3.0 de",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/",
+   "page": "https://commons.wikimedia.org/wiki/File:Toyosu_Market_Tokyo_2.jpg"
+  }
+ },
+ "afuri-ebisu": {
+  "img": "img/rank/food-afuri-ebisu.jpg",
+  "credit": {
+   "author": "Guilhem Vellut",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Yuzu_Shio_Ramen_@_Afuri_@_Ebisu_(14018053090).jpg"
+  }
+ },
+ "fuunji-shinjuku": {
+  "img": "img/rank/food-fuunji.jpg",
+  "credit": {
+   "author": "Guilhem Vellut",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Chicken_Gyokai_Tsukemen_@_Fuunji_@_Shinjuku_(11324117895).jpg"
+  }
+ },
+ "tonkatsu-maisen-aoyama": {
+  "img": "img/rank/food-tonkatsu-maisen-aoyama-main-store.jpg",
+  "credit": {
+   "author": "Harani0403",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Maisen_Restaurant_Harajuku.JPG"
+  }
+ },
+ "harmonica-yokocho": {
+  "img": "img/rank/food-harmonica-yokocho.jpg",
+  "credit": {
+   "author": "Stephen Kelly",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Lanterns_in_Harmonica_Yokocho,_Kichijoji_(53415766112).jpg"
+  }
+ },
+ "asakusa-kagetsudo": {
+  "img": "img/rank/cafe-asakusa-kagetsudo.jpg",
+  "credit": {
+   "author": "donchili",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:%E6%B5%85%E8%8D%89_%E8%8A%B1%E6%9C%88%E5%A0%82_%E3%83%A1%E3%83%AD%E3%83%B3%E3%83%91%E3%83%B3_%E3%82%BD%E3%83%95%E3%83%88%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0_2016_(29193162564).jpg"
+  }
+ },
+ "shiseido-parlour-ginza": {
+  "img": "img/rank/cafe-shiseido-parlour-ginza-main-store.jpg",
+  "credit": {
+   "author": "Kentin",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Shiseido_parlour_ginza_tokyo_2014.jpg"
+  }
+ },
+ "kayaba-coffee": {
+  "img": "img/rank/cafe-kayaba-coffee.jpg",
+  "credit": {
+   "author": "先従隗始",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Cafe_Kayaba_20211126.jpg"
+  }
+ },
+ "blue-bottle-kiyosumi-shirakawa": {
+  "img": "img/rank/cafe-blue-bottle-coffee-kiyosumi-shirakawa.jpg",
+  "credit": {
+   "author": "Nesnad",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Bluebottlejapan-opening-outsidebuilding-feb8-2015.jpg"
+  }
+ },
+ "toraya-akasaka": {
+  "img": "img/rank/cafe-toraya-akasaka-store.jpg",
+  "credit": {
+   "author": "Nesnad",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Toraya_Akasaka_-_Sept_19_2021_various.jpeg"
+  }
+ },
+ "marion-crepes-harajuku": {
+  "img": "img/rank/cafe-marion-cr-pes-harajuku.jpg",
+  "credit": {
+   "author": "Syced",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Marion_Cr%C3%AApes_in_Harajuku_Takeshita.jpg"
+  }
+ },
+ "cafe-de-lambre": {
+  "img": "img/rank/cafe-caf-de-l-ambre.jpg",
+  "credit": {
+   "author": "Bex Walton",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:%E7%8F%88%E7%90%B2%E3%81%A0%E3%81%91%E3%81%AE%E5%BA%97_%E3%83%A9%E3%83%B3%E3%83%96%E3%83%AB_(14244776452).jpg"
+  }
+ },
+ "sakurai-japanese-tea-experience": {
+  "img": "img/rank/cafe-sakurai-japanese-tea-experience.jpg",
+  "credit": {
+   "author": "Wiiii",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Spiral_Building.jpg"
+  }
+ },
+ "teamlab-planets": {
+  "img": "img/teamlab.jpg"
+ },
+ "shibuya-crossing": {
+  "img": "img/shibuyax.jpg"
+ },
+ "tokyo-skytree": {
+  "img": "img/skytree.jpg"
+ },
+ "golden-gai": {
+  "img": "img/goldengai.jpg"
+ },
+ "shibuya-sky": {
+  "img": "img/shibuyasky.jpg"
+ },
+ "akihabara": {
+  "img": "img/akiba.jpg"
+ },
+ "ginza": {
+  "img": "img/rank/x-ginza.jpg",
+  "credit": {
+   "author": "Mike Peel",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Chuo-dori_seen_from_Ginza-dori-guchi_intersection_20240629_171804.jpg"
+  }
+ },
+ "takeshita-street": {
+  "img": "img/rank/x-takeshita-street.jpg",
+  "credit": {
+   "author": "Syced",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Takeshita_Street_entrance_on_Meiji_Avenue_side.jpg"
+  }
+ },
+ "nakamise-dori": {
+  "img": "img/rank/x-nakamise-dori.jpg",
+  "credit": {
+   "author": "Alexeyevitch",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Nakamise-dori_Street.jpg"
+  }
+ },
+ "omotesando": {
+  "img": "img/rank/x-omotesando.jpg",
+  "credit": {
+   "author": "gog.creator",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Omotesando_Avenue_at_sunset_from_pedestrian_bridge,_Jingumae,_Shibuya,_Tokyo.jpg"
+  }
+ },
+ "mega-don-quijote-shibuya": {
+  "img": "img/rank/x-mega-don-quijote-shibuya.jpg",
+  "credit": {
+   "author": "WhisperToMe",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Shibuyamegadonkihonten.jpg"
+  }
+ },
+ "nakano-broadway": {
+  "img": "img/rank/x-nakano-broadway.jpg",
+  "credit": {
+   "author": "Asanagi",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Nakano_Broadway_Center_north_face_2024-05-12.jpg"
+  }
+ },
+ "kappabashi-dougu-street": {
+  "img": "img/rank/x-kappabashi-dougu-street.jpg",
+  "credit": {
+   "author": "Basile Morin",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Cream_coffee_cup-shaped_balcony,_Niimi_Tableware,_Kappabashi_Dougu_Street,_Tokyo,_Japan.jpg"
+  }
+ },
+ "shimokitazawa": {
+  "img": "img/rank/x-shimokitazawa.jpg",
+  "credit": {
+   "author": "Syced",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Shimokitazawa.jpg"
+  }
+ },
+ "isetan-shinjuku": {
+  "img": "img/rank/x-isetan-shinjuku.jpg",
+  "credit": {
+   "author": "Kakidai",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:2025_Isetan_Shinjuku.jpg"
+  }
+ },
+ "tokyo-character-street": {
+  "img": "img/rank/x-tokyo-character-street.jpg",
+  "credit": {
+   "author": "Dr.yellow",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Tokyo_station_%22Ichibangai_-_Character_Street%22.jpg"
+  }
+ },
+ "spa-laqua": {
+  "img": "img/rank/x-spa-laqua.jpg",
+  "credit": {
+   "author": "ITA-ATU",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Tokyo_Dome_City_LaQua.JPG"
+  }
+ },
+ "thermae-yu-shinjuku": {
+  "img": "img/rank/x-thermae-yu-shinjuku.jpg",
+  "credit": {
+   "author": "妖精書士",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Thermae-yu_Shinjuku.jpg"
+  }
+ },
+ "keio-takaosan-onsen-gokurakuyu": {
+  "img": "img/rank/x-keio-takaosan-onsen-gokurakuyu.jpg",
+  "credit": {
+   "author": "Thirteen-fri",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Keio-Takaosan-Onsen-Gokurakuyu.jpg"
+  }
+ },
+ "toshimaen-niwa-no-yu": {
+  "img": "img/rank/x-toshimaen-niwa-no-yu.jpg",
+  "credit": {
+   "author": "Abasaa",
+   "license": "Public domain",
+   "license_url": "",
+   "page": "https://commons.wikimedia.org/wiki/File:Toshimaen_Niwa-no-yu.JPG"
+  }
+ },
+ "takara-yu-adachi": {
+  "img": "img/rank/x-takara-yu-adachi.jpg",
+  "credit": {
+   "author": "Higa4",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Takara-yu_(Adachi)_01.jpg"
+  }
+ },
+ "ryogoku-kokugikan": {
+  "img": "img/rank/x-ryogoku-kokugikan.jpg",
+  "credit": {
+   "author": "Steve Cadman",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Ryogoku_Great_Sumo_Hall.jpg"
+  }
+ },
+ "tokyo-dome": {
+  "img": "img/rank/x-tokyo-dome.jpg",
+  "credit": {
+   "author": "Gatorfan252525",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Panorama_of_the_Tokyo_Dome_during_a_Hanshin_Tigers-Yomiuri_Giants_game_in_July_2026.jpg"
+  }
+ },
+ "meiji-jingu-stadium": {
+  "img": "img/rank/x-meiji-jingu-stadium.jpg",
+  "credit": {
+   "author": "江戸村のとくぞう",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Meiji_Jingu_Stadium_2019c.jpg"
+  }
+ },
+ "nakajima-no-ochaya": {
+  "img": "img/rank/x-nakajima-no-ochaya.jpg",
+  "credit": {
+   "author": "Hotsuregua",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Hamarikyu-Ochaya.JPG"
+  }
+ },
+ "arashio-stable": {
+  "img": "img/rank/x-arashio-stable.jpg",
+  "credit": {
+   "author": "FourTildes",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Arashio_stable_2014_1.JPG"
+  }
+ },
+ "nippon-budokan": {
+  "img": "img/rank/x-nippon-budokan.jpg",
+  "credit": {
+   "author": "Kakidai",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Nippon_Budokan_2018.jpg"
+  }
+ },
+ "koganeyu-kinshicho": {
+  "img": "img/rank/x-koganeyu-kinshicho.jpg",
+  "credit": {
+   "author": "妖精書士",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Koganeyu_Tokyo.jpg"
+  }
+ },
+ "oshiage-onsen-daikokuyu": {
+  "img": "img/rank/x-oshiage-onsen-daikokuyu.jpg",
+  "credit": {
+   "author": "Totti",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Daikokuyu_250217_1.jpg"
+  }
+ },
+ "jindaiji-onsen-yumori-no-sato": {
+  "img": "img/rank/x-jindaiji-onsen-yumori-no-sato.jpg",
+  "credit": {
+   "author": "Abasaa",
+   "license": "Public domain",
+   "license_url": "",
+   "page": "https://commons.wikimedia.org/wiki/File:Jindaiji_Onsen_Yumori-no-sato.JPG"
+  }
+ },
+ "saya-no-yudokoro": {
+  "img": "img/rank/x-saya-no-yudokoro.jpg",
+  "credit": {
+   "author": "妖精書士",
+   "license": "Public domain",
+   "license_url": "",
+   "page": "https://commons.wikimedia.org/wiki/File:Saya_no_yudokoro.JPG"
+  }
+ }
+}

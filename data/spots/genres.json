@@ -1,0 +1,155 @@
+[
+ {
+  "key": "all",
+  "label": "All",
+  "note": "Our first-visit picks. Tap a photo for details.",
+  "ids": [
+   "senso-ji",
+   "teamlab-planets",
+   "shibuya-crossing",
+   "tokyo-skytree",
+   "golden-gai",
+   "meiji-jingu",
+   "tsukiji-outer-market",
+   "shibuya-sky",
+   "akihabara",
+   "ueno-park"
+  ]
+ },
+ {
+  "key": "nature",
+  "label": "Nature & Scenery",
+  "note": "Ranked by how often major travel guides feature them. Tap a photo for details.",
+  "ids": [
+   "shinjuku-gyoen",
+   "ueno-park",
+   "mt-takao",
+   "yoyogi-park",
+   "showa-kinen-park",
+   "inokashira-park",
+   "hamarikyu-gardens",
+   "rikugien",
+   "kiyosumi-gardens",
+   "koishikawa-korakuen"
+  ]
+ },
+ {
+  "key": "history",
+  "label": "History & Culture",
+  "note": "Ranked by how often major travel guides feature them. Tap a photo for details.",
+  "ids": [
+   "senso-ji",
+   "meiji-jingu",
+   "imperial-palace-east-gardens",
+   "tokyo-national-museum",
+   "ghibli-museum-mitaka",
+   "zojoji-temple",
+   "edo-tokyo-museum",
+   "kabukiza-theatre",
+   "yanaka-ginza",
+   "gotokuji-temple"
+  ]
+ },
+ {
+  "key": "stay",
+  "label": "Stay",
+  "note": "Ranked by how often major travel guides feature them. Tap a photo for details.",
+  "ids": [
+   "park-hyatt-tokyo",
+   "aman-tokyo",
+   "the-peninsula-tokyo",
+   "imperial-hotel-tokyo",
+   "hoshinoya-tokyo",
+   "the-okura-tokyo",
+   "hotel-gracery-shinjuku",
+   "trunk-hotel-cat-street",
+   "hotel-ryumeikan-tokyo",
+   "the-millennials-shibuya"
+  ]
+ },
+ {
+  "key": "food",
+  "label": "Food",
+  "note": "Ranked by how often major travel guides feature them. Tap a photo for details.",
+  "ids": [
+   "tsukiji-outer-market",
+   "ichiran-shibuya",
+   "omoide-yokocho",
+   "ameyoko",
+   "toyosu-market",
+   "gyukatsu-motomura-shibuya",
+   "afuri-ebisu",
+   "fuunji-shinjuku",
+   "tonkatsu-maisen-aoyama",
+   "harmonica-yokocho"
+  ]
+ },
+ {
+  "key": "cafe",
+  "label": "Cafés & Sweets",
+  "note": "Ranked by how often major travel guides feature them. Tap a photo for details.",
+  "ids": [
+   "asakusa-kagetsudo",
+   "shiseido-parlour-ginza",
+   "kayaba-coffee",
+   "blue-bottle-kiyosumi-shirakawa",
+   "toraya-akasaka",
+   "fuglen-tokyo",
+   "glitch-coffee-roasters-jimbocho",
+   "marion-crepes-harajuku",
+   "cafe-de-lambre",
+   "sakurai-japanese-tea-experience"
+  ]
+ },
+ {
+  "key": "shop",
+  "label": "Shopping",
+  "note": "Ranked by how often major travel guides feature them. Tap a photo for details.",
+  "ids": [
+   "ginza",
+   "takeshita-street",
+   "nakamise-dori",
+   "omotesando",
+   "mega-don-quijote-shibuya",
+   "nakano-broadway",
+   "kappabashi-dougu-street",
+   "shimokitazawa",
+   "isetan-shinjuku",
+   "tokyo-character-street"
+  ]
+ },
+ {
+  "key": "onsen",
+  "label": "Onsen & Wellness",
+  "note": "Ranked by how often major travel guides feature them. Tap a photo for details.",
+  "ids": [
+   "spa-laqua",
+   "thermae-yu-shinjuku",
+   "keio-takaosan-onsen-gokurakuyu",
+   "toshimaen-niwa-no-yu",
+   "tokyo-somei-onsen-sakura",
+   "koganeyu-kinshicho",
+   "takara-yu-adachi",
+   "oshiage-onsen-daikokuyu",
+   "jindaiji-onsen-yumori-no-sato",
+   "saya-no-yudokoro"
+  ]
+ },
+ {
+  "key": "sport",
+  "label": "Sports & Experiences",
+  "note": "Ranked by how often major travel guides feature them. Tap a photo for details.",
+  "ids": [
+   "ryogoku-kokugikan",
+   "tokyo-dome",
+   "meiji-jingu-stadium",
+   "nakajima-no-ochaya",
+   "arashio-stable",
+   "nippon-budokan",
+   "hinode-pier",
+   "vasara-asakusa-kimono",
+   "ebisuya-asakusa",
+   "ganso-sample-ya"
+  ]
+ }
+]

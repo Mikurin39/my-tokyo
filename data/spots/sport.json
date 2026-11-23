@@ -1,0 +1,320 @@
+[
+ {
+  "id": "ryogoku-kokugikan",
+  "name": "Ryogoku Kokugikan",
+  "name_ja": "両国国技館",
+  "area": "Ryogoku (Sumida)",
+  "about": "Ryogoku Kokugikan is Japan's national sumo hall. The current building opened in 1985 and seats about 11,000 people. Three of the six annual grand tournaments are held here, in January, May and September; the other three are held in other cities. Outside tournament days the hall is mostly closed, but the Sumo Museum inside is free to enter and is closed on tournament days. Tickets for tournament days range from box seats to same-day general admission sold at the box office.",
+  "address": "1-3-28 Yokoami, Sumida-ku, Tokyo 130-0015",
+  "lat": 35.6969,
+  "lng": 139.7934,
+  "phone": "03-3623-5111",
+  "hours": "Tournament days only (January, May and September); check the daily schedule on the official site",
+  "closed": "Closed between tournaments; the museum is closed on tournament days",
+  "price": "Tournament tickets vary by seat; same-day general admission is about 2,100-2,200 yen (third-party reports, check the official site)",
+  "station": "Ryogoku Station (Oedo Line, JR Sobu Line)",
+  "walk_min": 2,
+  "parking": "No parking for visitors",
+  "car": "Not recommended; use public transport",
+  "website": "https://www.sumo.or.jp/EnHonbashoMain/",
+  "instagram": null,
+  "tags": [
+   "unique",
+   "learn",
+   "active",
+   "friends"
+  ],
+  "meal": null,
+  "duration_min": 240,
+  "sources": [
+   "https://www.timeout.com/tokyo/sport-and-fitness/ryogoku-kokugikan",
+   "https://en.wikipedia.org/wiki/Ry%C5%8Dgoku_Kokugikan"
+  ]
+ },
+ {
+  "id": "tokyo-dome",
+  "name": "Tokyo Dome",
+  "name_ja": "東京ドーム",
+  "area": "Korakuen (Bunkyo)",
+  "about": "Tokyo Dome is an indoor stadium that opened in 1988 and holds about 45,600 for baseball. It is the home of the Yomiuri Giants, and the pro season runs roughly from late March to autumn. Visitors can buy tickets for Giants games, and the venue also offers a one-hour stadium tour that includes the Baseball Hall of Fame. Tokyo Dome City next door has restaurants and an amusement area.",
+  "address": "1-3-61 Koraku, Bunkyo-ku, Tokyo 112-0004",
+  "lat": 35.7056,
+  "lng": 139.7519,
+  "phone": null,
+  "hours": "Game days only; start times vary (check the Giants schedule)",
+  "closed": "No games on non-event days",
+  "price": "Varies by seat and game; check the official ticket page",
+  "station": "Korakuen Station (Marunouchi Line, Namboku Line) / Suidobashi Station (JR Sobu Line, Toei Mita Line)",
+  "walk_min": 2,
+  "parking": "Paid parking nearby; very crowded on event days",
+  "car": "Possible, but public transport is easier",
+  "website": "https://www.tokyo-dome.co.jp/en/",
+  "instagram": null,
+  "tags": [
+   "active",
+   "friends",
+   "family",
+   "unique"
+  ],
+  "meal": null,
+  "duration_min": 210,
+  "sources": [
+   "https://www.tokyo-dome.co.jp/en/dome/access/",
+   "https://en.wikipedia.org/wiki/Tokyo_Dome"
+  ]
+ },
+ {
+  "id": "meiji-jingu-stadium",
+  "name": "Meiji Jingu Stadium",
+  "name_ja": "明治神宮野球場",
+  "area": "Gaienmae (Shinjuku)",
+  "about": "Meiji Jingu Stadium opened in 1926 and holds about 38,000 people. It is the home ground of the Tokyo Yakult Swallows and also hosts the Tokyo Big6 and Tohto university baseball leagues. The open-air stadium sits close to Gaienmae Station, and games run from spring to autumn. Tickets for Swallows games can be reserved on the English Swallows Ticket site.",
+  "address": "3-1 Kasumigaoka-machi, Shinjuku-ku, Tokyo 160-0013",
+  "lat": 35.6745,
+  "lng": 139.7171,
+  "phone": null,
+  "hours": "Game days only; start times vary (check the Swallows schedule)",
+  "closed": "No games on non-event days",
+  "price": "Varies by seat and game; check the Swallows ticket site",
+  "station": "Gaienmae Station (Ginza Line)",
+  "walk_min": 5,
+  "parking": "No parking for visitors",
+  "car": "Not recommended; use public transport",
+  "website": "https://www.yakult-swallows.co.jp/en",
+  "instagram": null,
+  "tags": [
+   "active",
+   "friends",
+   "unique",
+   "family"
+  ],
+  "meal": null,
+  "duration_min": 210,
+  "sources": [
+   "https://www.yakult-swallows.co.jp/en",
+   "https://en.wikipedia.org/wiki/Meiji_Jingu_Stadium"
+  ]
+ },
+ {
+  "id": "nakajima-no-ochaya",
+  "name": "Nakajima no Ochaya (Hama-rikyu Gardens)",
+  "name_ja": "中島の御茶屋（浜離宮恩賜庭園）",
+  "area": "Tsukiji (Chuo)",
+  "about": "Nakajima no Ochaya is a teahouse on an island in the tidal pond of Hama-rikyu Gardens, reached by two bridges. The garden began in 1654 as a villa of the Tokugawa family and opened to the public in 1946. Visitors sit in the teahouse and drink matcha with a Japanese sweet while looking over the pond to the towers of Shiodome. The garden admission fee applies, and the teahouse is open year-round.",
+  "address": "1-1 Hamarikyu-teien, Chuo-ku, Tokyo 104-0046",
+  "lat": 35.66,
+  "lng": 139.7624,
+  "phone": null,
+  "hours": "9:00-17:00 (last garden entry 16:30; teahouse last order about 16:30)",
+  "closed": "Dec 29-Jan 1",
+  "price": "Garden admission 300 yen (adults); matcha and sweet are extra",
+  "station": "Shiodome Station (Toei Oedo Line, Yurikamome Line)",
+  "walk_min": 7,
+  "parking": "No parking",
+  "car": "Not recommended; use public transport",
+  "website": "https://www.tokyo-park.or.jp/park/hama-rikyu/",
+  "instagram": null,
+  "tags": [
+   "relax",
+   "history",
+   "learn",
+   "solo"
+  ],
+  "meal": "cafe",
+  "duration_min": 90,
+  "sources": [
+   "https://www.gotokyo.org/en/spot/20/index.html",
+   "https://www.timeout.com/tokyo/restaurants/nakajima-no-ochaya-hamarikyu-onshi-teien"
+  ]
+ },
+ {
+  "id": "arashio-stable",
+  "name": "Arashio Stable",
+  "name_ja": "荒汐部屋",
+  "area": "Nihonbashi-Hamacho (Chuo)",
+  "about": "Arashio Stable is a sumo training stable in Nihonbashi-Hamacho, founded in 2002. On days when practice is held in Tokyo, visitors can watch the morning practice, called asageiko, from outside. Viewing is free. The schedule changes often and the stable is away from Tokyo around tournaments held elsewhere, so check its website on the day. Stay quiet and follow the stable's rules.",
+  "address": "2-47-2 Nihonbashi-Hamacho, Chuo-ku, Tokyo 103-0007",
+  "lat": 35.6868,
+  "lng": 139.7884,
+  "phone": "03-3666-7646",
+  "hours": "Practice about 7:30-9:30 on days it is held",
+  "closed": "No practice while the stable is away for tournaments outside Tokyo, and on other days at short notice; check the stable website before you go",
+  "price": "Free",
+  "station": "Hamacho Station (Toei Shinjuku Line)",
+  "walk_min": 3,
+  "parking": "No parking",
+  "car": "Not recommended; use public transport",
+  "website": "http://www.arashio.net/tour_e.html",
+  "instagram": null,
+  "tags": [
+   "unique",
+   "learn",
+   "solo",
+   "friends"
+  ],
+  "meal": null,
+  "duration_min": 90,
+  "sources": [
+   "https://www.timeout.com/tokyo/things-to-do/arashio-beya-sumo-stable",
+   "https://en.wikipedia.org/wiki/Arashio_stable"
+  ]
+ },
+ {
+  "id": "nippon-budokan",
+  "name": "Nippon Budokan",
+  "name_ja": "日本武道館",
+  "area": "Kitanomaru Park (Chiyoda)",
+  "about": "Nippon Budokan was built for the judo competition at the 1964 Tokyo Olympics and seats about 14,000. It hosts national championships in judo, kendo, karate and aikido, and it also hosts concerts and boxing or wrestling events. Some martial arts tournaments, mostly on weekends, are free to watch, while concerts and other events need tickets. The hall stands inside Kitanomaru Park, near the Imperial Palace grounds. It cannot be entered when no event is on.",
+  "address": "2-3 Kitanomaru-koen, Chiyoda-ku, Tokyo 102-8321",
+  "lat": 35.6933,
+  "lng": 139.75,
+  "phone": null,
+  "hours": "Event days only; check the event schedule",
+  "closed": "Closed when no event is held",
+  "price": "Free for some martial arts tournaments; other events are ticketed (prices vary)",
+  "station": "Kudanshita Station (Hanzomon Line, Tozai Line, Toei Shinjuku Line)",
+  "walk_min": 5,
+  "parking": "No parking; use public transport",
+  "car": "Not possible; no parking",
+  "website": "https://nipponbudokan.or.jp/english",
+  "instagram": null,
+  "tags": [
+   "unique",
+   "active",
+   "history",
+   "learn"
+  ],
+  "meal": null,
+  "duration_min": 120,
+  "sources": [
+   "https://nipponbudokan.or.jp/english",
+   "https://en.wikipedia.org/wiki/Nippon_Budokan"
+  ]
+ },
+ {
+  "id": "hinode-pier",
+  "name": "Hinode Pier (Tokyo Water Bus boats)",
+  "name_ja": "日の出桟橋",
+  "area": "Hinode (Minato)",
+  "about": "Hinode Pier is a boarding point for Tokyo Cruise (Suijo Bus) sightseeing boats. Boats from here sail up the Sumida River to Asakusa and across the bay to Odaiba and other stops, passing under the bridges of Tokyo Bay. Some Odaiba boats run only on certain days and tickets are sold at the counter on the day. Timetables and fares change by season, so check the operator's site before you go.",
+  "address": "2-7-104 Kaigan, Minato-ku, Tokyo 105-0022",
+  "lat": 35.6486,
+  "lng": 139.7631,
+  "phone": null,
+  "hours": "9:15-17:30 (varies by season)",
+  "closed": "Tuesdays; also the second Tuesday of the month and the day after",
+  "price": "To Asakusa 1,000 yen (HOTALUNA 1,400 yen); to Odaiba Seaside Park 600 yen (HOTALUNA 1,000 yen)",
+  "station": "Hamamatsucho Station (JR Yamanote Line, South Exit)",
+  "walk_min": 8,
+  "parking": "Paid parking nearby",
+  "car": "Possible, but public transport is easier",
+  "website": "https://www.suijobus.co.jp/en/",
+  "instagram": null,
+  "tags": [
+   "relax",
+   "photo",
+   "unique",
+   "friends"
+  ],
+  "meal": null,
+  "duration_min": 60,
+  "sources": [
+   "https://www.gotokyo.org/en/spot/357/index.html",
+   "https://suijobus.co.jp/en/price"
+  ]
+ },
+ {
+  "id": "vasara-asakusa-kimono",
+  "name": "VASARA Kimono Rental (Asakusa Station Store)",
+  "name_ja": "着物レンタルVASARA 浅草駅前店",
+  "area": "Asakusa (Taito)",
+  "about": "VASARA is a kimono rental company with several shops in Asakusa. You choose a kimono and accessories, staff help you dress, and you can walk around Asakusa in it, then return it by early evening. The Asakusa Station Store is on the fourth floor of the Kannon Street Building, about a minute from the station. Online plans start from about 3,400 yen including tax. Booking in advance is recommended.",
+  "address": "4F Kannon Street Building, 1-2-13 Asakusa, Taito-ku, Tokyo 111-0032",
+  "lat": 35.7108,
+  "lng": 139.7969,
+  "phone": "03-6744-6725",
+  "hours": "9:00-18:00 (last dressing 17:00, return by 17:30)",
+  "closed": "Open all year",
+  "price": "Plans from about 3,400 yen (online prices vary by plan; check the official site)",
+  "station": "Asakusa Station (Ginza Line, Toei Asakusa Line, Tobu Skytree Line)",
+  "walk_min": 1,
+  "parking": "No parking",
+  "car": "Not recommended; use public transport",
+  "website": "https://en.vasara-h.co.jp/shop/detail.html?id=24",
+  "instagram": "https://www.instagram.com/kimono_vasara/",
+  "tags": [
+   "photo",
+   "unique",
+   "friends",
+   "history"
+  ],
+  "meal": null,
+  "duration_min": 240,
+  "sources": [
+   "https://en.vasara-h.co.jp/shop/area/m-asakusa.html"
+  ]
+ },
+ {
+  "id": "ebisuya-asakusa",
+  "name": "Ebisuya Rickshaw (Asakusa)",
+  "name_ja": "えびす屋 浅草本店",
+  "area": "Asakusa (Taito)",
+  "about": "Ebisuya runs rickshaw rides around Asakusa, with runners who pull the passengers and tell them about the sights in English. The Asakusa branch is a minute from the station, near Kaminarimon. Courses of different lengths pass Sensoji and the old streets of the district. The Tokyo tourism site lists rides from 4,000 yen for one passenger and 5,000 yen for two passengers per rickshaw. Check the official site for current courses and prices.",
+  "address": "Ebisuya Building, 1-34-2 Asakusa, Taito-ku, Tokyo 111-0032",
+  "lat": 35.7125,
+  "lng": 139.7967,
+  "phone": null,
+  "hours": "9:00-18:00 (varies by season)",
+  "closed": "Open daily",
+  "price": "From 4,000 yen for one passenger, 5,000 yen for two (per rickshaw)",
+  "station": "Asakusa Station (Ginza Line, Toei Asakusa Line)",
+  "walk_min": 1,
+  "parking": "No parking",
+  "car": "Not recommended; use public transport",
+  "website": "https://ebisuya.com/en/",
+  "instagram": null,
+  "tags": [
+   "unique",
+   "photo",
+   "history",
+   "friends"
+  ],
+  "meal": null,
+  "duration_min": 60,
+  "sources": [
+   "https://www.gotokyo.org/en/workshop/sd040/index.html"
+  ]
+ },
+ {
+  "id": "ganso-sample-ya",
+  "name": "Ganso Shokuhin Sample-ya (Kappabashi Store)",
+  "name_ja": "元祖食品サンプル屋 かっぱ橋本店",
+  "area": "Kappabashi (Taito)",
+  "about": "This shop on Kappabashi Kitchenware Town sells realistic replica foods of the kind seen in restaurant windows across Japan. It offers a hands-on class where visitors make replica food themselves, taking about 40 minutes. The class costs 3,300 yen per person and needs a reservation; children must be in elementary school or older. Shopping for the replica items is also possible without joining a class.",
+  "address": "3-7-6 Nishi-Asakusa, Taito-ku, Tokyo 111-0035",
+  "lat": 35.714,
+  "lng": 139.7888,
+  "phone": "0120-17-1839",
+  "hours": "10:00-17:30",
+  "closed": "Open daily",
+  "price": "Replica food class 3,300 yen per person (reservation required)",
+  "station": "Asakusa Station (Tsukuba Express, Exit A2)",
+  "walk_min": 5,
+  "parking": "No parking",
+  "car": "Possible, but public transport is easier",
+  "website": "https://www.ganso-sample.com/en",
+  "instagram": null,
+  "tags": [
+   "unique",
+   "learn",
+   "family",
+   "friends"
+  ],
+  "meal": null,
+  "duration_min": 60,
+  "sources": [
+   "https://www.ganso-sample.com/en/shop/kappabashi/experience/",
+   "https://www.timeout.com/tokyo/shopping/ganso-shokuhin-sample-ya"
+  ]
+ }
+]

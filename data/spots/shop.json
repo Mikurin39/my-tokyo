@@ -1,0 +1,317 @@
+[
+ {
+  "id": "ginza",
+  "name": "Ginza",
+  "name_ja": "銀座",
+  "area": "Ginza (Chuo-ku)",
+  "about": "Ginza is a shopping district in Chuo Ward. The name comes from a silver-coin mint set up there in 1612. After a fire in 1872, the government rebuilt the area with fireproof brick buildings and a Western-style shopping promenade. Today the main street, Chuo-dori, has department stores such as Mitsukoshi and Wako, plus the Ginza Six complex and many international brands. Chuo-dori is closed to cars on weekend afternoons, so visitors can walk down the middle of the road.",
+  "address": "Chuo-dori, Ginza, Chuo-ku, Tokyo 104-0061",
+  "lat": 35.6717,
+  "lng": 139.7649,
+  "phone": null,
+  "hours": "Open to walk at any time; most shops about 11:00-20:00",
+  "closed": "Open daily (individual shops differ)",
+  "price": "Free to walk around",
+  "station": "Ginza Station (Ginza Line, Marunouchi Line, Hibiya Line)",
+  "walk_min": 1,
+  "parking": "Paid parking in many buildings",
+  "car": "Possible, but public transport is easier",
+  "website": null,
+  "instagram": null,
+  "tags": [
+   "friends",
+   "shopping",
+   "unique"
+  ],
+  "meal": null,
+  "duration_min": 180,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ginza"
+  ]
+ },
+ {
+  "id": "takeshita-street",
+  "name": "Takeshita Street",
+  "name_ja": "竹下通り",
+  "area": "Harajuku (Shibuya-ku)",
+  "about": "Takeshita Street is a short, narrow pedestrian street in Harajuku, running from the area near Harajuku Station towards Meiji-dori. Harajuku grew into a centre of youth fashion from the 1970s, and this street is lined with small boutiques, accessory shops, character goods stores and snack stands. Crepes are a common street snack here. It is usually crowded, especially on weekends and holidays.",
+  "address": "Takeshita Street, Jingumae 1-chome, Shibuya-ku, Tokyo 150-0001",
+  "lat": 35.6709,
+  "lng": 139.7038,
+  "phone": null,
+  "hours": "Open to walk at any time; most shops about 10:00-20:00",
+  "closed": "Open daily (individual shops differ)",
+  "price": "Free to walk around",
+  "station": "Harajuku Station (JR Yamanote Line); Meiji-jingumae Station (Chiyoda Line, Fukutoshin Line)",
+  "walk_min": 1,
+  "parking": "No parking on the street; paid parking nearby",
+  "car": "Not practical; use public transport",
+  "website": null,
+  "instagram": null,
+  "tags": [
+   "friends",
+   "shopping",
+   "food",
+   "photo"
+  ],
+  "meal": null,
+  "duration_min": 90,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Harajuku"
+  ]
+ },
+ {
+  "id": "nakamise-dori",
+  "name": "Nakamise Shopping Street",
+  "name_ja": "仲見世通り",
+  "area": "Asakusa (Taito-ku)",
+  "about": "Nakamise is the approach road that leads from Kaminarimon gate to the Hozomon gate of Senso-ji temple. It is about 250 metres long with close to 90 shops and stalls, and is described as one of the oldest shopping streets in Japan. Shops sell traditional toys, sweets, snacks and souvenirs such as folding fans and yukata. It is very busy during the day.",
+  "address": "Nakamise-dori, Asakusa, Taito-ku, Tokyo 111-0032 (leads to Senso-ji, 2-3-1 Asakusa)",
+  "lat": 35.7117,
+  "lng": 139.796,
+  "phone": null,
+  "hours": "Shops generally about 10:00-18:00 (varies by shop and season)",
+  "closed": "Open daily (individual shops differ)",
+  "price": "Free to walk around",
+  "station": "Asakusa Station (Ginza Line, Asakusa Line, Tobu Line)",
+  "walk_min": 3,
+  "parking": "Paid parking nearby",
+  "car": "Possible, but public transport is easier",
+  "website": null,
+  "instagram": null,
+  "tags": [
+   "family",
+   "shopping",
+   "history",
+   "food"
+  ],
+  "meal": null,
+  "duration_min": 90,
+  "sources": [
+   "https://www.senso-ji.jp/english/",
+   "https://www.mlit.go.jp/tagengo-db/en/R1-01375.html"
+  ]
+ },
+ {
+  "id": "omotesando",
+  "name": "Omotesando",
+  "name_ja": "表参道",
+  "area": "Omotesando, Jingumae (Shibuya-ku)",
+  "about": "Omotesando is a zelkova-lined avenue that runs from the entrance of Meiji Shrine to Aoyama-dori. It was created in the Taisho era (1912-1926) as the approach to the shrine. Today it is known for architecture by well-known architects, including Omotesando Hills by Tadao Ando, and for luxury and fashion brands. The side streets of Ura-Harajuku have smaller cafes and boutiques.",
+  "address": "Omotesando, Jingumae, Shibuya-ku, Tokyo 150-0001",
+  "lat": 35.6652,
+  "lng": 139.7122,
+  "phone": null,
+  "hours": "Open to walk at any time; most shops about 11:00-20:00",
+  "closed": "Open daily (individual shops differ)",
+  "price": "Free to walk around",
+  "station": "Omotesando Station (Ginza Line, Chiyoda Line, Hanzomon Line)",
+  "walk_min": 1,
+  "parking": "Paid parking in nearby buildings",
+  "car": "Possible, but public transport is easier",
+  "website": null,
+  "instagram": null,
+  "tags": [
+   "friends",
+   "shopping",
+   "art",
+   "photo"
+  ],
+  "meal": null,
+  "duration_min": 120,
+  "sources": [
+   "https://en.wikipedia.org/wiki/Omotesando"
+  ]
+ },
+ {
+  "id": "mega-don-quijote-shibuya",
+  "name": "MEGA Don Quijote Shibuya Main Store",
+  "name_ja": "MEGAドン・キホーテ渋谷本店",
+  "area": "Shibuya (Shibuya-ku)",
+  "about": "This is a large branch of the Don Quijote discount chain, near the Shibuya Scramble Crossing. It stocks snacks, cosmetics, electronics, costumes and general souvenirs in a densely packed layout. The store is open 24 hours, and tax-free shopping is offered for visitors.",
+  "address": "28-6 Udagawacho, Shibuya-ku, Tokyo 150-0042",
+  "lat": 35.6609,
+  "lng": 139.6986,
+  "phone": null,
+  "hours": "Open 24 hours",
+  "closed": "Open daily",
+  "price": "Free to enter; prices vary by item",
+  "station": "Shibuya Station (JR, Tokyu, Tokyo Metro, Keio Inokashira Line)",
+  "walk_min": 5,
+  "parking": null,
+  "car": "Not practical; use public transport",
+  "website": null,
+  "instagram": null,
+  "tags": [
+   "friends",
+   "shopping",
+   "unique"
+  ],
+  "meal": null,
+  "duration_min": 60,
+  "sources": [
+   "https://www.gotokyo.org/en/spot/1879/",
+   "https://livejapan.com/en/in-tokyo/in-pref-tokyo/in-shibuya/spot-lj0001929"
+  ]
+ },
+ {
+  "id": "nakano-broadway",
+  "name": "Nakano Broadway",
+  "name_ja": "中野ブロードウェイ",
+  "area": "Nakano (Nakano-ku)",
+  "about": "Nakano Broadway is an indoor shopping complex that opened in 1966 and is often cited as an example of Showa-era architecture. It has 13 floors in total, with shops on the basement and lower floors. Mandarake, a second-hand manga store that opened here in 1980, runs many annex shops selling manga, anime goods, toys and cosplay items. The complex is reached through the Nakano Sun Mall arcade from the station.",
+  "address": "5-52-15 Nakano, Nakano-ku, Tokyo 164-0001",
+  "lat": 35.7092,
+  "lng": 139.6656,
+  "phone": null,
+  "hours": "Varies by shop (Mandarake main store 12:00-20:00)",
+  "closed": "Varies by shop (some shops close on Wednesdays)",
+  "price": "Free to enter; prices vary by item",
+  "station": "Nakano Station (JR Chuo Line, Chuo-Sobu Line, Tokyo Metro Tozai Line), North Exit",
+  "walk_min": 5,
+  "parking": "No parking; use public transport",
+  "car": "Not practical; use public transport",
+  "website": "https://www.nakano-broadway.com/",
+  "instagram": null,
+  "tags": [
+   "solo",
+   "friends",
+   "shopping",
+   "unique"
+  ],
+  "meal": null,
+  "duration_min": 150,
+  "sources": [
+   "https://www.nakano-broadway.com/access/",
+   "https://en.wikipedia.org/wiki/Nakano_Broadway",
+   "https://www.mandarake.co.jp/dir/nkn/index-en.html"
+  ]
+ },
+ {
+  "id": "kappabashi-dougu-street",
+  "name": "Kappabashi Dougu Street",
+  "name_ja": "かっぱ橋道具街",
+  "area": "Kappabashi (Taito-ku)",
+  "about": "Kappabashi Dougu Street, also called Kappabashi Kitchen Town, is a shopping street about 800 metres long with more than 170 shops. Merchants began gathering here around 1912, and it is now known across Japan for kitchen and restaurant equipment. It sells knives, tableware, chef's coats, noren curtains and the plastic food samples seen outside restaurants. It lies between Asakusa and Ueno.",
+  "address": "Kappabashi Dougu Street, Matsugaya / Nishi-Asakusa, Taito-ku, Tokyo 111-0036 (association office: 3-18-2 Matsugaya)",
+  "lat": 35.7144,
+  "lng": 139.7886,
+  "phone": "03-3844-1225",
+  "hours": "Varies by shop; most about 9:00-17:00",
+  "closed": "Many shops closed on Sundays and public holidays",
+  "price": "Free to walk around; prices vary by item",
+  "station": "Tawaramachi Station (Ginza Line)",
+  "walk_min": 5,
+  "parking": "Paid parking nearby",
+  "car": "Possible, but public transport is easier",
+  "website": "https://www.kappabashi.or.jp/en/",
+  "instagram": null,
+  "tags": [
+   "friends",
+   "shopping",
+   "food",
+   "unique"
+  ],
+  "meal": null,
+  "duration_min": 90,
+  "sources": [
+   "https://www.kappabashi.or.jp/en/overview/",
+   "https://www.gltjp.com/en/directory/item/10210/"
+  ]
+ },
+ {
+  "id": "shimokitazawa",
+  "name": "Shimokitazawa",
+  "name_ja": "下北沢",
+  "area": "Shimokitazawa (Setagaya-ku)",
+  "about": "Shimokitazawa is a neighbourhood around Shimokitazawa Station, where the Odakyu Line and Keio Inokashira Line meet. It is known for vintage and second-hand clothing shops, record stores, cafes and small live music venues. The north side of the station has more of the clothing and cafe streets. Different guides give different shop counts, ranging from over 100 to around 200 vintage stores.",
+  "address": "Shimokitazawa, Setagaya-ku, Tokyo 155-0031",
+  "lat": 35.6613,
+  "lng": 139.6669,
+  "phone": null,
+  "hours": "Varies by shop; most about 11:00-20:00",
+  "closed": "Open daily (individual shops differ)",
+  "price": "Free to walk around",
+  "station": "Shimokitazawa Station (Odakyu Line, Keio Inokashira Line)",
+  "walk_min": 2,
+  "parking": "Paid parking nearby (limited)",
+  "car": "Not practical; use public transport",
+  "website": null,
+  "instagram": null,
+  "tags": [
+   "friends",
+   "shopping",
+   "music",
+   "unique"
+  ],
+  "meal": null,
+  "duration_min": 150,
+  "sources": [
+   "https://www.gotokyo.org/en/destinations/western-tokyo/shimokitazawa/index.html",
+   "https://www.gltjp.com/en/article/item/21240/"
+  ]
+ },
+ {
+  "id": "isetan-shinjuku",
+  "name": "Isetan Shinjuku",
+  "name_ja": "伊勢丹新宿店",
+  "area": "Shinjuku (Shinjuku-ku)",
+  "about": "Isetan Shinjuku is a large department store in Shinjuku, with its main building opened in 1933. It sells fashion, cosmetics, accessories and food, and the basement food floor offers prepared foods and sweets. The 7th floor of the main building has a restaurant area. Hours can change, so check the official site before visiting.",
+  "address": "3-14-1 Shinjuku, Shinjuku-ku, Tokyo 160-0022",
+  "lat": 35.6916,
+  "lng": 139.7043,
+  "phone": "03-3352-1111",
+  "hours": "10:00-20:00 (restaurants on 7F 11:00-22:00)",
+  "closed": "Irregular (check the official site)",
+  "price": "Free to enter; prices vary by item",
+  "station": "Shinjuku-sanchome Station (Marunouchi Line, Fukutoshin Line, Toei Shinjuku Line)",
+  "walk_min": 1,
+  "parking": "Paid parking nearby",
+  "car": "Possible, but public transport is easier",
+  "website": "https://www.mistore.jp/store/shinjuku.html",
+  "instagram": null,
+  "tags": [
+   "friends",
+   "shopping",
+   "food"
+  ],
+  "meal": null,
+  "duration_min": 120,
+  "sources": [
+   "https://www.mistore.jp/store/shinjuku/access.html",
+   "https://rurubu.jp/andmore/spot/80011203",
+   "https://www.gltjp.com/ja/directory/item/11167/"
+  ]
+ },
+ {
+  "id": "tokyo-character-street",
+  "name": "Tokyo Character Street",
+  "name_ja": "東京キャラクターストリート",
+  "area": "Tokyo Station (Chiyoda-ku)",
+  "about": "Tokyo Character Street is a group of more than 30 character goods shops on the basement level of First Avenue Tokyo Station. It includes shops for Pokemon, Sanrio and Studio Ghibli goods, among others. It is located outside the ticket gates, so it can be visited without a train ticket. It is next to Tokyo Ramen Street and Tokyo Okashi Land.",
+  "address": "First Avenue Tokyo Station B1F, 1-9-1 Marunouchi, Chiyoda-ku, Tokyo 100-0005",
+  "lat": 35.6805,
+  "lng": 139.7678,
+  "phone": null,
+  "hours": "10:00-20:30 (varies by shop)",
+  "closed": "Open daily",
+  "price": "Free to enter; prices vary by item",
+  "station": "Tokyo Station (JR lines, Marunouchi Line)",
+  "walk_min": null,
+  "parking": "No parking at the street; paid parking nearby",
+  "car": "Not practical; use public transport",
+  "website": null,
+  "instagram": null,
+  "tags": [
+   "family",
+   "friends",
+   "shopping"
+  ],
+  "meal": null,
+  "duration_min": 60,
+  "sources": [
+   "https://www.gotokyo.org/en/spot/660/",
+   "https://www.gltjp.com/en/directory/item/14315"
+  ]
+ }
+]
