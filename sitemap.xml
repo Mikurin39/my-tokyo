@@ -2,9 +2,388 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mikurin39.github.io/my-tokyo/</loc>
-    <lastmod>2026-11-13</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-11-24</lastmod>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/?lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/?lang=ja</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/?lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/?lang=ko</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/?lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/?lang=zh-Hant</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/?lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/?lang=fr</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/?lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/?lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/?lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=ja</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=ko</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=zh-Hant</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=fr</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=ja</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=ko</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=zh-Hant</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=fr</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=ja</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=ko</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=zh-Hant</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=fr</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=shrine</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=ja</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=ko</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=zh-Hant</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=fr</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=shrine"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=custom</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=ja</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=ko</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=zh-Hant</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=fr</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=custom"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=photo</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=ja</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=ko</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=zh-Hant</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo"/>
+  </url>
+  <url>
+    <loc>https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=fr</loc>
+    <lastmod>2026-11-24</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=ko"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=zh-Hant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo&amp;lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mikurin39.github.io/my-tokyo/tour.html?t=photo"/>
   </url>
   <url>
     <loc>https://mikurin39.github.io/my-tokyo/blog/en/</loc>

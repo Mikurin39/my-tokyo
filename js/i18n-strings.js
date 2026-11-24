@@ -216,7 +216,9 @@ window.I18N_STRINGS = {
   "genre.onsen": "Onsen & Wellness",
   "genre.sport": "Sports & Experiences",
   "genre.note.all": "Our first-visit picks. Tap a photo for details.",
-  "genre.note.other": "Ranked by how often major travel guides feature them. Tap a photo for details."
+  "genre.note.other": "Ranked by how often major travel guides feature them. Tap a photo for details.",
+  "seo.title": "My Tokyo | Small-Group Tokyo Tours with a Local Guide",
+  "seo.desc": "Small-group Tokyo tours with a local guide: Shinjuku izakayas and Golden Gai, a Shibuya bar hop, Shimokitazawa, and a Meiji Jingu and Senso-ji morning tour. Plan your trip with our free Tokyo planner and Top 10 spots."
  },
  "ja": {
   "book.errPick": "先にツアー・日付・開始時間を選んでください。",
@@ -434,7 +436,9 @@ window.I18N_STRINGS = {
   "genre.onsen": "温泉・リラックス",
   "genre.sport": "スポーツ・体験",
   "genre.note.all": "はじめての東京におすすめの場所です。写真をタップすると詳細が見られます。",
-  "genre.note.other": "主な旅行ガイドで紹介されている回数の多い順です。写真をタップすると詳細が見られます。"
+  "genre.note.other": "主な旅行ガイドで紹介されている回数の多い順です。写真をタップすると詳細が見られます。",
+  "seo.title": "My Tokyo｜地元ガイドと少人数でめぐる東京ツアー",
+  "seo.desc": "地元ガイドと少人数でめぐる東京ツアー。新宿の居酒屋とゴールデン街、渋谷のはしご酒、下北沢、明治神宮と浅草寺の朝ツアー。無料の東京旅行プラン作成と東京トップ10もあります。"
  },
  "fr": {
   "book.errPick": "Choisissez d'abord une visite, une date et une heure de départ.",
@@ -652,7 +656,9 @@ window.I18N_STRINGS = {
   "genre.onsen": "Onsen et bien-être",
   "genre.sport": "Sports et activités",
   "genre.note.all": "Nos coups de cœur pour une première visite. Touchez une photo pour en savoir plus.",
-  "genre.note.other": "Classés selon leur fréquence dans les grands guides de voyage. Touchez une photo pour en savoir plus."
+  "genre.note.other": "Classés selon leur fréquence dans les grands guides de voyage. Touchez une photo pour en savoir plus.",
+  "seo.title": "My Tokyo | Visites de Tokyo en petit groupe avec un guide local",
+  "seo.desc": "Visites de Tokyo en petit groupe avec un guide local : izakayas de Shinjuku et Golden Gai, tournée des bars de Shibuya, Shimokitazawa, et matinée au Meiji Jingu et au Senso-ji. Préparez votre voyage avec notre planificateur gratuit et notre Top 10."
  },
  "zh-Hant": {
   "book.errPick": "請先選擇行程、日期和開始時間。",
@@ -870,7 +876,9 @@ window.I18N_STRINGS = {
   "genre.onsen": "溫泉與放鬆",
   "genre.sport": "運動與體驗",
   "genre.note.all": "第一次來東京的推薦。點照片看詳細資訊。",
-  "genre.note.other": "依主要旅遊指南介紹的次數排序。點照片看詳細資訊。"
+  "genre.note.other": "依主要旅遊指南介紹的次數排序。點照片看詳細資訊。",
+  "seo.title": "My Tokyo｜在地導遊帶路的東京小團行程",
+  "seo.desc": "由在地導遊帶領的東京小團行程：新宿居酒屋與黃金街、澀谷續攤、下北澤，以及明治神宮與淺草寺晨間行程。還有免費的東京行程規劃和東京十大景點。"
  },
  "ko": {
   "book.errPick": "먼저 투어, 날짜, 시작 시간을 선택해 주세요.",
@@ -1088,6 +1096,8 @@ window.I18N_STRINGS = {
   "genre.onsen": "온천과 힐링",
   "genre.sport": "스포츠와 체험",
   "genre.note.all": "처음 도쿄에 오신 분께 추천하는 곳이에요. 사진을 누르면 자세히 볼 수 있어요.",
-  "genre.note.other": "주요 여행 가이드에 소개된 횟수가 많은 순서예요. 사진을 누르면 자세히 볼 수 있어요."
+  "genre.note.other": "주요 여행 가이드에 소개된 횟수가 많은 순서예요. 사진을 누르면 자세히 볼 수 있어요.",
+  "seo.title": "My Tokyo | 현지 가이드와 함께하는 도쿄 소규모 투어",
+  "seo.desc": "현지 가이드와 함께하는 도쿄 소규모 투어: 신주쿠 이자카야와 골든가이, 시부야 술집 투어, 시모키타자와, 메이지 신궁과 센소지 아침 투어. 무료 도쿄 여행 플래너와 도쿄 톱 10도 있어요."
  }
 };

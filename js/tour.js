@@ -7,8 +7,10 @@ const CFG = window.CONFIG, D = window.TOUR_DATA, I = window.I18N, t = I.t;
 const $ = (s, r=document) => r.querySelector(s);
 const esc = s => String(s==null?"":s).replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const key = new URLSearchParams(location.search).get("t");
-const T = D.tours[key] || D.tours[D.order[0]];
-const tk = D.tours[key] ? key : D.order[0];
+// only real tour ids; anything else shows the first tour but tells search engines not to index that address
+const known = key && Object.prototype.hasOwnProperty.call(D.tours, key);
+const tk = known ? key : D.order[0], T = D.tours[tk];
+if(!known){ const m = document.createElement("meta"); m.name = "robots"; m.content = "noindex"; document.head.appendChild(m); }
 const txt = (tour) => Object.assign({}, tour.i18n.en, tour.i18n[I.lang] || {});
 const X = txt(T);
 const yen = n => "¥" + Math.round(n).toLocaleString("en-US");
@@ -25,7 +27,18 @@ const ICON = {
   people:'<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.4"/><path d="M15.5 14.2c2.9.2 5.5 2.6 5.5 5.8"/></svg>'
 };
 
-document.title = X.name + " | My Tokyo";
+// each tour has its own title, description and address for search engines (first sentence of the overview, kept short)
+const firstSentence = txt => { const parts = String(txt || "").match(/[^.!?。！？]+(?:[.!?](?=\s|$)|[。！？])?\s*/g) || [""];
+  let out = ""; for(const p of parts){ if((out + p).trim().length > 155 && out) break; out += p; }
+  out = out.trim(); return out.length > 160 ? out.slice(0, 157) + "…" : out; };
+I.head({title: X.name + " | My Tokyo", desc: firstSentence(X.overview), path: "tour.html?t=" + tk, image: T.img});
+// structured data so search engines can show the price and the tour as a product
+(function(){ const site = (CFG.SITE_URL || "").replace(/\/$/, "") + "/";
+  if(T.type !== "book") return;   // price on request: nothing to show as a product price
+  const url = site + "tour.html?t=" + tk + (I.lang !== "en" ? "&lang=" + I.lang : "");
+  const ld = {"@context":"https://schema.org", "@type":"Product", name: X.name, description: firstSentence(X.overview), image: site + T.img, brand: {"@type":"Brand", name:"My Tokyo"},
+    offers: {"@type":"Offer", price: String(T.price), priceCurrency:"JPY", url}};
+  const sc = document.createElement("script"); sc.type = "application/ld+json"; sc.textContent = JSON.stringify(ld); document.head.appendChild(sc); })();
 $("#langSlot").innerHTML = I.selector();
 I.apply();
 document.querySelectorAll("[data-keep-lang]").forEach(a => a.setAttribute("href", I.keepLang(a.getAttribute("href"))));

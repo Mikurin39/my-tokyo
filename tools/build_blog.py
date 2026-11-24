@@ -392,7 +392,8 @@ def head(lang, title, desc, canonical, alternates, og_image, og_type, jsonld, de
 <meta property="og:locale" content="{meta['og']}">
 <meta property="og:site_name" content="My Tokyo">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗼</text></svg>">
+<link rel="icon" type="image/png" sizes="32x32" href="{SITE}/img/icon-32.png">
+<link rel="apple-touch-icon" href="{SITE}/img/icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?{fams}&display=swap" rel="stylesheet">
@@ -616,14 +617,34 @@ def update_home(posts):
     path.write_text(text, encoding="utf-8")
 
 
+PAGES_LASTMOD = "2026-11-24"   # change when the home page or tour pages change
+
+
+def tour_keys():
+    """Tour ids in page order, read from js/tours.js (order:[...])."""
+    m = re.search(r'order\s*:\s*\[([^\]]*)\]', (ROOT / "js" / "tours.js").read_text(encoding="utf-8"))
+    keys = re.findall(r'["\']([^"\']+)["\']', m.group(1)) if m else []
+    if not keys:
+        sys.exit("tools/build_blog.py: could not read the tour list (order:[...]) from js/tours.js")
+    return keys
+
+
 def write_sitemap(posts):
-    home_lastmod = "2026-08-11"
-    urls = [f"""  <url>
-    <loc>{SITE}/</loc>
-    <lastmod>{max([home_lastmod] + [p['date'] for p in posts])}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>"""]
+    urls = []
+
+    def page(path, lastmod, priority):
+        """Home and tour pages: the language comes from ?lang= (English has none)."""
+        def loc(l):
+            q = [x for x in [path.split("?", 1)[1] if "?" in path else "", "" if l == DEFAULT else f"lang={l}"] if x]
+            return f"{SITE}/{path.split('?', 1)[0]}" + ("?" + "&amp;".join(q) if q else "")
+        alts = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{l}" href="{loc(l)}"/>' for l in LANGS)
+        alts += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{loc(DEFAULT)}"/>'
+        for l in LANGS:
+            urls.append(f"  <url>\n    <loc>{loc(l)}</loc>\n    <lastmod>{lastmod}</lastmod>\n    <priority>{priority}</priority>{alts}\n  </url>")
+
+    page("", max([PAGES_LASTMOD] + [p['date'] for p in posts]), "1.0")
+    for k in tour_keys():
+        page(f"tour.html?t={k}", PAGES_LASTMOD, "0.8")
 
     def group(loc_fn, lastmod):
         alts = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{LANGS[l]["html"]}" href="{loc_fn(l)}"/>' for l in LANGS)

@@ -3,17 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Tokyo — Private Tokyo Tour Guide | Shinjuku Izakaya Night Tour & Custom Private Tours</title>
-<meta name="description" content="Book a private English-speaking tour guide in Tokyo. Shinjuku night izakaya crawl through Omoide Yokocho & Golden Gai, or a fully customized private Tokyo tour. Small groups (max 12), instant online booking.">
+<title>My Tokyo | Small-Group Tokyo Tours with a Local Guide</title>
+<meta name="description" content="Small-group Tokyo tours with a local guide: Shinjuku izakayas and Golden Gai, a Shibuya bar hop, Shimokitazawa, and a Meiji Jingu and Senso-ji morning tour. Plan your trip with our free Tokyo planner and Top 10 spots.">
 <meta name="keywords" content="Tokyo tour guide, private tour guide Tokyo, English speaking guide Tokyo, Shinjuku bar hopping, Golden Gai tour, Omoide Yokocho food tour, Tokyo night tour, izakaya tour Tokyo, things to do in Tokyo, custom Tokyo tour, Tokyo itinerary, Japan travel">
-<link rel="canonical" href="https://mikurin39.github.io/my-tokyo/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="My Tokyo — Private Tokyo Tour Guide & Night Izakaya Tours">
-<meta property="og:description" content="See the real Tokyo with a local guide. Shinjuku night izakaya crawl (Omoide Yokocho & Golden Gai) or a custom private tour built around you. Book online in 1 minute.">
-<meta property="og:url" content="https://mikurin39.github.io/my-tokyo/">
+<meta property="og:title" content="My Tokyo | Small-Group Tokyo Tours with a Local Guide">
+<meta property="og:description" content="Small-group Tokyo tours with a local guide: Shinjuku izakayas and Golden Gai, a Shibuya bar hop, Shimokitazawa, and a Meiji Jingu and Senso-ji morning tour.">
 <meta property="og:image" content="https://mikurin39.github.io/my-tokyo/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗼</text></svg>">
+<link rel="icon" type="image/png" sizes="32x32" href="img/icon-32.png">
+<link rel="apple-touch-icon" href="img/icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -601,6 +600,7 @@ function goSlide(i){ slideIdx = i; paintSlides(); clearInterval(slideTimer); sli
 })();
 
 /* init */
+I18N.head({title: I18N.t("seo.title"), desc: I18N.t("seo.desc"), path: ""});
 I18N.apply(); document.getElementById("langSlot").innerHTML = I18N.selector();
 renderTourCards(); initHero();
 /* old links to the booking section (?tour=...#book) now go to the tour page */
