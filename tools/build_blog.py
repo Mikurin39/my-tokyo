@@ -264,7 +264,8 @@ a{color:var(--orange);text-decoration:none}
 header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:56px;gap:12px}
 .logo{display:flex;align-items:center;gap:7px;color:var(--navy);flex-shrink:0}
-.logo .tower{font-size:21px}
+.logo img{height:52px;width:auto;display:block}
+@media(max-width:600px){.logo img{height:44px}}
 .logo b{font-size:15.5px;font-weight:800;display:block;line-height:1.15}
 .logo small{font-size:9.5px;color:var(--muted);display:block;font-weight:500}
 .nav-links{display:flex;gap:18px;align-items:center;font-size:13.5px}
@@ -410,7 +411,7 @@ def header(lang, switch_urls, depth):
         for l, u in switch_urls.items())
     return f"""<header>
   <div class="wrap nav">
-    <a href="{home}" class="logo"><span class="tower">🗼</span><span><b>My Tokyo</b><small>Your Local Friend in Tokyo</small></span></a>
+    <a href="{home}" class="logo"><img src="{home}img/logo.png" alt="My Tokyo" width="249" height="144"></a>
     <nav class="nav-links">
       <a href="{home}" class="hide-sm">{ui['home']}</a>
       <a href="{home}#tours" class="hide-sm">{ui['tours']}</a>

@@ -21,6 +21,8 @@ a:focus-visible,button:focus-visible,summary:focus-visible,select:focus-visible,
 .top{position:sticky;top:0;z-index:30;background:#fff;border-bottom:1px solid var(--line)}
 .top-in{display:flex;align-items:center;justify-content:space-between;height:56px;gap:16px}
 .logo{display:flex;align-items:center;gap:7px;color:var(--navy)}
+.logo img{height:50px;width:auto;display:block}
+@media(max-width:600px){.logo img{height:44px}}
 .logo b{font-size:15.5px;font-weight:800;display:block;line-height:1.15}
 .logo small{font-size:10px;color:var(--muted);display:block}
 .top-nav{display:flex;align-items:center;gap:18px}
