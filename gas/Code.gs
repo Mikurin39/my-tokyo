@@ -38,6 +38,15 @@ function doGet(e) {
 function doPost(e) {
   try {
     const b = JSON.parse(e.postData.contents);
+    // Custom / photo tour requests: no calendar event, just pass the request on and confirm to the guest.
+    if (b.type === "request") {
+      ["tour", "name", "email", "text"].forEach(function (k) { if (!b[k]) throw new Error("missing field: " + k); });
+      MailApp.sendEmail({ to: OWNER_EMAIL, replyTo: b.email, subject: "[My Tokyo] " + b.tour + " request from " + b.name, body: b.text });
+      MailApp.sendEmail({ to: b.email, subject: "My Tokyo: we received your " + b.tour + " request",
+        body: "Hi " + b.name + ",\n\nThank you for your request. We'll reply within 2 days with a plan and a price.\n" +
+              "If you have reference images, just reply to this email and attach them.\n\nHere is what you sent:\n\n" + b.text + "\n\nMy Tokyo" });
+      return json({ ok: true });
+    }
     ["tour", "date", "time", "name", "email", "guests"].forEach(function (k) {
       if (!b[k]) throw new Error("missing field: " + k);
     });
@@ -73,9 +82,11 @@ function doPost(e) {
         "Date:   " + b.date + "\n" +
         "Start:  " + b.time + " (Japan time), " + hours + " hours\n" +
         "Guests: " + b.guests + "\n\n" +
-        (b.tour.indexOf("Izakaya") >= 0
-          ? "Meeting point: Omoide Yokocho, Shinjuku. We'll share the exact meeting spot once your booking is confirmed.\n\n"
-          : "I'll email you shortly to plan your custom itinerary and meeting point.\n\n") +
+        (b.tour.indexOf("Shinjuku") >= 0 ? "Meeting point: Omoide Yokocho, Shinjuku. We'll share the exact meeting spot once your booking is confirmed.\n\n"
+          : b.tour.indexOf("Shibuya") >= 0 ? "Meeting point: the \"Myth of Tomorrow\" mural in the passage between JR Shibuya Station and Shibuya Mark City.\n\n"
+          : b.tour.indexOf("Shimokitazawa") >= 0 ? "Meeting point: Shimokitazawa Station, Central Exit.\n\n"
+          : b.tour.indexOf("Meiji") >= 0 ? "Meeting point: JR Harajuku Station, West Exit.\n\n"
+          : "We'll email you the meeting point shortly.\n\n") +
         "Payment: we'll send you a secure credit-card payment link shortly — your reservation is confirmed once payment is completed.\n" +
         "Cancellation: free up to 7 days before the tour, 50% within 7 days, 100% on the tour day or no-show.\n\n" +
         "See you in Tokyo!\nMikuri — My Tokyo\n" +

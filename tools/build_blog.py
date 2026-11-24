@@ -44,7 +44,7 @@ UI = {
         "cta_h": "Want to go with a local?",
         "cta_p": "I can take you to places like this on a custom private tour.",
         "cta_btn": "See the tours", "by": "By Mikuri, your local guide",
-        "from_blog": "From the Blog", "more": "Read the blog",
+        "from_blog": "Blog", "more": "Read the blog",
     },
     "ja": {
         "blog": "ブログ", "blog_title": "My Tokyo ブログ｜東京の好きなお店と場所",
@@ -419,7 +419,7 @@ def header(lang, switch_urls, depth):
         <select id="langSel" aria-label="{ui['lang']}" autocomplete="off" onchange="location.href=this.value">{opts}</select>
       </label>
       <script>addEventListener('pageshow',function(){{var s=document.getElementById('langSel');s.value=s.querySelector('[selected]').value}})</script>
-      <a href="{home}#book" class="btn">{ui['book']}</a>
+      <a href="{home}#tours" class="btn">{ui['book']}</a>
     </nav>
   </div>
 </header>
@@ -571,37 +571,27 @@ REDIRECT = """<!DOCTYPE html>
 
 
 def home_block(posts):
+    """Home page: a sliding row of blog cards (photo, category, title)."""
     if not posts:
         return ""
-    cards = "\n".join(card(p, DEFAULT, f"blog/{DEFAULT}/{p['slug']}/", f"blog/img/{p['slug']}/{p['cover']}", "h3")
-                      for p in posts[:3])
-    return f"""<section id="blog" style="padding-top:0">
-  <style>
-  #blog .posts{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}}
-  #blog .post-link{{color:var(--text);display:block}}
-  #blog .thumb{{aspect-ratio:4/3;border-radius:4px;overflow:hidden;margin-bottom:12px;background:var(--line)}}
-  #blog .thumb img{{width:100%;height:100%;object-fit:cover}}
-  #blog .meta{{font-size:13.5px;color:var(--muted);font-weight:500}}
-  #blog .meta .cat{{color:var(--orange);font-weight:600;margin-right:12px}}
-  #blog h3{{font-family:var(--serif);font-size:21px;font-weight:600;color:var(--navy);line-height:1.3;margin:4px 0 6px}}
-  #blog .post-link:hover h3{{color:var(--orange)}}
-  #blog p{{font-size:16px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}}
-  #blog .posts.one{{grid-template-columns:minmax(0,1fr)}}
-  #blog .posts.one .post-link{{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);column-gap:40px;align-content:center}}
-  #blog .posts.one .post-link>*{{grid-column:2}}
-  #blog .posts.one .thumb{{grid-column:1;grid-row:1 / span 4;margin-bottom:0}}
-  #blog .posts.one .post-link{{align-items:start}}
-  #blog .posts.one h3{{font-size:28px}}
-  @media(max-width:880px){{#blog .posts{{grid-template-columns:1fr 1fr}}#blog .posts.one .post-link{{grid-template-columns:minmax(0,1fr)}}#blog .posts.one .post-link>*,#blog .posts.one .thumb{{grid-column:1;grid-row:auto}}#blog .posts.one .thumb{{margin-bottom:12px}}#blog .posts.one h3{{font-size:22px}}#blog .posts.one{{grid-template-columns:minmax(0,1fr)}}}}
-  @media(max-width:520px){{#blog .posts{{grid-template-columns:1fr}}}}
-  </style>
+    cards = "\n".join(
+        f'<a class="bcard" href="blog/{DEFAULT}/{p["slug"]}/" data-blog-slug="{p["slug"]}"><span class="bthumb"><img src="blog/img/{p["slug"]}/{p["cover"]}" '
+        f'alt="{esc(photo_alt(p, p["cover"], DEFAULT))}" loading="lazy" decoding="async"></span>'
+        f'<span class="bcat" data-tr="{esc(json.dumps({l: CATEGORIES[p["category"]][l] for l in LANGS}, ensure_ascii=False))}">{CATEGORIES[p["category"]][DEFAULT]}</span>'
+        f'<span class="btitle" data-tr="{esc(json.dumps({l: p["i18n"][l]["title"] for l in LANGS}, ensure_ascii=False))}">{esc(p["i18n"][DEFAULT]["title"])}</span></a>'
+        for p in posts[:12])
+    return f"""<section id="blog">
   <div class="wrap">
     <div class="sec-head">
-      <h2>{UI[DEFAULT]['from_blog']}</h2>
-      <a href="blog/" class="sec-link">{UI[DEFAULT]['more']}</a>
+      <h2 data-i18n="nav.blog">{UI[DEFAULT]['from_blog']}</h2>
+      <a href="blog/" class="sec-link" data-i18n="home.readBlog">{UI[DEFAULT]['more']}</a>
     </div>
-    <div class="posts{" one" if len(posts)==1 else ""}">
+    <div class="hcar" data-carousel>
+      <button type="button" class="hcar-btn prev" aria-label="Previous posts" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <div class="hcar-track blog-track">
 {cards}
+      </div>
+      <button type="button" class="hcar-btn next" aria-label="More posts" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
     </div>
   </div>
 </section>"""
@@ -619,7 +609,7 @@ def update_home(posts):
     text = path.read_text(encoding="utf-8")
     text = replace_between(text, "<!--BLOG-SECTION-->", "<!--/BLOG-SECTION-->",
                            ("\n" + home_block(posts) + "\n") if posts else "")
-    nav = '<a href="blog/">Blog</a>' if posts else ""
+    nav = '<a href="blog/" data-i18n="nav.blog">Blog</a>' if posts else ""
     text = replace_between(text, "<!--BLOG-NAV-->", "<!--/BLOG-NAV-->", nav)
     text = replace_between(text, "<!--BLOG-FOOT-->", "<!--/BLOG-FOOT-->", nav)
     path.write_text(text, encoding="utf-8")

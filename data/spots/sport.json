@@ -100,7 +100,7 @@
   "name": "Nakajima no Ochaya (Hama-rikyu Gardens)",
   "name_ja": "中島の御茶屋（浜離宮恩賜庭園）",
   "area": "Tsukiji (Chuo)",
-  "about": "Nakajima no Ochaya is a teahouse on an island in the tidal pond of Hama-rikyu Gardens, reached by two bridges. The garden began in 1654 as a villa of the Tokugawa family and opened to the public in 1946. Visitors sit in the teahouse and drink matcha with a Japanese sweet while looking over the pond to the towers of Shiodome. The garden admission fee applies, and the teahouse is open year-round.",
+  "about": "Nakajima no Ochaya is a teahouse on an island in the tidal pond of Hama-rikyu Gardens, reached by two bridges. The garden began in 1654 as a villa of the Tokugawa family and opened to the public in 1946. Visitors sit in the teahouse and drink matcha with a Japanese sweet while looking over the pond to the towers of Shiodome. The garden admission fee applies.",
   "address": "1-1 Hamarikyu-teien, Chuo-ku, Tokyo 104-0046",
   "lat": 35.66,
   "lng": 139.7624,
@@ -202,7 +202,7 @@
   "lng": 139.7631,
   "phone": null,
   "hours": "9:15-17:30 (varies by season)",
-  "closed": "Tuesdays; also the second Tuesday of the month and the day after",
+  "closed": "Each boat has its own maintenance days (for example, some boats skip one Tuesday or Wednesday a month), and cruises may be cancelled in bad weather. Check the operator's daily operation page.",
   "price": "To Asakusa 1,000 yen (HOTALUNA 1,400 yen); to Odaiba Seaside Park 600 yen (HOTALUNA 1,000 yen)",
   "station": "Hamamatsucho Station (JR Yamanote Line, South Exit)",
   "walk_min": 8,
@@ -220,7 +220,8 @@
   "duration_min": 60,
   "sources": [
    "https://www.gotokyo.org/en/spot/357/index.html",
-   "https://suijobus.co.jp/en/price"
+   "https://suijobus.co.jp/en/price",
+   "https://www.suijobus.co.jp/en/today-operation"
   ]
  },
  {

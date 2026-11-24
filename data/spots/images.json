@@ -655,5 +655,94 @@
    "license_url": "",
    "page": "https://commons.wikimedia.org/wiki/File:Saya_no_yudokoro.JPG"
   }
+ },
+ "fuglen-tokyo": {
+  "img": "img/rank/fuglen-tokyo.jpg",
+  "credit": {
+   "author": "Pakoire",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:FlatwhiteAUCK.jpg"
+  },
+  "stock": true
+ },
+ "glitch-coffee-roasters-jimbocho": {
+  "img": "img/rank/glitch-coffee-roasters-jimbocho.jpg",
+  "credit": {
+   "author": "Kim Sanso",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Manual_drip_(pour-over)_coffee.jpg"
+  },
+  "stock": true
+ },
+ "hinode-pier": {
+  "img": "img/rank/hinode-pier.jpg",
+  "credit": {
+   "author": "ブルーノ・プラス",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Water_Bus_Hinode_Pier.jpg"
+  }
+ },
+ "vasara-asakusa-kimono": {
+  "img": "img/rank/vasara-asakusa-kimono.jpg",
+  "credit": {
+   "author": "Hyppolyte de Saint-Rambert",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Temple_Sensoji_plusieurs_jeunes_femmes_en_yukatas.jpg"
+  },
+  "stock": true
+ },
+ "ebisuya-asakusa": {
+  "img": "img/rank/ebisuya-asakusa.jpg",
+  "credit": {
+   "author": "Stephen Kelly",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Rickshaw_in_Asakusa_(11919476855).jpg"
+  },
+  "stock": true
+ },
+ "ganso-sample-ya": {
+  "img": "img/rank/ganso-sample-ya.jpg",
+  "credit": {
+   "author": "Maarten Heerlien",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Sampuru_plastic_food_items_(9412111724).jpg"
+  },
+  "stock": true
+ },
+ "the-millennials-shibuya": {
+  "img": "img/rank/the-millennials-shibuya.jpg",
+  "credit": {
+   "author": "Trueshow111",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Capsule_interior.jpg"
+  },
+  "stock": true
+ },
+ "gyukatsu-motomura-shibuya": {
+  "img": "img/rank/gyukatsu-motomura-shibuya.jpg",
+  "credit": {
+   "author": "Pocsywe",
+   "license": "CC0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:Beef_at_Gyukatsu_Ichinisan_in_Akihabara.jpg"
+  },
+  "stock": true
+ },
+ "tokyo-somei-onsen-sakura": {
+  "img": "img/rank/tokyo-somei-onsen-sakura.jpg",
+  "credit": {
+   "author": "Jeremy Hall",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "page": "https://commons.wikimedia.org/wiki/File:%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82_(80887123).jpg"
+  },
+  "stock": true
  }
 }

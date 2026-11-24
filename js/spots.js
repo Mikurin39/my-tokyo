@@ -1176,7 +1176,15 @@ window.SPOTS = {
 "friends"
 ],
 "meal": "cafe",
-"duration_min": 60
+"duration_min": 60,
+"img": "img/rank/fuglen-tokyo.jpg",
+"credit": {
+"author": "Pakoire",
+"license": "CC0",
+"license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+"page": "https://commons.wikimedia.org/wiki/File:FlatwhiteAUCK.jpg"
+},
+"stock": true
 },
 "glitch-coffee-roasters-jimbocho": {
 "name": "Glitch Coffee & Roasters",
@@ -1200,7 +1208,15 @@ window.SPOTS = {
 "solo"
 ],
 "meal": "cafe",
-"duration_min": 45
+"duration_min": 45,
+"img": "img/rank/glitch-coffee-roasters-jimbocho.jpg",
+"credit": {
+"author": "Kim Sanso",
+"license": "CC0",
+"license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+"page": "https://commons.wikimedia.org/wiki/File:Manual_drip_(pour-over)_coffee.jpg"
+},
+"stock": true
 },
 "marion-crepes-harajuku": {
 "name": "Marion Crêpes (Harajuku Takeshita Street)",
@@ -1442,7 +1458,7 @@ window.SPOTS = {
 },
 "the-okura-tokyo": {
 "name": "The Okura Tokyo",
-"name_ja": "ホテルオークラ東京",
+"name_ja": "オークラ東京",
 "area": "Toranomon (Minato)",
 "about": "The Okura Tokyo is the rebuilt version of Hotel Okura Tokyo, a landmark that opened in 1962 and was rebuilt in 2019 with a North Wing and a South Wing. The interiors keep features of the original lobby, such as the lantern-style lights, in a modern design. It is near the Toranomon Hills area and the US Embassy. Toranomon Hills Station is about a 5-minute walk.",
 "address": "2-10-4 Toranomon, Minato-ku, Tokyo 105-0001",
@@ -1567,7 +1583,15 @@ window.SPOTS = {
 "solo",
 "friends",
 "unique"
-]
+],
+"img": "img/rank/the-millennials-shibuya.jpg",
+"credit": {
+"author": "Trueshow111",
+"license": "CC BY-SA 4.0",
+"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+"page": "https://commons.wikimedia.org/wiki/File:Capsule_interior.jpg"
+},
+"stock": true
 },
 "toyosu-market": {
 "name": "Toyosu Market",
@@ -1681,7 +1705,15 @@ window.SPOTS = {
 "friends"
 ],
 "meal": "both",
-"duration_min": 50
+"duration_min": 50,
+"img": "img/rank/gyukatsu-motomura-shibuya.jpg",
+"credit": {
+"author": "Pocsywe",
+"license": "CC0",
+"license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+"page": "https://commons.wikimedia.org/wiki/File:Beef_at_Gyukatsu_Ichinisan_in_Akihabara.jpg"
+},
+"stock": true
 },
 "afuri-ebisu": {
 "name": "AFURI Ebisu",
@@ -1958,7 +1990,15 @@ window.SPOTS = {
 "solo",
 "friends"
 ],
-"duration_min": 120
+"duration_min": 120,
+"img": "img/rank/tokyo-somei-onsen-sakura.jpg",
+"credit": {
+"author": "Jeremy Hall",
+"license": "CC BY 2.0",
+"license_url": "https://creativecommons.org/licenses/by/2.0/",
+"page": "https://commons.wikimedia.org/wiki/File:%E9%9C%B2%E5%A4%A9%E9%A2%A8%E5%91%82_(80887123).jpg"
+},
+"stock": true
 },
 "koganeyu-kinshicho": {
 "name": "Koganeyu",
@@ -2516,7 +2556,7 @@ window.SPOTS = {
 "name": "Nakajima no Ochaya (Hama-rikyu Gardens)",
 "name_ja": "中島の御茶屋（浜離宮恩賜庭園）",
 "area": "Tsukiji (Chuo)",
-"about": "Nakajima no Ochaya is a teahouse on an island in the tidal pond of Hama-rikyu Gardens, reached by two bridges. The garden began in 1654 as a villa of the Tokugawa family and opened to the public in 1946. Visitors sit in the teahouse and drink matcha with a Japanese sweet while looking over the pond to the towers of Shiodome. The garden admission fee applies, and the teahouse is open year-round.",
+"about": "Nakajima no Ochaya is a teahouse on an island in the tidal pond of Hama-rikyu Gardens, reached by two bridges. The garden began in 1654 as a villa of the Tokugawa family and opened to the public in 1946. Visitors sit in the teahouse and drink matcha with a Japanese sweet while looking over the pond to the towers of Shiodome. The garden admission fee applies.",
 "address": "1-1 Hamarikyu-teien, Chuo-ku, Tokyo 104-0046",
 "lat": 35.66,
 "lng": 139.7624,
@@ -2616,7 +2656,7 @@ window.SPOTS = {
 "lat": 35.6486,
 "lng": 139.7631,
 "hours": "9:15-17:30 (varies by season)",
-"closed": "Tuesdays; also the second Tuesday of the month and the day after",
+"closed": "Each boat has its own maintenance days (for example, some boats skip one Tuesday or Wednesday a month), and cruises may be cancelled in bad weather. Check the operator's daily operation page.",
 "price": "To Asakusa 1,000 yen (HOTALUNA 1,400 yen); to Odaiba Seaside Park 600 yen (HOTALUNA 1,000 yen)",
 "station": "Hamamatsucho Station (JR Yamanote Line, South Exit)",
 "walk_min": 8,
@@ -2629,7 +2669,14 @@ window.SPOTS = {
 "unique",
 "friends"
 ],
-"duration_min": 60
+"duration_min": 60,
+"img": "img/rank/hinode-pier.jpg",
+"credit": {
+"author": "ブルーノ・プラス",
+"license": "CC BY 4.0",
+"license_url": "https://creativecommons.org/licenses/by/4.0/",
+"page": "https://commons.wikimedia.org/wiki/File:Water_Bus_Hinode_Pier.jpg"
+}
 },
 "vasara-asakusa-kimono": {
 "name": "VASARA Kimono Rental (Asakusa Station Store)",
@@ -2655,7 +2702,15 @@ window.SPOTS = {
 "friends",
 "history"
 ],
-"duration_min": 240
+"duration_min": 240,
+"img": "img/rank/vasara-asakusa-kimono.jpg",
+"credit": {
+"author": "Hyppolyte de Saint-Rambert",
+"license": "CC BY-SA 4.0",
+"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+"page": "https://commons.wikimedia.org/wiki/File:Temple_Sensoji_plusieurs_jeunes_femmes_en_yukatas.jpg"
+},
+"stock": true
 },
 "ebisuya-asakusa": {
 "name": "Ebisuya Rickshaw (Asakusa)",
@@ -2679,7 +2734,15 @@ window.SPOTS = {
 "history",
 "friends"
 ],
-"duration_min": 60
+"duration_min": 60,
+"img": "img/rank/ebisuya-asakusa.jpg",
+"credit": {
+"author": "Stephen Kelly",
+"license": "CC BY 2.0",
+"license_url": "https://creativecommons.org/licenses/by/2.0/",
+"page": "https://commons.wikimedia.org/wiki/File:Rickshaw_in_Asakusa_(11919476855).jpg"
+},
+"stock": true
 },
 "ganso-sample-ya": {
 "name": "Ganso Shokuhin Sample-ya (Kappabashi Store)",
@@ -2704,7 +2767,15 @@ window.SPOTS = {
 "family",
 "friends"
 ],
-"duration_min": 60
+"duration_min": 60,
+"img": "img/rank/ganso-sample-ya.jpg",
+"credit": {
+"author": "Maarten Heerlien",
+"license": "CC BY 2.0",
+"license_url": "https://creativecommons.org/licenses/by/2.0/",
+"page": "https://commons.wikimedia.org/wiki/File:Sampuru_plastic_food_items_(9412111724).jpg"
+},
+"stock": true
 }
 }
 };

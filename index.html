@@ -22,13 +22,13 @@
   "@context": "https://schema.org",
   "@type": "TravelAgency",
   "name": "My Tokyo",
-  "description": "Private English-speaking tour guide service in Tokyo, Japan. Night izakaya tours in Shinjuku and fully customized private Tokyo tours for international visitors.",
+  "description": "Small-group tours in Tokyo with local guides: izakaya nights in Shinjuku and Shibuya, Shimokitazawa, a Meiji Jingu and Senso-ji morning walk, private custom tours and photo tours.",
   "url": "https://mikurin39.github.io/my-tokyo/",
   "image": "https://mikurin39.github.io/my-tokyo/og.jpg",
   "areaServed": {"@type": "City", "name": "Tokyo"},
   "sameAs": ["https://www.instagram.com/mytokyo39/"],
   "founder": {"@type": "Person", "name": "Mikuri", "description": "English-speaking local tour guide in Tokyo, originally from Okinawa"},
-  "priceRange": "¥8,000 - ¥18,000",
+  "priceRange": "¥9,800 - ¥15,000",
   "knowsLanguage": ["en", "ja"]
 }
 </script>
@@ -45,7 +45,7 @@
     "price": "15000",
     "priceCurrency": "JPY",
     "availability": "https://schema.org/InStock",
-    "url": "https://mikurin39.github.io/my-tokyo/#book"
+    "url": "https://mikurin39.github.io/my-tokyo/tour.html?t=izakaya"
   }
 }
 </script>
@@ -53,16 +53,59 @@
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "Custom Tokyo Tour",
-  "description": "A fully customized private Tokyo tour with an English-speaking local guide. 3 to 8 hours, itinerary built around your interests. Up to 12 guests per group. From ¥8,000 per person.",
-  "image": "https://mikurin39.github.io/my-tokyo/img/gyoen.jpg",
-  "brand": {"@type": "Brand", "name": "My Tokyo"},
+  "name": "Shibuya Crossing & Yokocho Bar Hop",
+  "description": "About 3-hour small-group evening tour in Shibuya: the Scramble Crossing, Hachiko, shared dinner plates in Shibuya Yokocho and a small bar in Nonbei Yokocho. 6 dishes and 2 drinks included.",
+  "image": "https://mikurin39.github.io/my-tokyo/img/shibuyax.jpg",
+  "brand": {
+    "@type": "Brand",
+    "name": "My Tokyo"
+  },
   "offers": {
     "@type": "Offer",
-    "price": "8000",
+    "price": "12800",
     "priceCurrency": "JPY",
     "availability": "https://schema.org/InStock",
-    "url": "https://mikurin39.github.io/my-tokyo/#book"
+    "url": "https://mikurin39.github.io/my-tokyo/tour.html?t=shibuya"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Shimokitazawa Vintage, Curry & Bar Alley",
+  "description": "3-hour small-group evening walk in Shimokitazawa: vintage clothing shops, a record store, curry and a small bar in Suzunari Yokocho.",
+  "image": "https://mikurin39.github.io/my-tokyo/img/rank/x-shimokitazawa.jpg",
+  "brand": {
+    "@type": "Brand",
+    "name": "My Tokyo"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "9800",
+    "priceCurrency": "JPY",
+    "availability": "https://schema.org/InStock",
+    "url": "https://mikurin39.github.io/my-tokyo/tour.html?t=shimokita"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Meiji Jingu Shrine & Senso-ji Temple Morning Tour",
+  "description": "About 4-hour morning tour of Meiji Jingu and Senso-ji with omikuji fortunes, a crepe on Takeshita Street and street snacks on Nakamise.",
+  "image": "https://mikurin39.github.io/my-tokyo/img/meiji.jpg",
+  "brand": {
+    "@type": "Brand",
+    "name": "My Tokyo"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "9800",
+    "priceCurrency": "JPY",
+    "availability": "https://schema.org/InStock",
+    "url": "https://mikurin39.github.io/my-tokyo/tour.html?t=shrine"
   }
 }
 </script>
@@ -90,8 +133,8 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type": "Question", "name": "Is the tour in English?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, all tours are run by a friendly English-speaking local guide."}},
-    {"@type": "Question", "name": "Can I book a private custom tour of Tokyo?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The Custom Tokyo Tour is a private 3-to-8-hour tour built entirely around your interests — anime, food, temples, shopping, photography or hidden neighborhoods. Tell us what you love and we design the itinerary."}},
+    {"@type": "Question", "name": "Are the tours in English?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, tours are guided in English. Mikuri, who runs My Tokyo, speaks basic English. Other English-speaking team members also lead some tours."}},
+    {"@type": "Question", "name": "Can I book a private custom tour of Tokyo?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Send a request with what you'd like to do, how long, and how many people. We reply by email with a plan and a price."}},
     {"@type": "Question", "name": "What is the cancellation policy?", "acceptedAnswer": {"@type": "Answer", "text": "Free cancellation up to 7 days before the tour date. Cancellations within 7 days: 50% of the tour price. Cancellations on the tour day or no-shows: 100%."}},
     {"@type": "Question", "name": "How do I pay for the tour?", "acceptedAnswer": {"@type": "Answer", "text": "Payment is by credit card in advance. After you send a booking request, a secure payment link is emailed to you — the reservation is confirmed once payment is completed."}},
     {"@type": "Question", "name": "Are vegetarian options available on the food tour?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, vegetarian options are available with advance notice. Please mention dietary restrictions when booking."}}
@@ -165,6 +208,7 @@ header .wrap{max-width:1060px;padding:0 22px}
 #quiz{padding:0 0 24px}
 .quiz-strip{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);background:var(--paper2);border-radius:var(--radius);overflow:hidden}
 .quiz-strip img{width:100%;height:100%;min-height:260px;object-fit:cover}
+#plan .quiz-strip img{height:100%;max-height:420px;min-height:300px;object-position:50% 35%}
 .quiz-text{padding:40px 44px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
 .quiz-text .note{color:var(--orange);font-weight:600;font-size:14px;margin-bottom:6px}
 .quiz-text h2{margin-bottom:12px}
@@ -186,22 +230,9 @@ header .wrap{max-width:1060px;padding:0 22px}
 .price b{font-family:var(--serif);font-size:26px;color:var(--navy);font-weight:600;margin-right:4px}
 .tour-actions{display:flex;gap:10px;align-items:center}
 /* booking */
-#book{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-#book h2{margin-bottom:10px}
-.book-sub{color:var(--muted);max-width:620px;margin:0 0 32px}
-.book-grid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:28px;align-items:start}
 .panel{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px}
-.tour-choice{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:18px}
-.choice{border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;cursor:pointer;transition:border-color .15s,background-color .15s;background:var(--bg)}
-.choice:hover{border-color:var(--navy)}
-.choice.active{border-color:var(--orange);background:#fff;box-shadow:inset 3px 0 0 var(--orange)}
-.choice h4{font-size:15px;line-height:1.35;color:var(--navy);font-weight:600}
-.choice small{color:var(--muted);font-size:13px}
-.cal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
 .cal-head b{font-family:var(--serif);font-size:20px;font-weight:600;color:var(--navy)}
-.cal-nav{display:flex;gap:8px}
 .cal-nav button{background:#fff;border:1px solid var(--line);color:var(--navy);width:34px;height:34px;border-radius:var(--radius);cursor:pointer;font-size:15px}
-.cal-nav button:hover:not(:disabled){border-color:var(--navy)}
 .cal-nav button:disabled{opacity:.3;cursor:default}
 .cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;text-align:center}
 .cal .dow{font-size:12px;color:var(--muted);font-weight:500;padding:5px 0}
@@ -225,9 +256,6 @@ header .wrap{max-width:1060px;padding:0 22px}
 .summary b{color:var(--navy)}
 .summary .k{color:var(--muted);display:inline-block;min-width:52px}
 .form-note{font-size:13.5px;color:var(--muted);margin-top:10px}
-#bookMsg{margin-top:12px;font-size:14.5px;border-radius:var(--radius);padding:11px 13px;display:none}
-#bookMsg.ok{display:block;background:#edf4ec;border:1px solid #a9c9a6;color:#2d5a2a}
-#bookMsg.err{display:block;background:#f9ece8;border:1px solid #e2b0a4;color:#9b2f1c}
 /* tour details */
 .tdetails{margin-bottom:18px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .tdetails summary{padding:12px 0;font-size:14.5px}
@@ -308,16 +336,17 @@ footer{background:var(--navy);color:#cfc9bf;font-size:14px;padding:56px 0 28px}
 
 <header>
   <div class="wrap nav">
-    <a href="#" class="logo"><span class="tower">🗼</span><span><b>My Tokyo</b><small>Your Local Friend in Tokyo</small></span></a>
+    <a href="#" class="logo"><span class="tower">🗼</span><span><b>My Tokyo</b><small data-i18n="nav.tagline">Your Local Friend in Tokyo</small></span></a>
     <nav class="nav-links">
-      <a href="#">Home</a>
-      <a href="#tours">Tours</a>
-      <a href="#quiz">Tokyo Quiz</a>
-      <a href="#spots">Spots</a>
-      <!--BLOG-NAV--><a href="blog/">Blog</a><!--/BLOG-NAV-->
-      <a href="#about">About</a>
-      <a href="#faq">FAQ</a>
-      <a href="#book" class="btn small">Book a Tour</a>
+      <a href="#" data-i18n="nav.home">Home</a>
+      <a href="#tours" data-i18n="nav.tours">Tours</a>
+      <a href="#plan" data-i18n="nav.quiz">Trip planner</a>
+      <a href="#spots" data-i18n="nav.spots">Spots</a>
+      <!--BLOG-NAV--><a href="blog/" data-i18n="nav.blog">Blog</a><!--/BLOG-NAV-->
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
+      <a href="#tours" class="btn small" data-i18n="nav.book">Book a Tour</a>
+      <span id="langSlot"></span>
     </nav>
   </div>
 </header>
@@ -328,151 +357,37 @@ footer{background:var(--navy);color:#cfc9bf;font-size:14px;padding:56px 0 28px}
   <div class="slide"><img src="img/shibuyax.jpg" alt="Shibuya Scramble Crossing, Tokyo"></div>
   <div class="slide"><img src="img/fuji.jpg" alt="Mt. Fuji and Chureito Pagoda"></div>
   <div class="hero-content">
-    <h1>Experience Tokyo<br>Like a Local</h1>
-    <p>Hidden gems, local food, and unforgettable moments.<br>Let's explore Tokyo together!</p>
-    <a href="#book" class="btn">Book Your Adventure</a>
+    <h1 data-i18n-html="home.heroTitle">Experience Tokyo<br>Like a Local</h1>
+    <p data-i18n-html="home.heroText">Hidden gems, local food, and unforgettable moments.<br>Let's explore Tokyo together!</p>
+    <a href="#tours" class="btn" data-i18n="h.1">Book Your Adventure</a>
   </div>
   <button class="hero-arrow prev" onclick="moveSlide(-1)" aria-label="Previous slide">‹</button>
   <button class="hero-arrow next" onclick="moveSlide(1)" aria-label="Next slide">›</button>
   <div class="hero-dots" id="heroDots"></div>
 </div>
 
-<section id="intro">
-  <div class="wrap intro-grid">
-    <div>
-      <h2>Why My Tokyo?</h2>
-      <p class="lead">We're a team of local guides who love this city. From must-see highlights to secret spots, we'll show you the real Tokyo.</p>
-    </div>
-    <ul class="points">
-      <li><b>Local guides</b><span>Friendly, knowledgeable, and passionate locals.</span></li>
-      <li><b>Hidden gems</b><span>Places most travelers miss.</span></li>
-      <li><b>Small groups</b><span>Up to 12 guests, so it stays personal.</span></li>
-    </ul>
-  </div>
-</section>
-
-<section id="quiz">
-  <div class="wrap">
-    <div class="quiz-strip">
-      <img src="img/fuji.jpg" alt="Mt. Fuji behind Chureito Pagoda" loading="lazy">
-      <div class="quiz-text">
-        <h2>Tokyo Trip Quiz</h2>
-        <p>Answer a few questions and get a Tokyo plan that fits you.</p>
-        <a class="btn" href="https://mikurin39.github.io/tokyo-trip-finder/" target="_blank" rel="noopener">Start the quiz</a>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section id="tours">
   <div class="wrap">
     <div class="sec-head">
-      <h2>Tours</h2>
-      <a href="#book" class="sec-link">Check dates</a>
+      <h2 data-i18n="nav.tours">Tours</h2>
     </div>
-    <div class="tour-grid">
-
-      <article class="tour">
-        <div class="tour-img"><img src="img/goldengai.jpg" alt="Golden Gai izakaya alley at night, Shinjuku"></div>
-        <h3>Shinjuku Night Izakaya Crawl</h3>
-        <p>Explore Omoide Yokocho and Golden Gai: hidden bars and authentic izakayas in Shinjuku with a local guide. 8+ tastings and 2 drinks included.</p>
-        <dl class="facts">
-          <dt>Time</dt><dd>3 hours, starts 19:00</dd>
-          <dt>Group</dt><dd>Up to 12 guests, ages 20+</dd>
-          <dt>Included</dt><dd>Food and 2 drinks</dd>
-        </dl>
-        <div class="tour-footer">
-          <div class="price"><b>¥15,000</b>per person</div>
-          <div class="tour-actions">
-            <a href="#book" class="btn small ghost" onclick="viewDetails('izakaya');return false">Details</a>
-            <button class="btn small" onclick="selectTour('izakaya')">Book</button>
-          </div>
-        </div>
-      </article>
-
-      <article class="tour">
-        <div class="tour-img"><img src="img/sensoji.jpg" alt="Travelers visiting Sensoji Temple, Asakusa"></div>
-        <h3>Custom Tokyo Tour</h3>
-        <p>Create your own Tokyo day. You choose the places (anime, food, temples, hidden neighborhoods) and we handle the rest.</p>
-        <dl class="facts">
-          <dt>Time</dt><dd>3 to 8 hours, you choose</dd>
-          <dt>Group</dt><dd>Private, up to 12 guests</dd>
-          <dt>Meeting</dt><dd>Your hotel or any station</dd>
-        </dl>
-        <div class="tour-footer">
-          <div class="price"><b>From ¥8,000</b>per person</div>
-          <div class="tour-actions">
-            <a href="#book" class="btn small ghost" onclick="viewDetails('custom');return false">Details</a>
-            <button class="btn small" onclick="selectTour('custom')">Book</button>
-          </div>
-        </div>
-      </article>
-
+    <div class="hcar" data-carousel>
+      <button type="button" class="hcar-btn prev" aria-label="Previous tours" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <div class="hcar-track tour-track" id="tourTrack"></div>
+      <button type="button" class="hcar-btn next" aria-label="More tours" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
     </div>
   </div>
 </section>
 
-<section id="book">
+<section id="plan">
   <div class="wrap">
-    <h2>Book a Tour</h2>
-    <p class="book-sub">Pick a tour, choose an open date and time, and send your request. We'll email you a secure credit-card payment link. Your spot is confirmed once payment is completed. Free cancellation up to 7 days before the tour.</p>
-    <div class="book-grid">
-
-      <div class="panel">
-        <div class="tour-choice">
-          <div class="choice" id="choice-izakaya" role="button" tabindex="0" onclick="selectTour('izakaya')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();selectTour('izakaya')}">
-            <h4>Shinjuku Izakaya Crawl</h4>
-            <small>19:00, 3 h, ¥15,000/person</small>
-          </div>
-          <div class="choice" id="choice-custom" role="button" tabindex="0" onclick="selectTour('custom')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();selectTour('custom')}">
-            <h4>Custom Tokyo Tour</h4>
-            <small>3–8 h, from ¥18,000/person</small>
-          </div>
-        </div>
-        <div id="tourDetails"></div>
-        <div class="cal-head">
-          <b id="calTitle">Month</b>
-          <div class="cal-nav">
-            <button id="calPrev" onclick="moveMonth(-1)" aria-label="Previous month">‹</button>
-            <button id="calNext" onclick="moveMonth(1)" aria-label="Next month">›</button>
-          </div>
-        </div>
-        <div class="cal" id="cal"></div>
-        <div id="slotArea">
-          <div class="slots" id="slots"></div>
-        </div>
+    <div class="quiz-strip">
+      <img src="img/skytree.jpg" alt="Tokyo Skytree above the city" loading="lazy">
+      <div class="quiz-text">
+        <h2 data-i18n="h.11">Create your Tokyo trip</h2>
+        <p data-i18n="h.12">Pick one place you want to visit, answer a few quick questions, and we suggest spots, lunch, dinner and a place to stay.</p>
+        <button type="button" class="btn" data-open-pick data-i18n="h.13">Create my Tokyo trip</button>
       </div>
-
-      <div class="panel">
-        <div class="summary" id="summary">Select a tour and date to see your booking summary.</div>
-        <form id="bookForm" onsubmit="return submitBooking(event)">
-          <div class="row2">
-            <div class="field"><label for="fName">Full name *</label><input id="fName" required placeholder="Jane Smith"></div>
-            <div class="field"><label for="fEmail">Email *</label><input id="fEmail" type="email" required placeholder="jane@email.com"></div>
-          </div>
-          <div class="row2">
-            <div class="field"><label for="fGuests">Guests *</label>
-              <select id="fGuests"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option></select>
-            </div>
-            <div class="field"><label for="fPhone">WhatsApp (optional)</label><input id="fPhone" placeholder="+1 555 000 0000"></div>
-          </div>
-          <div class="field" id="durField" style="display:none"><label for="fDuration">Tour length *</label>
-            <select id="fDuration" onchange="renderSummary()">
-              <option value="3">3 hours — ¥18,000 / person</option>
-              <option value="4">4 hours — ¥21,000 / person</option>
-              <option value="5">5 hours — ¥24,000 / person</option>
-              <option value="6">6 hours — ¥27,000 / person</option>
-              <option value="7">7 hours — ¥30,000 / person</option>
-              <option value="8">8 hours — ¥33,000 / person</option>
-            </select>
-          </div>
-          <div class="field"><label for="fNotes">Requests / dietary restrictions</label><textarea id="fNotes" rows="3" placeholder="Vegetarian, love anime, first time in Japan…"></textarea></div>
-          <button class="btn" type="submit" style="width:100%" id="submitBtn">Request booking</button>
-          <div id="bookMsg"></div>
-          <p class="form-note">You'll receive a confirmation email once your date is locked in.</p>
-        </form>
-      </div>
-
     </div>
   </div>
 </section>
@@ -480,8 +395,8 @@ footer{background:var(--navy);color:#cfc9bf;font-size:14px;padding:56px 0 28px}
 <section id="spots">
   <div class="wrap">
     <div class="sec-head">
-      <h2>Tokyo Top 10</h2>
-      <a href="#book" class="sec-link">Visit them on a custom tour</a>
+      <h2 data-i18n="h.49">Tokyo Top 10</h2>
+      <a href="tour.html?t=custom" class="sec-link" data-keep-lang data-i18n="h.50">Visit them on a custom tour</a>
     </div>
     <div class="gtabs-wrap">
       <div class="gtabs" role="tablist" aria-label="Ranking genre" id="gTabs"></div>
@@ -490,87 +405,94 @@ footer{background:var(--navy);color:#cfc9bf;font-size:14px;padding:56px 0 28px}
     </div>
     <p class="rank-note" id="rankNote"></p>
     <div class="rank-view" id="rankPanel" role="tabpanel" tabindex="0" aria-labelledby="gt-all"><ol class="rank-grid" id="rankGrid"></ol></div>
-    <div class="plan-cta">
-      <p><strong>Plan your Tokyo trip in a few minutes</strong>Answer five quick questions and we suggest spots, lunch, dinner and a place to stay. Add the ones you like and we put them in order on a map.</p>
-      <button type="button" class="btn" data-open-wizard>Create your trip plan</button>
-    </div>
   </div>
 </section>
 
 <!--BLOG-SECTION-->
-<section id="blog" style="padding-top:0">
-  <style>
-  #blog .posts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
-  #blog .post-link{color:var(--text);display:block}
-  #blog .thumb{aspect-ratio:4/3;border-radius:4px;overflow:hidden;margin-bottom:12px;background:var(--line)}
-  #blog .thumb img{width:100%;height:100%;object-fit:cover}
-  #blog .meta{font-size:13.5px;color:var(--muted);font-weight:500}
-  #blog .meta .cat{color:var(--orange);font-weight:600;margin-right:12px}
-  #blog h3{font-family:var(--serif);font-size:21px;font-weight:600;color:var(--navy);line-height:1.3;margin:4px 0 6px}
-  #blog .post-link:hover h3{color:var(--orange)}
-  #blog p{font-size:16px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-  #blog .posts.one{grid-template-columns:minmax(0,1fr)}
-  #blog .posts.one .post-link{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);column-gap:40px;align-content:center}
-  #blog .posts.one .post-link>*{grid-column:2}
-  #blog .posts.one .thumb{grid-column:1;grid-row:1 / span 4;margin-bottom:0}
-  #blog .posts.one .post-link{align-items:start}
-  #blog .posts.one h3{font-size:28px}
-  @media(max-width:880px){#blog .posts{grid-template-columns:1fr 1fr}#blog .posts.one .post-link{grid-template-columns:minmax(0,1fr)}#blog .posts.one .post-link>*,#blog .posts.one .thumb{grid-column:1;grid-row:auto}#blog .posts.one .thumb{margin-bottom:12px}#blog .posts.one h3{font-size:22px}#blog .posts.one{grid-template-columns:minmax(0,1fr)}}
-  @media(max-width:520px){#blog .posts{grid-template-columns:1fr}}
-  </style>
+<section id="blog">
   <div class="wrap">
     <div class="sec-head">
-      <h2>From the Blog</h2>
-      <a href="blog/" class="sec-link">Read the blog</a>
+      <h2 data-i18n="nav.blog">Blog</h2>
+      <a href="blog/" class="sec-link" data-i18n="home.readBlog">Read the blog</a>
     </div>
-    <div class="posts one">
-<a class="post-link" href="blog/en/schmatz-shimokitazawa/"><div class="thumb"><img src="blog/img/schmatz-shimokitazawa/01.jpg" alt="Three grilled sausages with sauerkraut and grainy mustard on a cast-iron plate" loading="lazy" decoding="async"></div><div class="meta"><span class="cat">Restaurant</span><time datetime="2026-11-13">Nov 13, 2026</time></div><h3>SCHMATZ Shimokitazawa: A German Beer Spot Where You Can Actually Talk</h3><p>About seven pages of beer, a plate of three sausages, and a calm room five minutes from Shimokitazawa Station. Here&#x27;s what we ordered and what we paid.</p></a>
+    <div class="hcar" data-carousel>
+      <button type="button" class="hcar-btn prev" aria-label="Previous posts" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <div class="hcar-track blog-track">
+<a class="bcard" href="blog/en/schmatz-shimokitazawa/" data-blog-slug="schmatz-shimokitazawa"><span class="bthumb"><img src="blog/img/schmatz-shimokitazawa/01.jpg" alt="Three grilled sausages with sauerkraut and grainy mustard on a cast-iron plate" loading="lazy" decoding="async"></span><span class="bcat" data-tr="{&quot;en&quot;: &quot;Restaurant&quot;, &quot;ja&quot;: &quot;レストラン&quot;, &quot;ko&quot;: &quot;레스토랑&quot;, &quot;zh-Hant&quot;: &quot;餐廳&quot;, &quot;fr&quot;: &quot;Restaurant&quot;}">Restaurant</span><span class="btitle" data-tr="{&quot;en&quot;: &quot;SCHMATZ Shimokitazawa: A German Beer Spot Where You Can Actually Talk&quot;, &quot;ja&quot;: &quot;SCHMATZ 下北沢｜ビールのメニューが7ページほど。ゆっくり話せるドイツビールのお店&quot;, &quot;ko&quot;: &quot;SCHMATZ 시모키타자와｜맥주 메뉴만 7페이지 정도, 대화하기 좋은 독일 맥주집&quot;, &quot;zh-Hant&quot;: &quot;SCHMATZ 下北澤｜啤酒菜單大約7頁，能好好聊天的德國啤酒餐廳&quot;, &quot;fr&quot;: &quot;SCHMATZ Shimokitazawa : la brasserie allemande où l&#x27;on peut vraiment discuter&quot;}">SCHMATZ Shimokitazawa: A German Beer Spot Where You Can Actually Talk</span></a>
+      </div>
+      <button type="button" class="hcar-btn next" aria-label="More posts" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
     </div>
   </div>
 </section>
 <!--/BLOG-SECTION-->
+
+<section id="intro">
+  <div class="wrap intro-grid">
+    <div>
+      <h2 data-i18n="h.3">Why My Tokyo?</h2>
+      <p class="lead" data-i18n="h.4">We're a team of local guides who love this city. From must-see highlights to secret spots, we'll show you the real Tokyo.</p>
+    </div>
+    <ul class="points">
+      <li><b data-i18n="h.5">Local guides</b><span data-i18n="h.6">Friendly, knowledgeable, and passionate locals.</span></li>
+      <li><b data-i18n="h.7">Hidden gems</b><span data-i18n="h.8">Places most travelers miss.</span></li>
+      <li><b data-i18n="h.9">Small groups</b><span data-i18n="h.10">Up to 12 guests, so it stays personal.</span></li>
+    </ul>
+  </div>
+</section>
 
 <section id="social">
   <div class="wrap">
     <ul class="more-list">
       <li>
         <h3>Instagram</h3>
-        <p>Tokyo tips and places we like, posted regularly.</p>
+        <p data-i18n="h.53">Tokyo tips and places we like, posted regularly.</p>
         <a href="https://www.instagram.com/mytokyo39/" id="igLink" target="_blank" rel="noopener">@mytokyo39</a>
       </li>
       <li>
-        <h3>Join our team</h3>
-        <p>Love Tokyo? Work with us as a tour guide.</p>
-        <a href="mailto:mytokyo39@gmail.com?subject=Tour%20guide%20application">Contact us</a>
+        <h3 data-i18n="h.54">Join our team</h3>
+        <p data-i18n="h.55">Love Tokyo? Work with us as a tour guide.</p>
+        <a href="mailto:mytokyo39@gmail.com?subject=Tour%20guide%20application" data-i18n="h.56">Contact us</a>
       </li>
     </ul>
   </div>
 </section>
 
+
+
+
+
+
+
+
+
+
+
+
+
 <section id="about">
   <div class="wrap about-grid">
     <div class="about-img"><img src="img/mikuri.jpg?v=3" alt="Mikuri, your local tour guide in Tokyo" loading="lazy"></div>
     <div class="about-text">
-      <h2>Hi, I'm Mikuri</h2>
-      <p>I was born in Okinawa and moved to Tokyo a year ago. To make friends in my new city, I went everywhere — little solo adventures through every corner of town. Along the way I collected my favorite discoveries: local places that aren't on the map, the kind of spots no guidebook will ever show you. Those are exactly the places I want to share with you.</p>
-      <p>I love showing visitors the city behind the guidebooks — the 6-seat bars, the backstreet shrines, the food counters with no English menu and no tourists.</p>
-      <p>I started My Tokyo because the best moments of travel happen in places you'd never enter alone. My job is to open those doors, handle every bit of Japanese for you, and send you home with stories (and a map of my favorite spots for the rest of your trip).</p>
-      <p class="about-sign">See you in Tokyo!</p>
+      <h2 data-i18n="h.57">Hi, I'm Mikuri</h2>
+      <p data-i18n="h.58">I was born in Okinawa and moved to Tokyo a year ago. To make friends in my new city, I went everywhere — little solo adventures through every corner of town. Along the way I collected my favorite discoveries: local places that aren't on the map, the kind of spots no guidebook will ever show you. Those are exactly the places I want to share with you.</p>
+      <p data-i18n="h.59">I love showing visitors the city behind the guidebooks — the 6-seat bars, the backstreet shrines, the food counters with no English menu and no tourists.</p>
+      <p data-i18n="h.60">I started My Tokyo because the best moments of travel happen in places you'd never enter alone. My job is to open those doors, handle every bit of Japanese for you, and send you home with stories (and a map of my favorite spots for the rest of your trip).</p>
+      <p class="about-sign" data-i18n="h.61">See you in Tokyo!</p>
     </div>
   </div>
 </section>
 
 <section id="faq">
   <div class="wrap">
-    <div class="sec-head"><h2>Questions</h2></div>
+    <div class="sec-head"><h2 data-i18n="h.62">Questions</h2></div>
     <div class="faq-list">
-    <details><summary>Is everything in English?</summary><div class="a">Yes! All tours are run in English, and we'll happily teach you a few fun Japanese phrases along the way.</div></details>
-    <details><summary>Are vegetarian or non-alcoholic options available?</summary><div class="a">Yes. Vegetarian options are available with advance notice — please mention dietary restrictions (allergies, religious requirements) in the booking form. Non-drinkers are very welcome: soft drinks can replace any included alcoholic drinks.</div></details>
-    <details><summary>How do I pay?</summary><div class="a">Payment is by credit card in advance. After you send a booking request, we'll email you a secure payment link — your reservation is confirmed once payment is completed.</div></details>
-    <details><summary>What is the cancellation policy?</summary><div class="a">Free cancellation up to 7 days before the tour date. Cancellations within 7 days of the tour: 50% of the tour price. Cancellations on the tour day or no-shows: 100%.</div></details>
-    <details><summary>What happens if it rains?</summary><div class="a">Tours run rain or shine. We'll adjust the itinerary where needed and recommend bringing rain gear on wet days.</div></details>
-    <details><summary>Can children join the tours?</summary><div class="a">It depends on the tour — age requirements are listed in each tour's details. Tours that visit bars are for guests aged 20 and over (Japan's legal drinking age); sightseeing tours are family-friendly and welcome all ages.</div></details>
-    <details><summary>Where do we meet?</summary><div class="a">Each tour's meeting point is listed in its tour details in the booking section. The exact meeting spot is shared after your booking is confirmed.</div></details>
+    <details><summary data-i18n="h.63">Are the tours in English?</summary><div class="a" data-i18n="h.64">Yes, tours are guided in English. Mikuri, who runs My Tokyo, speaks basic English. Other English-speaking team members also lead some tours. If you'd like one of them, tell us when you book and we'll do our best to arrange it.</div></details>
+    <details><summary data-i18n="h.65">Are vegetarian or non-alcoholic options available?</summary><div class="a" data-i18n="h.66">Yes. Vegetarian options are available with advance notice — please mention dietary restrictions (allergies, religious requirements) in the booking form. Non-drinkers are very welcome: soft drinks can replace any included alcoholic drinks.</div></details>
+    <details><summary data-i18n="h.67">How do I pay?</summary><div class="a" data-i18n="h.68">Payment is by credit card in advance. After you send a booking request, we'll email you a secure payment link — your reservation is confirmed once payment is completed.</div></details>
+    <details><summary data-i18n="h.69">What is the cancellation policy?</summary><div class="a" data-i18n="h.70">Free cancellation up to 7 days before the tour date. Cancellations within 7 days of the tour: 50% of the tour price. Cancellations on the tour day or no-shows: 100%.</div></details>
+    <details><summary data-i18n="h.71">What happens if it rains?</summary><div class="a" data-i18n="h.72">Tours run rain or shine. We'll adjust the itinerary where needed and recommend bringing rain gear on wet days.</div></details>
+    <details><summary data-i18n="h.73">Can children join the tours?</summary><div class="a" data-i18n="h.74">It depends on the tour — age requirements are listed in each tour's details. Tours that visit bars are for guests aged 20 and over (Japan's legal drinking age); sightseeing tours are family-friendly and welcome all ages.</div></details>
+    <details><summary data-i18n="h.75">Where do we meet?</summary><div class="a" data-i18n="h.76">Each tour's meeting point is listed on its tour page. The exact meeting spot is shared after your booking is confirmed.</div></details>
     </div>
   </div>
 </section>
@@ -580,32 +502,32 @@ footer{background:var(--navy);color:#cfc9bf;font-size:14px;padding:56px 0 28px}
     <div class="foot-grid">
       <div>
         <div class="foot-logo">My Tokyo</div>
-        <p>We create unique experiences that connect you with the real Tokyo.</p>
+        <p data-i18n="h.77">We create unique experiences that connect you with the real Tokyo.</p>
       </div>
       <div>
-        <h4>Quick links</h4>
-        <a href="#tours">Tours</a>
-        <a href="#quiz">Tokyo Trip Quiz</a>
-        <a href="#spots">Spots</a>
-        <!--BLOG-FOOT--><a href="blog/">Blog</a><!--/BLOG-FOOT-->
-        <a href="#book">Book a Tour</a>
+        <h4 data-i18n="h.78">Quick links</h4>
+        <a href="#tours" data-i18n="nav.tours">Tours</a>
+        <a href="#plan" data-i18n="nav.quiz">Trip planner</a>
+        <a href="#spots" data-i18n="nav.spots">Spots</a>
+        <!--BLOG-FOOT--><a href="blog/" data-i18n="nav.blog">Blog</a><!--/BLOG-FOOT-->
+        <a href="#tours" data-i18n="nav.book">Book a Tour</a>
       </div>
       <div>
-        <h4>Info</h4>
-        <a href="#faq">FAQ</a>
-        <a href="mailto:mytokyo39@gmail.com">Contact</a>
-        <a href="mailto:mytokyo39@gmail.com?subject=Tour%20guide%20application">Jobs</a>
+        <h4 data-i18n="h.79">Info</h4>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
+        <a href="mailto:mytokyo39@gmail.com" data-i18n="h.80">Contact</a>
+        <a href="mailto:mytokyo39@gmail.com?subject=Tour%20guide%20application" data-i18n="h.81">Jobs</a>
       </div>
       <div>
-        <h4>Follow us</h4>
+        <h4 data-i18n="h.82">Follow us</h4>
         <a href="https://www.instagram.com/mytokyo39/" id="igLinkFoot" target="_blank" rel="noopener">Instagram</a>
       </div>
     </div>
     <div class="foot-bottom">
-      <span>© 2026 My Tokyo. All rights reserved.</span>
-      <span>Tokyo, Japan. English-speaking private tours.</span>
+      <span data-i18n="h.83">© 2026 My Tokyo. All rights reserved.</span>
+      <span data-i18n="h.84">Tokyo, Japan. Small-group tours with local guides.</span>
     </div>
-    <details class="credits"><summary>Photo credits (Wikimedia Commons)</summary>
+    <details class="credits"><summary data-i18n="h.85">Photo credits (Wikimedia Commons)</summary>
       <p style="padding-top:8px">
         Golden Gai: urbz (CC BY 2.0) · Sensoji: Akonnchiroll (CC0) · teamLab Planets: Sasa0403 (CC BY-SA 4.0) · Shibuya Crossing: David Kernan (CC BY 4.0) · Tokyo Skytree: Kakidai (CC BY-SA 3.0) · Meiji Shrine: Akonnchiroll (CC BY-SA 4.0) · Tsukiji: Kakidai (CC BY-SA 4.0) · Shibuya Scramble Square: Sakura Torch (CC BY-SA 4.0) · Akihabara: Phineyes (CC0) · Ueno Park: Bernard Gagnon (CC BY-SA 3.0) · Takeshita St: Syced (CC0) · Chureito Pagoda: reggiepen/Flickr (CC BY 2.0). All via Wikimedia Commons.
       </p>
@@ -614,32 +536,34 @@ footer{background:var(--navy);color:#cfc9bf;font-size:14px;padding:56px 0 28px}
   </div>
 </footer>
 
+<script src="js/config.js"></script>
+<script src="js/i18n-strings.js"></script>
+<script src="js/explore-strings.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/tours.js"></script>
 <script src="js/spots.js"></script>
+<script>/* spot text in the chosen language (names, hours ...) */
+if(window.I18N && I18N.lang !== "en") document.write('<script src="js/spots-' + I18N.lang + '.js"><\/script>');</script>
 <script>
 /* ================= CONFIG =================
    GAS_URL: paste your Google Apps Script Web App URL here (see gas/SETUP.md).
    Until it's set, bookings fall back to a pre-filled email. */
-const CONFIG = {
-  GAS_URL: "",
-  CONTACT_EMAIL: "mytokyo39@gmail.com",
-  INSTAGRAM_URL: "https://www.instagram.com/mytokyo39/",
-  MAX_ADVANCE_DAYS: 90
-};
+const CONFIG = window.CONFIG;
 
-const TOURS = {
-  izakaya: {
-    name: "Shinjuku Night Izakaya Crawl",
-    slots: ["19:00"],
-    hours: 3,
-    priceLabel: "¥15,000 × guests"
-  },
-  custom: {
-    name: "Custom Tokyo Tour",
-    slots: ["09:00","10:00","13:00","18:00"],
-    hours: 3,
-    priceLabel: "from ¥18,000 × guests"
-  }
-};
+/* Tours come from js/tours.js (shared with tour.html). */
+const TD = window.TOUR_DATA, t = window.I18N ? I18N.t : (k => k);
+const tourText = o => Object.assign({}, o.i18n.en, (window.I18N && o.i18n[I18N.lang]) || {});
+const TOURS = {};
+TD.order.forEach(k => { const o = TD.tours[k], x = tourText(o);
+  TOURS[k] = Object.assign({}, o, {name: x.name, short: x.short, x,
+    meta: o.type === "book" ? `${o.slots[0]}, ${x.duration.replace(/\s*\(.*\)/, "")}` : t(k === "photo" ? "home.photoMeta" : "home.customMeta")}); });
+const yen = n => "¥" + n.toLocaleString("en-US");
+function renderTourCards(){
+  const link = k => window.I18N ? I18N.keepLang("tour.html?t=" + k) : "tour.html?t=" + k;
+  document.getElementById("tourTrack").innerHTML = Object.entries(TOURS).map(([k,o]) =>
+    `<a class="tcard" href="${link(k)}"><span class="tc-img"><img src="${o.img}" alt="" loading="lazy"></span>
+      <span class="tc-body"><span class="tc-name">${t("tour.cardPrefix")}${o.name}</span><span class="tc-price">${o.type==="book" ? t("tour.from", {price: yen(o.price)}) : t("tour.priceOnRequest")}</span></span></a>`).join("");
+}
 
 /* -------- hero carousel -------- */
 let slideIdx = 0, slideTimer = null;
@@ -662,241 +586,6 @@ function moveSlide(d, auto){
 }
 function goSlide(i){ slideIdx = i; paintSlides(); clearInterval(slideTimer); slideTimer = setInterval(()=>moveSlide(1,true), 5000); }
 
-/* -------- per-tour details (TripAdvisor-style sections) -------- */
-const TOUR_DETAILS = {
-  izakaya: {
-    about: "Raise your glass on a lively night crawl through Shinjuku's retro bar alleys — buzzing izakayas and hidden bars you'd struggle to find alone, with a local guide handling everything.",
-    chips: ["3 h (19:00–22:00)","Ages 20+","Max 12 per group","Live guide: English","Mobile confirmation"],
-    included: [
-      "Local izakaya dinner — 8+ dishes across 2 venues (charcoal yakitori, seasonal small plates)",
-      "2 drinks (beer, sake, shochu highball or soft drink)",
-      "Golden Gai bar cover charge",
-      "English-speaking local guide",
-      "Digital map of the guide's personal recommendations"
-    ],
-    notIncluded: [
-      "Additional drinks beyond the 2 included",
-      "Hotel pickup and drop-off",
-      "Gratuities (optional)"
-    ],
-    itinerary: [
-      "Omoide Yokocho — 60 min: charcoal yakitori & first drink at a counter joint",
-      "Standing bar (tachinomi) near Kabukicho — 40 min: salaryman culture & small plates",
-      "Kabukicho neon walk & Godzilla Head — 20 min: photo stop",
-      "Golden Gai — 50 min: a tiny themed bar, cover charge included"
-    ],
-    meeting: "Omoide Yokocho, Shinjuku. The exact meeting spot is shared after your booking is confirmed. The tour ends in Golden Gai (2 min from Shinjuku-sanchome Station).",
-    accessibility: "Not wheelchair accessible (historic alley venues) · Near public transportation · About 2 km of easy walking, some standing"
-  },
-  custom: {
-    about: "Your private Tokyo day, designed around you. Tell us what you love — anime, food, temples, shopping, photography, hidden neighborhoods — and we build the itinerary together.",
-    chips: ["3–8 h (you choose)","All ages","Max 12, private","Live guide: English","Mobile confirmation"],
-    included: [
-      "English-speaking private guide (3–8 hours)",
-      "Personal itinerary designed with you before your trip",
-      "Restaurant picks, ticket advice & photo spots",
-      "All navigation and Japanese handled for you"
-    ],
-    notIncluded: [
-      "Food, drinks and attraction tickets (pay as you go)",
-      "Transportation fares (IC card recommended)",
-      "Gratuities (optional)"
-    ],
-    itinerary: [
-      "Sample day — Tsukiji Outer Market breakfast",
-      "teamLab Planets or Asakusa & Sensoji Temple",
-      "Harajuku & Meiji Shrine",
-      "Sunset from SHIBUYA SKY — we'll design your own route after booking"
-    ],
-    meeting: "Your hotel lobby or any station you like — arranged together when we plan your itinerary.",
-    accessibility: "Fully flexible — we design the route around your pace and any accessibility needs."
-  }
-};
-
-function renderDetails(open){
-  const el = document.getElementById("tourDetails");
-  if(!state.tour){ el.innerHTML = ""; return; }
-  const d = TOUR_DETAILS[state.tour];
-  const wasOpen = open || (el.querySelector("details") && el.querySelector("details").open);
-  el.innerHTML = `
-  <details class="tdetails"${wasOpen?" open":""}>
-    <summary>Tour details: what's included, itinerary and meeting point</summary>
-    <div class="a">
-      <p style="margin-bottom:10px">${d.about}</p>
-      <p class="chips">${d.chips.join(" / ")}</p>
-      <h5>What's included</h5>
-      <ul class="inc">${d.included.map(i=>`<li>${i}</li>`).join("")}</ul>
-      <h5>Not included</h5>
-      <ul class="exc">${d.notIncluded.map(i=>`<li>${i}</li>`).join("")}</ul>
-      <h5>What to expect</h5>
-      <ol>${d.itinerary.map(i=>`<li>${i}</li>`).join("")}</ol>
-      <h5>Meeting point</h5>
-      <p>${d.meeting}</p>
-      <h5>Accessibility</h5>
-      <p>${d.accessibility}</p>
-      <h5>Cancellation policy</h5>
-      <p>Free cancellation up to 7 days before · 50% within 7 days · 100% on the tour day or no-show</p>
-    </div>
-  </details>`;
-}
-
-function viewDetails(key){ selectTour(key); renderDetails(true); }
-
-/* -------- booking state -------- */
-let state = { tour:null, date:null, time:null, viewYear:0, viewMonth:0, busy:{} };
-const today = new Date(); today.setHours(0,0,0,0);
-const maxDate = new Date(today); maxDate.setDate(maxDate.getDate()+CONFIG.MAX_ADVANCE_DAYS);
-state.viewYear = today.getFullYear(); state.viewMonth = today.getMonth();
-
-const fmt = d => d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
-const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-
-function selectTour(key){
-  state.tour = key; state.time = null;
-  document.getElementById("choice-izakaya").classList.toggle("active", key==="izakaya");
-  document.getElementById("choice-custom").classList.toggle("active", key==="custom");
-  document.getElementById("durField").style.display = key==="custom" ? "block" : "none";
-  renderDetails(); renderCal(); renderSlots(); renderSummary();
-  document.getElementById("book").scrollIntoView({behavior:"smooth"});
-}
-
-function moveMonth(delta){
-  let m = state.viewMonth + delta, y = state.viewYear;
-  if(m<0){m=11;y--} if(m>11){m=0;y++}
-  const first = new Date(y,m,1), lastAllowed = new Date(maxDate.getFullYear(),maxDate.getMonth(),1);
-  const firstAllowed = new Date(today.getFullYear(),today.getMonth(),1);
-  if(first<firstAllowed || first>lastAllowed) return;
-  state.viewYear=y; state.viewMonth=m; renderCal();
-}
-
-function renderCal(){
-  const y=state.viewYear, m=state.viewMonth;
-  document.getElementById("calTitle").textContent = MONTHS[m]+" "+y;
-  document.getElementById("calPrev").disabled = (y===today.getFullYear() && m===today.getMonth());
-  document.getElementById("calNext").disabled = (y===maxDate.getFullYear() && m===maxDate.getMonth());
-  const cal = document.getElementById("cal");
-  cal.innerHTML = ["S","M","T","W","T","F","S"].map(d=>`<div class="dow">${d}</div>`).join("");
-  const first = new Date(y,m,1);
-  for(let i=0;i<first.getDay();i++) cal.innerHTML += "<div></div>";
-  const days = new Date(y,m+1,0).getDate();
-  for(let d=1;d<=days;d++){
-    const dt = new Date(y,m,d), key = fmt(dt);
-    let cls = "day";
-    if(dt<=today || dt>maxDate) cls+=" past";
-    else if(state.busy[key] && state.busy[key].fullDay) cls+=" busy";
-    if(state.date===key) cls+=" sel";
-    const open = cls==="day"||cls==="day sel";
-    const attrs = open ? ` onclick="pickDate('${key}')" aria-pressed="${state.date===key}"` : " disabled";
-    cal.innerHTML += `<button type="button" class="${cls}"${attrs} aria-label="${MONTHS[m]} ${d}">${d}</button>`;
-  }
-}
-
-function pickDate(key){
-  state.date = key; state.time = null;
-  renderCal(); renderSlots(); renderSummary();
-  const b = document.querySelector("#cal .day.sel"); if(b) b.focus();
-}
-
-function renderSlots(){
-  const el = document.getElementById("slots");
-  if(!state.tour || !state.date){ el.innerHTML = `<small style="color:var(--muted)">${!state.tour?"Choose a tour above, then pick a date.":"Pick a date to see start times."}</small>`; return; }
-  const busyTimes = (state.busy[state.date] && state.busy[state.date].times) || [];
-  el.innerHTML = TOURS[state.tour].slots.map(t=>{
-    const isBusy = busyTimes.includes(t);
-    return `<button type="button" class="slot ${state.time===t?"sel":""} ${isBusy?"busy":""}" ${isBusy?"":`onclick="pickTime('${t}')"`}>${t}</button>`;
-  }).join("");
-}
-
-function pickTime(t){ state.time=t; renderSlots(); renderSummary(); }
-
-function renderSummary(){
-  const el = document.getElementById("summary");
-  if(!state.tour){ el.innerHTML = "Select a tour and date to see your booking summary."; return; }
-  const t = TOURS[state.tour];
-  let priceLabel = t.priceLabel;
-  if(state.tour==="custom"){
-    const h = Number(document.getElementById("fDuration").value);
-    priceLabel = `¥${(8000+(h-3)*2000).toLocaleString()} × guests (${h} h)`;
-  }
-  el.innerHTML = `<b>${t.name}</b><br>` +
-    `<span class="k">Date</span>${state.date || "Pick a date"}<br>` +
-    `<span class="k">Time</span>${state.time || "Pick a time"}<br>` +
-    `<span class="k">Price</span>${priceLabel}`;
-}
-
-/* -------- availability from Google Calendar (via Apps Script) -------- */
-async function loadAvailability(){
-  if(!CONFIG.GAS_URL) return;
-  try{
-    const from = fmt(today), to = fmt(maxDate);
-    const res = await fetch(`${CONFIG.GAS_URL}?action=availability&from=${from}&to=${to}`);
-    const data = await res.json();
-    state.busy = {};
-    (data.busy||[]).forEach(b=>{
-      state.busy[b.date] = state.busy[b.date] || {times:[], fullDay:false};
-      if(b.fullDay) state.busy[b.date].fullDay = true;
-      if(b.time) state.busy[b.date].times.push(b.time);
-    });
-    const sel = state.date && state.busy[state.date];
-    if(sel && (sel.fullDay || sel.times.includes(state.time))){ state.time=null; if(sel.fullDay) state.date=null; }
-    renderCal(); renderSlots(); renderSummary();
-  }catch(e){ console.warn("availability fetch failed", e); }
-}
-
-/* -------- submit -------- */
-async function submitBooking(ev){
-  ev.preventDefault();
-  const msg = document.getElementById("bookMsg");
-  msg.className = ""; msg.textContent = "";
-  if(!state.tour || !state.date || !state.time){
-    msg.className="err"; msg.textContent="Please choose a tour, a date and a start time first."; return false;
-  }
-  const t = TOURS[state.tour];
-  const payload = {
-    tour: t.name,
-    date: state.date,
-    time: state.time,
-    hours: state.tour==="custom" ? Number(document.getElementById("fDuration").value) : t.hours,
-    name: document.getElementById("fName").value.trim(),
-    email: document.getElementById("fEmail").value.trim(),
-    guests: document.getElementById("fGuests").value,
-    phone: document.getElementById("fPhone").value.trim(),
-    notes: document.getElementById("fNotes").value.trim()
-  };
-  const btn = document.getElementById("submitBtn");
-  if(CONFIG.GAS_URL){
-    btn.disabled = true; btn.textContent = "Sending…";
-    try{
-      const res = await fetch(CONFIG.GAS_URL, {method:"POST", body: JSON.stringify(payload)});
-      const data = await res.json();
-      if(data.ok){
-        msg.className="ok";
-        msg.textContent = `Request received! ${payload.name}, we have your request for the ${t.name} on ${payload.date} at ${payload.time}. We'll email a secure payment link to ${payload.email}. Your spot is confirmed once payment is completed.`;
-        document.getElementById("bookForm").reset();
-        loadAvailability();
-      } else { throw new Error(data.error||"Unknown error"); }
-    }catch(e){
-      msg.className="err";
-      msg.textContent = "Sorry, something went wrong sending your booking. Please email us instead: "+CONFIG.CONTACT_EMAIL;
-    }
-    btn.disabled = false; btn.textContent = "Request booking";
-  } else {
-    const body = encodeURIComponent(
-`Hi! I'd like to book a tour.
-
-Tour: ${payload.tour}
-Date: ${payload.date}  Start: ${payload.time}  (${payload.hours}h)
-Name: ${payload.name}
-Guests: ${payload.guests}
-WhatsApp: ${payload.phone||"-"}
-Notes: ${payload.notes||"-"}`);
-    location.href = `mailto:${CONFIG.CONTACT_EMAIL}?subject=${encodeURIComponent("[My Tokyo] Booking request — "+payload.date)}&body=${body}`;
-    msg.className="ok";
-    msg.textContent = "Your email app should open with the booking details — just press send! We'll confirm within 24 hours.";
-  }
-  return false;
-}
-
 /* -------- photo credits for the ranking (data in js/spots.js) -------- */
 (function(){
   const el = document.getElementById("rankCredits"), D = window.SPOTS; if(!el || !D) return;
@@ -911,8 +600,13 @@ Notes: ${payload.notes||"-"}`);
 })();
 
 /* init */
-initHero(); renderCal(); renderSlots(); renderSummary(); loadAvailability();
-window.CONFIG = CONFIG;
+I18N.apply(); document.getElementById("langSlot").innerHTML = I18N.selector();
+renderTourCards(); initHero();
+/* old links to the booking section (?tour=...#book) now go to the tour page */
+(function(){ const sp = new URLSearchParams(location.search), q = sp.get("tour");
+  if(q && TOURS[q] || location.hash === "#book") location.replace(I18N.keepLang(q && TOURS[q] ? "tour.html?t=" + q : "./#tours")); })();
+if(location.hash === "#quiz") location.hash = "#plan";
+document.querySelectorAll("[data-keep-lang]").forEach(a => a.href = I18N.keepLang(a.getAttribute("href")));
 </script>
 <script src="js/explore.js"></script>
 </body>
