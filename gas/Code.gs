@@ -64,6 +64,7 @@ function doPost(e) {
     const desc =
       "Tour: " + b.tour + "\n" +
       "Guests: " + b.guests + "\n" +
+      "Price: " + (b.price || "-") + "\n" +
       "Name: " + b.name + "\n" +
       "Email: " + b.email + "\n" +
       "WhatsApp: " + (b.phone || "-") + "\n" +
@@ -81,11 +82,12 @@ function doPost(e) {
         "Tour:   " + b.tour + "\n" +
         "Date:   " + b.date + "\n" +
         "Start:  " + b.time + " (Japan time), " + hours + " hours\n" +
-        "Guests: " + b.guests + "\n\n" +
-        (b.tour.indexOf("Shinjuku") >= 0 ? "Meeting point: Omoide Yokocho, Shinjuku. We'll share the exact meeting spot once your booking is confirmed.\n\n"
-          : b.tour.indexOf("Shibuya") >= 0 ? "Meeting point: the \"Myth of Tomorrow\" mural in the passage between JR Shibuya Station and Shibuya Mark City.\n\n"
-          : b.tour.indexOf("Shimokitazawa") >= 0 ? "Meeting point: Shimokitazawa Station, Central Exit.\n\n"
-          : b.tour.indexOf("Meiji") >= 0 ? "Meeting point: JR Harajuku Station, West Exit.\n\n"
+        "Guests: " + b.guests + "\n" +
+        (b.price ? "Price:  " + b.price + "\n" : "") + "\n" +
+        ((b.tour.indexOf("Shinjuku") >= 0 || b.tour.indexOf("[izakaya]") >= 0) ? "Meeting point: Omoide Yokocho, Shinjuku. We'll share the exact meeting spot once your booking is confirmed.\n\n"
+          : (b.tour.indexOf("Shibuya") >= 0 || b.tour.indexOf("[shibuya]") >= 0) ? "Meeting point: the \"Myth of Tomorrow\" mural in the passage between JR Shibuya Station and Shibuya Mark City.\n\n"
+          : (b.tour.indexOf("Shimokitazawa") >= 0 || b.tour.indexOf("[shimokita]") >= 0) ? "Meeting point: Shimokitazawa Station, Central Exit.\n\n"
+          : (b.tour.indexOf("Meiji") >= 0 || b.tour.indexOf("[shrine]") >= 0) ? "Meeting point: JR Harajuku Station, West Exit.\n\n"
           : "We'll email you the meeting point shortly.\n\n") +
         "Payment: we'll send you a secure credit-card payment link shortly — your reservation is confirmed once payment is completed.\n" +
         "Cancellation: free up to 7 days before the tour, 50% within 7 days, 100% on the tour day or no-show.\n\n" +

@@ -132,6 +132,8 @@ const today = new Date(tokyoISO + "T00:00");
 const maxDate = new Date(today); maxDate.setDate(maxDate.getDate() + CFG.MAX_ADVANCE_DAYS);
 const iso = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
 const B = {guests: Math.min(2, T.max || 2), date: "", time: T.slots ? (T.slots.length === 1 ? T.slots[0] : "") : "", view: new Date(today.getFullYear(), today.getMonth(), 1), step: 1, busy: {}};
+const guestsTxt = n => String(n) === "1" ? t("tour.guest1") : t("tour.guestsN", {n});
+const unit = n => (T.small && T.small[n]) || T.price;   // small groups (1-3) pay more per person
 const locale = {en:"en-US", ja:"ja-JP", fr:"fr-FR", "zh-Hant":"zh-TW", ko:"ko-KR"}[I.lang] || "en-US";
 function priceBlock(){
   if(!isBook) return `<div class="bp"><b>${t("tour.priceOnRequest")}</b></div>`;
@@ -163,12 +165,17 @@ function renderBox(focusSel){
       $("#request").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"}); $("#rName").focus({preventScroll:true}); });
     if(focusSel){ const f = box.querySelector(focusSel); if(f && !f.disabled) f.focus(); } return;
   }
-  const total = T.price * B.guests;
+  const total = unit(B.guests) * B.guests;
+  const tiers = !T.small ? "" : (() => { const ns = Object.keys(T.small).map(Number).sort((a,b) => a-b), top = ns[ns.length-1] + 1;
+    const rows = ns.map(n => [n, String(n), T.small[n]]).concat([[top, top + "–" + T.max, T.price]]);
+    return `<div class="tiers"><div class="bl2">${t("tour.tierTitle")}</div><table aria-label="${esc(t("tour.tierTitle"))}">${rows.map(([n, lab, p]) => { const on = n === B.guests || (n === top && B.guests >= top);
+      return `<tr${on ? ' class="on"' : ""}><td>${guestsTxt(lab)}</td><td>${yen(p)}</td></tr>`; }).join("")}</table><p class="small muted">${t("tour.tierNote")}</p></div>`; })();
   if(B.step === 1){
     box.innerHTML = `<div class="bcard">${priceBlock()}
       <div class="brow"><span class="bl">${ICON.people}${t("tour.guests")}</span>
         <div class="stepper"><button type="button" class="ib" data-g="-1" aria-label="${esc(t("tour.fewer"))}" ${B.guests<=1?"disabled":""}>−</button><output aria-live="polite">${B.guests}</output><button type="button" class="ib" data-g="1" aria-label="${esc(t("tour.more"))}" ${B.guests>=T.max?"disabled":""}>+</button></div></div>
       <p class="small muted">${t("tour.maxGuests", {n: T.max})}</p>
+      ${tiers}
       <div class="bl2">${ICON.cal}${t("tour.date")}</div>${cal()}
       <div class="bl2">${ICON.clock}${t("tour.time")} <small class="muted">(${t("tour.jst")})</small></div>
       <div class="slots">${T.slots.map(s => { const busy = B.date && B.busy[B.date] && B.busy[B.date].times.includes(s);
@@ -180,7 +187,7 @@ function renderBox(focusSel){
   } else {
     const d = new Date(B.date + "T00:00");
     box.innerHTML = `<div class="bcard"><button type="button" class="back" id="bBack">${ICON.left}${t("ui.back")}</button>
-      <p class="sum"><b>${esc(X.name)}</b><br>${esc(d.toLocaleDateString(locale,{weekday:"short", month:"long", day:"numeric"}))}, ${B.time}<br>${t("tour.guestsN", {n: B.guests})} · ${yen(total)}${usd ? ` (≈ ${usdText(total)})` : ""}</p>
+      <p class="sum"><b>${esc(X.name)}</b><br>${esc(d.toLocaleDateString(locale,{weekday:"short", month:"long", day:"numeric"}))}, ${B.time}<br>${guestsTxt(B.guests)} · ${yen(total)}${usd ? ` (≈ ${usdText(total)})` : ""}</p>
       <form id="bForm">
         <label>${t("form.name")} *<input id="bName" required autocomplete="name"></label>
         <label>${t("form.email")} *<input id="bEmail" type="email" required autocomplete="email"></label>
@@ -208,7 +215,7 @@ function wire(){
 async function send(e){
   e.preventDefault();
   const v = id => $("#"+id).value.trim(), msg = $("#bMsg");
-  const payload = {tour: X.name + " [" + tk + "]", date: B.date, time: B.time, hours: T.hours, name: v("bName"), email: v("bEmail"), guests: String(B.guests), phone: v("bPhone"), notes: v("bNotes") + (I.lang !== "en" ? " (site language: " + I.lang + ")" : "")};
+  const payload = {tour: X.name + " [" + tk + "]", date: B.date, time: B.time, hours: T.hours, name: v("bName"), email: v("bEmail"), guests: String(B.guests), phone: v("bPhone"), notes: [v("bNotes"), I.lang !== "en" ? "site language: " + I.lang : ""].filter(Boolean).join(" | "), price: yen(unit(B.guests)) + " × " + B.guests + " = " + yen(unit(B.guests) * B.guests)};
   if(CFG.GAS_URL){
     const btn = $("#bSend"); btn.disabled = true;
     try{
@@ -218,7 +225,7 @@ async function send(e){
     }catch(err){ msg.className = "msg err"; msg.textContent = t("tour.sentErr", {email: CFG.CONTACT_EMAIL}); }
     btn.disabled = false;
   } else {
-    const body = `Hi! I'd like to book a tour.\n\nTour: ${payload.tour}\nDate: ${payload.date}  Start: ${payload.time} (Japan time)\nGuests: ${payload.guests}\nName: ${payload.name}\nEmail: ${payload.email}\nWhatsApp: ${payload.phone || "-"}\nNotes: ${payload.notes || "-"}`;
+    const body = `Hi! I'd like to book a tour.\n\nTour: ${payload.tour}\nDate: ${payload.date}  Start: ${payload.time} (Japan time)\nGuests: ${payload.guests}\nPrice: ${payload.price}\nName: ${payload.name}\nEmail: ${payload.email}\nWhatsApp: ${payload.phone || "-"}\nNotes: ${payload.notes || "-"}`;
     location.href = `mailto:${CFG.CONTACT_EMAIL}?subject=${encodeURIComponent("[Okaeri Trip] Booking request: " + X.name + " " + payload.date)}&body=${encodeURIComponent(body)}`;
     msg.className = "msg ok"; msg.textContent = t("tour.mailOpened2", {email: CFG.CONTACT_EMAIL});
   }

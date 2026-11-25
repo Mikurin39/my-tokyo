@@ -204,3 +204,9 @@ h1{font-family:var(--serif);font-weight:600;color:var(--navy);font-size:clamp(28
 .msel-list label{display:flex;align-items:center;gap:10px;padding:8px 12px;font-size:16px;font-weight:400;cursor:pointer}
 .msel-list input{width:18px;height:18px;accent-color:var(--orange)}
 @media(max-width:600px){.req-form .row2{grid-template-columns:minmax(0,1fr)}.req-form{padding:16px}}
+/* small-group price table in the booking box */
+.tiers table{width:100%;border-collapse:collapse;font-size:15px;margin-top:6px}
+.tiers td{padding:6px 8px;border-bottom:1px solid var(--line)}
+.tiers td+td{text-align:right;font-variant-numeric:tabular-nums}
+.tiers tr.on td{background:#fbeee9;font-weight:700}
+.tiers p{margin-top:6px}

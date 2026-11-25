@@ -6,6 +6,7 @@ window.TOUR_DATA = {
   tours: {
     izakaya: {
       type: "book", price: 15000, slots: ["19:00"], hours: 3, max: 12, minAge: 20,
+      small: {1: 33000, 2: 20000, 3: 16000},   // per person when only 1-3 book (a hired guide costs the same for 1 or 12)
       img: "img/goldengai.jpg",
       gallery: ["img/goldengai.jpg", "img/rank/t-omoide-night.jpg", "img/rank/food-omoide-yokocho.jpg", "img/rank/t-godzilla-road.jpg", "img/rank/stay-hotel-gracery-shinjuku.jpg"],
       i18n: { en: {
@@ -28,6 +29,7 @@ window.TOUR_DATA = {
     },
     shibuya: {
       type: "book", price: 12800, slots: ["17:30"], hours: 3.2, max: 10, minAge: 20,
+      small: {1: 30000, 2: 17500, 3: 13500},
       img: "img/shibuyax.jpg",
       gallery: ["img/shibuyax.jpg", "img/rank/t-shibuya-yokocho.jpg", "img/rank/t-nonbei.jpg", "img/shibuyasky.jpg"],
       i18n: { en: {
