@@ -413,7 +413,7 @@ def header(lang, switch_urls, depth):
         for l, u in switch_urls.items())
     return f"""<header>
   <div class="wrap nav">
-    <a href="{home}" class="logo"><img src="{home}img/logo.png" alt="Okaeri Trip" width="515" height="120"></a>
+    <a href="{home}" class="logo"><img src="{home}img/logo.png" alt="Okaeri Trip" width="601" height="120"></a>
     <nav class="nav-links">
       <a href="{home}" class="hide-sm">{ui['home']}</a>
       <a href="{home}#tours" class="hide-sm">{ui['tours']}</a>
