@@ -3,11 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Tokyo | Small-Group Tokyo Tours with a Local Guide</title>
+<title>Okaeri Trip | Small-Group Tokyo Tours with a Local Guide</title>
 <meta name="description" content="Small-group Tokyo tours with a local guide: Shinjuku izakayas and Golden Gai, a Shibuya bar hop, Shimokitazawa, and a Meiji Jingu and Senso-ji morning tour. Plan your trip with our free Tokyo planner and Top 10 spots.">
 <meta name="keywords" content="Tokyo tour guide, private tour guide Tokyo, English speaking guide Tokyo, Shinjuku bar hopping, Golden Gai tour, Omoide Yokocho food tour, Tokyo night tour, izakaya tour Tokyo, things to do in Tokyo, custom Tokyo tour, Tokyo itinerary, Japan travel">
+<meta property="og:site_name" content="Okaeri Trip">
 <meta property="og:type" content="website">
-<meta property="og:title" content="My Tokyo | Small-Group Tokyo Tours with a Local Guide">
+<meta property="og:title" content="Okaeri Trip | Small-Group Tokyo Tours with a Local Guide">
 <meta property="og:description" content="Small-group Tokyo tours with a local guide: Shinjuku izakayas and Golden Gai, a Shibuya bar hop, Shimokitazawa, and a Meiji Jingu and Senso-ji morning tour.">
 <meta property="og:image" content="https://okaeritrip.com/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -20,7 +21,7 @@
 {
   "@context": "https://schema.org",
   "@type": "TravelAgency",
-  "name": "My Tokyo",
+  "name": "Okaeri Trip",
   "description": "Small-group tours in Tokyo with local guides: izakaya nights in Shinjuku and Shibuya, Shimokitazawa, a Meiji Jingu and Senso-ji morning walk, private custom tours and photo tours.",
   "url": "https://okaeritrip.com/",
   "image": "https://okaeritrip.com/og.jpg",
@@ -38,7 +39,7 @@
   "name": "Shinjuku Night Izakaya Crawl: Omoide Yokocho & Golden Gai",
   "description": "3-hour small-group night tour of Shinjuku's legendary bar alleys with a local English-speaking guide. 8+ food tastings and 2 drinks included. Max 12 guests.",
   "image": "https://okaeritrip.com/img/goldengai.jpg",
-  "brand": {"@type": "Brand", "name": "My Tokyo"},
+  "brand": {"@type": "Brand", "name": "Okaeri Trip"},
   "offers": {
     "@type": "Offer",
     "price": "15000",
@@ -57,7 +58,7 @@
   "image": "https://okaeritrip.com/img/shibuyax.jpg",
   "brand": {
     "@type": "Brand",
-    "name": "My Tokyo"
+    "name": "Okaeri Trip"
   },
   "offers": {
     "@type": "Offer",
@@ -77,7 +78,7 @@
   "image": "https://okaeritrip.com/img/rank/x-shimokitazawa.jpg",
   "brand": {
     "@type": "Brand",
-    "name": "My Tokyo"
+    "name": "Okaeri Trip"
   },
   "offers": {
     "@type": "Offer",
@@ -97,7 +98,7 @@
   "image": "https://okaeritrip.com/img/meiji.jpg",
   "brand": {
     "@type": "Brand",
-    "name": "My Tokyo"
+    "name": "Okaeri Trip"
   },
   "offers": {
     "@type": "Offer",
@@ -132,7 +133,7 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type": "Question", "name": "Are the tours in English?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, tours are guided in English. Mikuri, who runs My Tokyo, speaks basic English. Other English-speaking team members also lead some tours."}},
+    {"@type": "Question", "name": "Are the tours in English?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, tours are guided in English. Mikuri, who runs Okaeri Trip, speaks basic English. Other English-speaking team members also lead some tours."}},
     {"@type": "Question", "name": "Can I book a private custom tour of Tokyo?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Send a request with what you'd like to do, how long, and how many people. We reply by email with a plan and a price."}},
     {"@type": "Question", "name": "What is the cancellation policy?", "acceptedAnswer": {"@type": "Answer", "text": "Free cancellation up to 7 days before the tour date. Cancellations within 7 days: 50% of the tour price. Cancellations on the tour day or no-shows: 100%."}},
     {"@type": "Question", "name": "How do I pay for the tour?", "acceptedAnswer": {"@type": "Answer", "text": "Payment is by credit card in advance. After you send a booking request, a secure payment link is emailed to you — the reservation is confirmed once payment is completed."}},
@@ -172,8 +173,8 @@ header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid 
 header .wrap{max-width:1060px;padding:0 22px}
 .nav{display:flex;align-items:center;justify-content:space-between;height:54px;gap:16px}
 .logo{display:flex;align-items:center;gap:7px;color:var(--navy)}
-.logo img{height:52px;width:auto;display:block}
-@media(max-width:600px){.logo img{height:44px}}
+.logo img{height:40px;width:auto;display:block}
+@media(max-width:600px){.logo img{height:32px}}
 .logo b{font-size:15.5px;font-weight:800;display:block;line-height:1.15}
 .logo small{font-size:9.5px;color:var(--muted);display:block;font-weight:500}
 .nav-links{display:flex;gap:20px;align-items:center;font-size:13px}
@@ -329,6 +330,14 @@ footer{background:var(--navy);color:#cfc9bf;font-size:14px;padding:56px 0 28px}
   html{scroll-behavior:auto}
   .slide,.tour-img img{transition:none}
 }
+/* phone header: the wide logo, the book button and the language menu must fit on one line */
+@media(max-width:600px){
+  .logo{flex-shrink:0} .nav{gap:8px} header .wrap{padding:0 12px} .nav-links{gap:8px}
+  .nav-links .btn.small{white-space:nowrap;padding:8px 10px;font-size:12px}
+  .nav-links .lang-sel{padding:3px 8px;gap:0} .nav-links .lang-sel svg{display:none} .nav-links .lang-sel select{font-size:13px}
+}
+@media(max-width:400px){ .logo img{height:28px} }
+@media(max-width:345px){ .logo img{height:24px} .nav{gap:6px} .nav-links{gap:6px} .nav-links .btn.small{padding:7px 8px;font-size:11px} .nav-links .lang-sel{padding:3px 6px} .nav-links .lang-sel select{font-size:12px} }
 </style>
 <link rel="stylesheet" href="css/explore.css">
 </head>
@@ -336,7 +345,7 @@ footer{background:var(--navy);color:#cfc9bf;font-size:14px;padding:56px 0 28px}
 
 <header>
   <div class="wrap nav">
-    <a href="#" class="logo"><img src="img/logo.png" alt="My Tokyo" width="249" height="144"></a>
+    <a href="#" class="logo"><img src="img/logo.png" alt="Okaeri Trip" width="515" height="120"></a>
     <nav class="nav-links">
       <a href="#" data-i18n="nav.home">Home</a>
       <a href="#tours" data-i18n="nav.tours">Tours</a>
@@ -429,7 +438,7 @@ footer{background:var(--navy);color:#cfc9bf;font-size:14px;padding:56px 0 28px}
 <section id="intro">
   <div class="wrap intro-grid">
     <div>
-      <h2 data-i18n="h.3">Why My Tokyo?</h2>
+      <h2 data-i18n="h.3">Why Okaeri Trip?</h2>
       <p class="lead" data-i18n="h.4">We're a team of local guides who love this city. From must-see highlights to secret spots, we'll show you the real Tokyo.</p>
     </div>
     <ul class="points">
@@ -476,7 +485,7 @@ footer{background:var(--navy);color:#cfc9bf;font-size:14px;padding:56px 0 28px}
       <h2 data-i18n="h.57">Hi, I'm Mikuri</h2>
       <p data-i18n="h.58">I was born in Okinawa and moved to Tokyo a year ago. To make friends in my new city, I went everywhere — little solo adventures through every corner of town. Along the way I collected my favorite discoveries: local places that aren't on the map, the kind of spots no guidebook will ever show you. Those are exactly the places I want to share with you.</p>
       <p data-i18n="h.59">I love showing visitors the city behind the guidebooks — the 6-seat bars, the backstreet shrines, the food counters with no English menu and no tourists.</p>
-      <p data-i18n="h.60">I started My Tokyo because the best moments of travel happen in places you'd never enter alone. My job is to open those doors, handle every bit of Japanese for you, and send you home with stories (and a map of my favorite spots for the rest of your trip).</p>
+      <p data-i18n="h.60">I started Okaeri Trip because the best moments of travel happen in places you'd never enter alone. My job is to open those doors, handle every bit of Japanese for you, and send you home with stories (and a map of my favorite spots for the rest of your trip).</p>
       <p class="about-sign" data-i18n="h.61">See you in Tokyo!</p>
     </div>
   </div>
@@ -486,7 +495,7 @@ footer{background:var(--navy);color:#cfc9bf;font-size:14px;padding:56px 0 28px}
   <div class="wrap">
     <div class="sec-head"><h2 data-i18n="h.62">Questions</h2></div>
     <div class="faq-list">
-    <details><summary data-i18n="h.63">Are the tours in English?</summary><div class="a" data-i18n="h.64">Yes, tours are guided in English. Mikuri, who runs My Tokyo, speaks basic English. Other English-speaking team members also lead some tours. If you'd like one of them, tell us when you book and we'll do our best to arrange it.</div></details>
+    <details><summary data-i18n="h.63">Are the tours in English?</summary><div class="a" data-i18n="h.64">Yes, tours are guided in English. Mikuri, who runs Okaeri Trip, speaks basic English. Other English-speaking team members also lead some tours. If you'd like one of them, tell us when you book and we'll do our best to arrange it.</div></details>
     <details><summary data-i18n="h.65">Are vegetarian or non-alcoholic options available?</summary><div class="a" data-i18n="h.66">Yes. Vegetarian options are available with advance notice — please mention dietary restrictions (allergies, religious requirements) in the booking form. Non-drinkers are very welcome: soft drinks can replace any included alcoholic drinks.</div></details>
     <details><summary data-i18n="h.67">How do I pay?</summary><div class="a" data-i18n="h.68">Payment is by credit card in advance. After you send a booking request, we'll email you a secure payment link — your reservation is confirmed once payment is completed.</div></details>
     <details><summary data-i18n="h.69">What is the cancellation policy?</summary><div class="a" data-i18n="h.70">Free cancellation up to 7 days before the tour date. Cancellations within 7 days of the tour: 50% of the tour price. Cancellations on the tour day or no-shows: 100%.</div></details>
@@ -501,7 +510,7 @@ footer{background:var(--navy);color:#cfc9bf;font-size:14px;padding:56px 0 28px}
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <div class="foot-logo">My Tokyo</div>
+        <div class="foot-logo">Okaeri Trip</div>
         <p data-i18n="h.77">We create unique experiences that connect you with the real Tokyo.</p>
       </div>
       <div>
@@ -524,7 +533,7 @@ footer{background:var(--navy);color:#cfc9bf;font-size:14px;padding:56px 0 28px}
       </div>
     </div>
     <div class="foot-bottom">
-      <span data-i18n="h.83">© 2026 My Tokyo. All rights reserved.</span>
+      <span data-i18n="h.83">© 2026 Okaeri Trip. All rights reserved.</span>
       <span data-i18n="h.84">Tokyo, Japan. Small-group tours with local guides.</span>
     </div>
     <details class="credits"><summary data-i18n="h.85">Photo credits (Wikimedia Commons)</summary>

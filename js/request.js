@@ -87,7 +87,7 @@ async function send(ev, key){
     }catch(e){ msg.className = "msg err"; msg.textContent = t("tour.sentErr", {email: CFG.CONTACT_EMAIL}); }
     btn.disabled = false; btn.textContent = t("h.48");
   } else {
-    location.href = `mailto:${CFG.CONTACT_EMAIL}?subject=${encodeURIComponent("[My Tokyo] " + D.tours[key].i18n.en.name + " request")}&body=${encodeURIComponent("Hi! I'd like to ask about a tour.\n\n" + lines.join("\n"))}`;
+    location.href = `mailto:${CFG.CONTACT_EMAIL}?subject=${encodeURIComponent("[Okaeri Trip] " + D.tours[key].i18n.en.name + " request")}&body=${encodeURIComponent("Hi! I'd like to ask about a tour.\n\n" + lines.join("\n"))}`;
     msg.className = "msg ok"; msg.textContent = t("tour.mailOpened2", {email: CFG.CONTACT_EMAIL});
   }
 }

@@ -1,5 +1,5 @@
 /**
- * My Tokyo — booking backend (Google Apps Script)
+ * Okaeri Trip — booking backend (Google Apps Script)
  *
  * 何をするか:
  *  - GET  ?action=availability&from=YYYY-MM-DD&to=YYYY-MM-DD
@@ -32,7 +32,7 @@ function doGet(e) {
     });
     return json({ busy: busy });
   }
-  return json({ ok: true, service: "My Tokyo booking" });
+  return json({ ok: true, service: "Okaeri Trip booking" });
 }
 
 function doPost(e) {
@@ -41,10 +41,10 @@ function doPost(e) {
     // Custom / photo tour requests: no calendar event, just pass the request on and confirm to the guest.
     if (b.type === "request") {
       ["tour", "name", "email", "text"].forEach(function (k) { if (!b[k]) throw new Error("missing field: " + k); });
-      MailApp.sendEmail({ to: OWNER_EMAIL, replyTo: b.email, subject: "[My Tokyo] " + b.tour + " request from " + b.name, body: b.text });
-      MailApp.sendEmail({ to: b.email, subject: "My Tokyo: we received your " + b.tour + " request",
+      MailApp.sendEmail({ to: OWNER_EMAIL, replyTo: b.email, subject: "[Okaeri Trip] " + b.tour + " request from " + b.name, body: b.text });
+      MailApp.sendEmail({ to: b.email, subject: "Okaeri Trip: we received your " + b.tour + " request",
         body: "Hi " + b.name + ",\n\nThank you for your request. We'll reply within 2 days with a plan and a price.\n" +
-              "If you have reference images, just reply to this email and attach them.\n\nHere is what you sent:\n\n" + b.text + "\n\nMy Tokyo" });
+              "If you have reference images, just reply to this email and attach them.\n\nHere is what you sent:\n\n" + b.text + "\n\nOkaeri Trip" });
       return json({ ok: true });
     }
     ["tour", "date", "time", "name", "email", "guests"].forEach(function (k) {
@@ -60,7 +60,7 @@ function doPost(e) {
       return json({ ok: false, error: "This slot was just taken. Please pick another time." });
     }
 
-    const title = "🏮 [My Tokyo] " + b.tour + " — " + b.name + " (" + b.guests + " guests)";
+    const title = "🏮 [Okaeri Trip] " + b.tour + " — " + b.name + " (" + b.guests + " guests)";
     const desc =
       "Tour: " + b.tour + "\n" +
       "Guests: " + b.guests + "\n" +
@@ -74,10 +74,10 @@ function doPost(e) {
     // お客様へ確認メール
     MailApp.sendEmail({
       to: b.email,
-      subject: "🏮 My Tokyo — Booking received: " + b.tour + " (" + b.date + ")",
+      subject: "🏮 Okaeri Trip — Booking received: " + b.tour + " (" + b.date + ")",
       body:
         "Hi " + b.name + ",\n\n" +
-        "Thank you for booking with My Tokyo!\n\n" +
+        "Thank you for booking with Okaeri Trip!\n\n" +
         "Tour:   " + b.tour + "\n" +
         "Date:   " + b.date + "\n" +
         "Start:  " + b.time + " (Japan time), " + hours + " hours\n" +
@@ -89,7 +89,7 @@ function doPost(e) {
           : "We'll email you the meeting point shortly.\n\n") +
         "Payment: we'll send you a secure credit-card payment link shortly — your reservation is confirmed once payment is completed.\n" +
         "Cancellation: free up to 7 days before the tour, 50% within 7 days, 100% on the tour day or no-show.\n\n" +
-        "See you in Tokyo!\nMikuri — My Tokyo\n" +
+        "See you in Tokyo!\nMikuri — Okaeri Trip\n" +
         OWNER_EMAIL,
     });
 

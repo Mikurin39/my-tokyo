@@ -35,7 +35,7 @@ DEFAULT = "en"
 
 UI = {
     "en": {
-        "blog": "Blog", "blog_title": "My Tokyo Blog — Places I Love in Tokyo",
+        "blog": "Blog", "blog_title": "Okaeri Trip Blog — Places I Love in Tokyo",
         "blog_desc": "Restaurants, cafés and parks in Tokyo, visited and written up by a local guide.",
         "blog_lead": "Restaurants, cafés and parks I actually go to. Real photos, honest notes.",
         "home": "Home", "tours": "Tours", "book": "Book a Tour", "lang": "Language",
@@ -47,7 +47,7 @@ UI = {
         "from_blog": "Blog", "more": "Read the blog",
     },
     "ja": {
-        "blog": "ブログ", "blog_title": "My Tokyo ブログ｜東京の好きなお店と場所",
+        "blog": "ブログ", "blog_title": "Okaeri Trip ブログ｜東京の好きなお店と場所",
         "blog_desc": "東京在住のガイドが実際に行ったレストラン・カフェ・公園を紹介します。",
         "blog_lead": "自分で行って、よかったお店や場所だけを書いています。写真も全部自分で撮ったものです。",
         "home": "ホーム", "tours": "ツアー", "book": "ツアーを予約", "lang": "言語",
@@ -59,7 +59,7 @@ UI = {
         "from_blog": "ブログ", "more": "ブログを読む",
     },
     "ko": {
-        "blog": "블로그", "blog_title": "My Tokyo 블로그 — 도쿄에서 좋아하는 곳들",
+        "blog": "블로그", "blog_title": "Okaeri Trip 블로그 — 도쿄에서 좋아하는 곳들",
         "blog_desc": "도쿄 현지 가이드가 직접 다녀온 레스토랑, 카페, 공원을 소개합니다.",
         "blog_lead": "제가 직접 가 보고 좋았던 곳만 씁니다. 사진도 모두 직접 찍었어요.",
         "home": "홈", "tours": "투어", "book": "투어 예약", "lang": "언어",
@@ -71,7 +71,7 @@ UI = {
         "from_blog": "블로그", "more": "블로그 보기",
     },
     "zh-Hant": {
-        "blog": "部落格", "blog_title": "My Tokyo 部落格｜我喜歡的東京好店與景點",
+        "blog": "部落格", "blog_title": "Okaeri Trip 部落格｜我喜歡的東京好店與景點",
         "blog_desc": "東京在地導遊親自造訪的餐廳、咖啡廳與公園。",
         "blog_lead": "只寫我自己去過、真心喜歡的地方。照片也都是我親手拍的。",
         "home": "首頁", "tours": "行程", "book": "預約行程", "lang": "語言",
@@ -83,7 +83,7 @@ UI = {
         "from_blog": "部落格", "more": "閱讀部落格",
     },
     "fr": {
-        "blog": "Blog", "blog_title": "Blog My Tokyo — Mes adresses préférées à Tokyo",
+        "blog": "Blog", "blog_title": "Blog Okaeri Trip — Mes adresses préférées à Tokyo",
         "blog_desc": "Restaurants, cafés et parcs de Tokyo, testés et racontés par quelqu'un qui y vit.",
         "blog_lead": "Uniquement des endroits où je vais vraiment. Vraies photos, avis sincères.",
         "home": "Accueil", "tours": "Visites", "book": "Réserver une visite", "lang": "Langue",
@@ -264,8 +264,9 @@ a{color:var(--orange);text-decoration:none}
 header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:56px;gap:12px}
 .logo{display:flex;align-items:center;gap:7px;color:var(--navy);flex-shrink:0}
-.logo img{height:52px;width:auto;display:block}
-@media(max-width:600px){.logo img{height:44px}}
+.logo img{height:40px;width:auto;display:block}
+@media(max-width:600px){.logo img{height:32px}}
+@media(max-width:400px){.logo img{height:28px}}
 .logo b{font-size:15.5px;font-weight:800;display:block;line-height:1.15}
 .logo small{font-size:9.5px;color:var(--muted);display:block;font-weight:500}
 .nav-links{display:flex;gap:18px;align-items:center;font-size:13.5px}
@@ -390,7 +391,7 @@ def head(lang, title, desc, canonical, alternates, og_image, og_type, jsonld, de
 <meta property="og:url" content="{canonical}">
 <meta property="og:image" content="{og_image}">
 <meta property="og:locale" content="{meta['og']}">
-<meta property="og:site_name" content="My Tokyo">
+<meta property="og:site_name" content="Okaeri Trip">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" type="image/png" sizes="32x32" href="{SITE}/img/icon-32.png">
 <link rel="apple-touch-icon" href="{SITE}/img/icon-180.png">
@@ -412,7 +413,7 @@ def header(lang, switch_urls, depth):
         for l, u in switch_urls.items())
     return f"""<header>
   <div class="wrap nav">
-    <a href="{home}" class="logo"><img src="{home}img/logo.png" alt="My Tokyo" width="249" height="144"></a>
+    <a href="{home}" class="logo"><img src="{home}img/logo.png" alt="Okaeri Trip" width="515" height="120"></a>
     <nav class="nav-links">
       <a href="{home}" class="hide-sm">{ui['home']}</a>
       <a href="{home}#tours" class="hide-sm">{ui['tours']}</a>
@@ -432,7 +433,7 @@ def footer(lang, depth):
     home = "../" * depth
     return f"""<footer>
   <div class="wrap">
-    <span>© {date.today().year} My Tokyo · Tokyo, Japan</span>
+    <span>© {date.today().year} Okaeri Trip · Tokyo, Japan</span>
     <span><a href="{home}">okaeritrip.com</a> · <a href="https://www.instagram.com/mytokyo39/" target="_blank" rel="noopener">Instagram</a></span>
   </div>
 </footer>
@@ -467,7 +468,7 @@ def render_post(p, lang, posts):
         "datePublished": p["date"], "dateModified": p.get("updated", p["date"]),
         "image": [cover_abs], "mainEntityOfPage": post_url(lang, slug),
         "author": {"@type": "Person", "name": "Mikuri", "url": f"{SITE}/#about"},
-        "publisher": {"@type": "Organization", "name": "My Tokyo", "url": f"{SITE}/"},
+        "publisher": {"@type": "Organization", "name": "Okaeri Trip", "url": f"{SITE}/"},
         "about": place_ld,
     }
     area = (place.get("area_i18n") or {}).get(lang) or place.get("area")
@@ -489,7 +490,7 @@ def render_post(p, lang, posts):
     if others:
         cards = "\n".join(card(o, lang, f"../{o['slug']}/", f"../../img/{o['slug']}/{o['cover']}", "h3") for o in others)
         related = f'<section class="related"><h2>{ui["related"]}</h2><div class="posts">\n{cards}\n</div></section>'
-    out = head(lang, f"{t['title']} | My Tokyo", t["description"], post_url(lang, slug), alternates,
+    out = head(lang, f"{t['title']} | Okaeri Trip", t["description"], post_url(lang, slug), alternates,
                cover_abs, "article", jsonld, 3)
     out += header(lang, switch, 3)
     out += f"""<main>
@@ -554,7 +555,7 @@ def render_list(posts, lang):
 
 REDIRECT = """<!DOCTYPE html>
 <html lang="en"><head><meta charset="UTF-8">
-<title>My Tokyo Blog</title>
+<title>Okaeri Trip Blog</title>
 <meta name="robots" content="noindex">
 <script>
 (function(){
@@ -568,7 +569,7 @@ REDIRECT = """<!DOCTYPE html>
 })();
 </script>
 <meta http-equiv="refresh" content="2;url=en/">
-</head><body><a href="en/">My Tokyo Blog</a></body></html>
+</head><body><a href="en/">Okaeri Trip Blog</a></body></html>
 """
 
 

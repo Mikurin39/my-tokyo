@@ -31,12 +31,12 @@ const ICON = {
 const firstSentence = txt => { const parts = String(txt || "").match(/[^.!?。！？]+(?:[.!?](?=\s|$)|[。！？])?\s*/g) || [""];
   let out = ""; for(const p of parts){ if((out + p).trim().length > 155 && out) break; out += p; }
   out = out.trim(); return out.length > 160 ? out.slice(0, 157) + "…" : out; };
-I.head({title: X.name + " | My Tokyo", desc: firstSentence(X.overview), path: "tour.html?t=" + tk, image: T.img});
+I.head({title: X.name + " | Okaeri Trip", desc: firstSentence(X.overview), path: "tour.html?t=" + tk, image: T.img});
 // structured data so search engines can show the price and the tour as a product
 (function(){ const site = (CFG.SITE_URL || "").replace(/\/$/, "") + "/";
   if(T.type !== "book") return;   // price on request: nothing to show as a product price
   const url = site + "tour.html?t=" + tk + (I.lang !== "en" ? "&lang=" + I.lang : "");
-  const ld = {"@context":"https://schema.org", "@type":"Product", name: X.name, description: firstSentence(X.overview), image: site + T.img, brand: {"@type":"Brand", name:"My Tokyo"},
+  const ld = {"@context":"https://schema.org", "@type":"Product", name: X.name, description: firstSentence(X.overview), image: site + T.img, brand: {"@type":"Brand", name:"Okaeri Trip"},
     offers: {"@type":"Offer", price: String(T.price), priceCurrency:"JPY", url}};
   const sc = document.createElement("script"); sc.type = "application/ld+json"; sc.textContent = JSON.stringify(ld); document.head.appendChild(sc); })();
 $("#langSlot").innerHTML = I.selector();
@@ -219,7 +219,7 @@ async function send(e){
     btn.disabled = false;
   } else {
     const body = `Hi! I'd like to book a tour.\n\nTour: ${payload.tour}\nDate: ${payload.date}  Start: ${payload.time} (Japan time)\nGuests: ${payload.guests}\nName: ${payload.name}\nEmail: ${payload.email}\nWhatsApp: ${payload.phone || "-"}\nNotes: ${payload.notes || "-"}`;
-    location.href = `mailto:${CFG.CONTACT_EMAIL}?subject=${encodeURIComponent("[My Tokyo] Booking request: " + X.name + " " + payload.date)}&body=${encodeURIComponent(body)}`;
+    location.href = `mailto:${CFG.CONTACT_EMAIL}?subject=${encodeURIComponent("[Okaeri Trip] Booking request: " + X.name + " " + payload.date)}&body=${encodeURIComponent(body)}`;
     msg.className = "msg ok"; msg.textContent = t("tour.mailOpened2", {email: CFG.CONTACT_EMAIL});
   }
 }

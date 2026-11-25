@@ -1,4 +1,4 @@
-# CLAUDE.md — My Tokyo（okaeritrip.com）
+# CLAUDE.md — Okaeri Trip（okaeritrip.com）
 
 英語のツアーガイド予約サイト。GitHub Pages で `main` を push すると数十秒で公開される静的サイト（ビルドサーバーなし）。
 
@@ -68,7 +68,7 @@ python3 tools/build_blog.py
 - 言語を増やすときは `tools/build_blog.py` の `LANGS`・`UI`・`CATEGORIES` に追加して、全記事の `i18n` にもその言語を足す。
 
 ## 独自ドメインに移す
-- `python3 tools/set_domain.py <ドメイン>`（例: `mytokyotours.com`）。サイト中の住所・CNAME・サイトマップ・ブログをまとめて書き換える。戻すときは `--github`。
+- `python3 tools/set_domain.py <ドメイン>`（例: `okaeritrip.com`）。サイト中の住所・CNAME・サイトマップ・ブログをまとめて書き換える。戻すときは `--github`。
 - そのあと commit・push し、GitHub の Settings > Pages で Custom domain を入れて Enforce HTTPS をオンにする。ドメイン側の DNS は GitHub Pages の案内どおりに設定する。
 - Search Console に新しいドメインを登録し、`sitemap.xml` を送る。
 - ツアーページを足したら `tools/build_blog.py` の `PAGES_LASTMOD` を更新して再ビルドする（サイトマップに入る）。

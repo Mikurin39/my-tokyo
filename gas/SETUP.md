@@ -7,7 +7,7 @@
 
 1. https://script.google.com を開く（mikumaketer1@gmail.com でログイン）
 2. **「新しいプロジェクト」** をクリック
-3. エディタに `Code.gs` の中身を全部貼り付けて保存（プロジェクト名: `My Tokyo Booking`）
+3. エディタに `Code.gs` の中身を全部貼り付けて保存（プロジェクト名: `Okaeri Trip Booking`）
 4. 右上 **「デプロイ」→「新しいデプロイ」**
    - 種類の選択（歯車アイコン）→ **ウェブアプリ**
    - 説明: 任意
