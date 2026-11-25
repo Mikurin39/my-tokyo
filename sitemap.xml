@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://okaeritrip.com/</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://okaeritrip.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://okaeritrip.com/?lang=ja"/>
@@ -13,7 +13,7 @@
   </url>
   <url>
     <loc>https://okaeritrip.com/?lang=ja</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://okaeritrip.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://okaeritrip.com/?lang=ja"/>
@@ -24,7 +24,7 @@
   </url>
   <url>
     <loc>https://okaeritrip.com/?lang=ko</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://okaeritrip.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://okaeritrip.com/?lang=ja"/>
@@ -35,7 +35,7 @@
   </url>
   <url>
     <loc>https://okaeritrip.com/?lang=zh-Hant</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://okaeritrip.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://okaeritrip.com/?lang=ja"/>
@@ -46,7 +46,7 @@
   </url>
   <url>
     <loc>https://okaeritrip.com/?lang=fr</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://okaeritrip.com/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://okaeritrip.com/?lang=ja"/>
@@ -387,7 +387,7 @@
   </url>
   <url>
     <loc>https://okaeritrip.com/blog/en/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://okaeritrip.com/blog/en/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://okaeritrip.com/blog/ja/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://okaeritrip.com/blog/ko/"/>
@@ -397,7 +397,7 @@
   </url>
   <url>
     <loc>https://okaeritrip.com/blog/ja/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://okaeritrip.com/blog/en/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://okaeritrip.com/blog/ja/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://okaeritrip.com/blog/ko/"/>
@@ -407,7 +407,7 @@
   </url>
   <url>
     <loc>https://okaeritrip.com/blog/ko/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://okaeritrip.com/blog/en/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://okaeritrip.com/blog/ja/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://okaeritrip.com/blog/ko/"/>
@@ -417,7 +417,7 @@
   </url>
   <url>
     <loc>https://okaeritrip.com/blog/zh-Hant/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://okaeritrip.com/blog/en/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://okaeritrip.com/blog/ja/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://okaeritrip.com/blog/ko/"/>
@@ -427,13 +427,63 @@
   </url>
   <url>
     <loc>https://okaeritrip.com/blog/fr/</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://okaeritrip.com/blog/en/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://okaeritrip.com/blog/ja/"/>
     <xhtml:link rel="alternate" hreflang="ko" href="https://okaeritrip.com/blog/ko/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://okaeritrip.com/blog/zh-Hant/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://okaeritrip.com/blog/fr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://okaeritrip.com/blog/en/"/>
+  </url>
+  <url>
+    <loc>https://okaeritrip.com/blog/en/komuginohoshi-hanegi/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okaeritrip.com/blog/en/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okaeritrip.com/blog/ja/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okaeritrip.com/blog/ko/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://okaeritrip.com/blog/zh-Hant/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://okaeritrip.com/blog/fr/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okaeritrip.com/blog/en/komuginohoshi-hanegi/"/>
+  </url>
+  <url>
+    <loc>https://okaeritrip.com/blog/ja/komuginohoshi-hanegi/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okaeritrip.com/blog/en/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okaeritrip.com/blog/ja/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okaeritrip.com/blog/ko/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://okaeritrip.com/blog/zh-Hant/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://okaeritrip.com/blog/fr/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okaeritrip.com/blog/en/komuginohoshi-hanegi/"/>
+  </url>
+  <url>
+    <loc>https://okaeritrip.com/blog/ko/komuginohoshi-hanegi/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okaeritrip.com/blog/en/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okaeritrip.com/blog/ja/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okaeritrip.com/blog/ko/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://okaeritrip.com/blog/zh-Hant/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://okaeritrip.com/blog/fr/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okaeritrip.com/blog/en/komuginohoshi-hanegi/"/>
+  </url>
+  <url>
+    <loc>https://okaeritrip.com/blog/zh-Hant/komuginohoshi-hanegi/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okaeritrip.com/blog/en/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okaeritrip.com/blog/ja/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okaeritrip.com/blog/ko/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://okaeritrip.com/blog/zh-Hant/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://okaeritrip.com/blog/fr/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okaeritrip.com/blog/en/komuginohoshi-hanegi/"/>
+  </url>
+  <url>
+    <loc>https://okaeritrip.com/blog/fr/komuginohoshi-hanegi/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://okaeritrip.com/blog/en/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://okaeritrip.com/blog/ja/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://okaeritrip.com/blog/ko/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://okaeritrip.com/blog/zh-Hant/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://okaeritrip.com/blog/fr/komuginohoshi-hanegi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://okaeritrip.com/blog/en/komuginohoshi-hanegi/"/>
   </url>
   <url>
     <loc>https://okaeritrip.com/blog/en/schmatz-shimokitazawa/</loc>

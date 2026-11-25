@@ -88,7 +88,7 @@ UI = {
         "blog_lead": "Uniquement des endroits où je vais vraiment. Vraies photos, avis sincères.",
         "home": "Accueil", "tours": "Visites", "book": "Réserver une visite", "lang": "Langue",
         "all_posts": "← Tous les articles", "read": "Lire", "map": "Ouvrir dans Google Maps",
-        "place": "Adresse", "area": "Quartier", "empty": "Les premiers articles arrivent bientôt.",
+        "place": "Lieu", "area": "Quartier", "empty": "Les premiers articles arrivent bientôt.",
         "cta_h": "Envie d'y aller avec quelqu'un d'ici ?",
         "cta_p": "Je peux vous emmener dans ce genre d'endroits lors d'une visite privée sur mesure.",
         "cta_btn": "Voir les visites", "by": "Mikuri, votre guide à Tokyo",
@@ -98,31 +98,31 @@ UI = {
 
 UI_POST = {
     "en": {"published": "Published", "updated": "Updated", "role": "Local guide in Tokyo", "tip": "My tip",
-           "essentials": "The essentials", "access": "Getting there", "price": "Price",
+           "address": "Address", "hours": "Opening hours", "essentials": "The essentials", "access": "Getting there", "price": "Price",
            "good_for": "Best for", "directions": "Directions on Google Maps",
            "bio_h": "Hi, I'm Mikuri",
            "bio_p": "I grew up in Okinawa and moved to Tokyo, where I explored the city one neighborhood at a time. I write about the places I actually go to, and I guide small private tours to them.",
            "bio_link": "Tour with me →", "related": "More from the blog"},
     "ja": {"published": "公開", "updated": "更新", "role": "東京のローカルガイド", "tip": "ひとことメモ",
-           "essentials": "お店の基本情報", "access": "アクセス", "price": "予算",
+           "address": "住所", "hours": "営業時間", "essentials": "お店の基本情報", "access": "アクセス", "price": "予算",
            "good_for": "こんな人に", "directions": "Google マップで道順を見る",
            "bio_h": "こんにちは、Mikuri です",
            "bio_p": "沖縄で生まれ育ち、東京に引っ越してから街をひとつずつ歩いてきました。自分で行ったお店や場所だけを書いていて、そうした場所を案内する少人数のプライベートツアーもしています。",
            "bio_link": "ツアーを見る →", "related": "ほかの記事"},
     "ko": {"published": "게시", "updated": "업데이트", "role": "도쿄 현지 가이드", "tip": "작은 팁",
-           "essentials": "기본 정보", "access": "가는 방법", "price": "가격",
+           "address": "주소", "hours": "영업시간", "essentials": "기본 정보", "access": "가는 방법", "price": "가격",
            "good_for": "이런 분께", "directions": "Google 지도에서 길찾기",
            "bio_h": "안녕하세요, Mikuri예요",
            "bio_p": "오키나와에서 나고 자라 도쿄로 이사 온 뒤, 동네를 하나씩 걸어 다니며 알아 왔어요. 직접 가 본 곳만 글로 쓰고, 그런 곳을 안내하는 소규모 프라이빗 투어도 하고 있어요.",
            "bio_link": "투어 보기 →", "related": "블로그의 다른 글"},
     "zh-Hant": {"published": "發布", "updated": "更新", "role": "東京在地導遊", "tip": "小提醒",
-                "essentials": "基本資訊", "access": "交通", "price": "價格",
+                "address": "地址", "hours": "營業時間", "essentials": "基本資訊", "access": "交通", "price": "價格",
                 "good_for": "推薦給", "directions": "用 Google 地圖導航",
                 "bio_h": "嗨，我是 Mikuri",
                 "bio_p": "我在沖繩長大，搬到東京後一區一區地走遍這座城市。這裡只寫我自己去過的店家和地點，我也帶小團的私人行程去這些地方。",
                 "bio_link": "查看行程 →", "related": "更多文章"},
     "fr": {"published": "Publié le", "updated": "Mis à jour le", "role": "Guide à Tokyo", "tip": "Mon conseil",
-           "essentials": "Infos pratiques", "access": "Comment y aller", "price": "Prix",
+           "address": "Adresse", "hours": "Horaires", "essentials": "Infos pratiques", "access": "Comment y aller", "price": "Prix",
            "good_for": "Idéal pour", "directions": "Itinéraire sur Google Maps",
            "bio_h": "Bonjour, moi c'est Mikuri",
            "bio_p": "J'ai grandi à Okinawa, puis Tokyo est devenue ma ville : je l'explore quartier par quartier. Je n'écris que sur les endroits où je vais vraiment, et j'y emmène de petits groupes en visite privée.",
@@ -135,6 +135,7 @@ CATEGORIES = {
     "restaurant": {"en": "Restaurant", "ja": "レストラン", "ko": "레스토랑", "zh-Hant": "餐廳", "fr": "Restaurant", "schema": "Restaurant"},
     "izakaya": {"en": "Izakaya", "ja": "居酒屋", "ko": "이자카야", "zh-Hant": "居酒屋", "fr": "Izakaya", "schema": "BarOrPub"},
     "cafe": {"en": "Café", "ja": "カフェ", "ko": "카페", "zh-Hant": "咖啡廳", "fr": "Café", "schema": "CafeOrCoffeeShop"},
+    "bakery": {"en": "Bakery", "ja": "パン屋", "ko": "베이커리", "zh-Hant": "麵包店", "fr": "Boulangerie", "schema": "Bakery"},
     "sweets": {"en": "Sweets", "ja": "スイーツ", "ko": "디저트", "zh-Hant": "甜點", "fr": "Douceurs", "schema": "Bakery"},
     "bar": {"en": "Bar", "ja": "バー", "ko": "바", "zh-Hant": "酒吧", "fr": "Bar", "schema": "BarOrPub"},
     "park": {"en": "Park", "ja": "公園", "ko": "공원", "zh-Hant": "公園", "fr": "Parc", "schema": "Park"},
@@ -473,10 +474,15 @@ def render_post(p, lang, posts):
     }
     area = (place.get("area_i18n") or {}).get(lang) or place.get("area")
     info = t.get("info", {})
-    rows = f"<dt>{ui['place']}</dt><dd><b>{esc(place['name'])}</b></dd>"
+    local = place.get("name_local")
+    if local and local != place["name"]:
+        first, second = (local, place["name"]) if lang in ("ja", "zh-Hant") else (place["name"], local)
+        rows = f"<dt>{ui['place']}</dt><dd><b>{esc(first)}</b><br><small>{esc(second)}</small></dd>"
+    else:
+        rows = f"<dt>{ui['place']}</dt><dd><b>{esc(place['name'])}</b></dd>"
     if area:
         rows += f"<dt>{ui['area']}</dt><dd>{esc(area)}</dd>"
-    for key in ("access", "price", "good_for"):
+    for key in ("access", "address", "hours", "price", "good_for"):
         if info.get(key):
             rows += f"<dt>{ui[key]}</dt><dd>{inline(info[key])}</dd>"
     map_btn = (f'<a class="btn-line" href="{esc(place["maps_url"])}" target="_blank" rel="noopener">{ui["directions"]}</a>'

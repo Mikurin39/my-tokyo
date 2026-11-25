@@ -23,11 +23,11 @@ uv run --with pillow --with pillow-heif python tools/add_photos.py <slug> <写�
 ### 3. 記事ファイルを書く
 `posts/<slug>.json`。形は `posts/` にある既存の記事に合わせる。必須項目:
 - `slug`（ファイル名と同じ）、`date`（YYYY-MM-DD・訪問日でなく公開日）、`category`
-  （`restaurant` `izakaya` `cafe` `sweets` `bar` `park` `shrine` `spot` `shop` のどれか）
+  （`restaurant` `izakaya` `cafe` `bakery` `sweets` `bar` `park` `shrine` `spot` `shop` のどれか）
 - `place`: `name`（ローマ字/英語）、`name_local`（日本語の店名）、`area`、`area_i18n`、`maps_url`（MIKURI がくれたリンクそのまま）
 - `cover`（一覧と記事の先頭に出す写真）、`photos[].alt`（写真に何が写っているかの説明。5言語すべて）
 - `i18n` に **en / ja / ko / zh-Hant / fr の5言語すべて**: `title`、`description`（検索結果に出る要約。ja・zh-Hant は80〜120字、ko は80〜120字、en・fr は140〜160文字）、`body`
-- `i18n.<lang>.info`: 記事末尾「基本情報」欄。`access`（駅から何分など）、`price`（実際に払った額）、`good_for`（どんな人に）。MIKURI が言ったことだけ
+- `i18n.<lang>.info`: 記事末尾「基本情報」欄。`access`（駅から何分など）、`address`（住所。Google マップで確かめたもの）、`hours`（営業時間・定休日。Google マップで確かめたもの）、`price`（実際に払った額）、`good_for`（どんな人に）。MIKURI が言ったことと確かめたことだけ。`place.name_local` に公式の店名を入れると、基本情報欄に併記される
 - 任意: `updated`（記事を直したらその日付。検索エンジンに更新を伝える）、`draft: true`（ビルドから外す。書きかけの保管用）
 
 本文 `body` で使える書き方: `## 見出し`、`- 箇条書き`、`> ひとことメモ`（囲みのTip。体験から言える具体的な助言だけ）、`**太字**`、`[文字](https://…)`、写真は1行で `![キャプション](02.jpg)`。段落の区切りは空行。
