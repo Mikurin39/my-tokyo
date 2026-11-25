@@ -68,7 +68,7 @@ function doPost(e) {
       "Email: " + b.email + "\n" +
       "WhatsApp: " + (b.phone || "-") + "\n" +
       "Notes: " + (b.notes || "-") + "\n\n" +
-      "Booked via mikurin39.github.io/my-tokyo";
+      "Booked via okaeritrip.com";
     CALENDAR.createEvent(title, start, end, { description: desc });
 
     // お客様へ確認メール

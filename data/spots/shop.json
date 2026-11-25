@@ -210,7 +210,8 @@
    "friends",
    "shopping",
    "food",
-   "unique"
+   "unique",
+   "cooking"
   ],
   "meal": null,
   "duration_min": 90,

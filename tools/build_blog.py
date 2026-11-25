@@ -19,7 +19,7 @@ from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE = "https://mikurin39.github.io/my-tokyo"
+SITE = "https://okaeritrip.com"
 POSTS_DIR = ROOT / "posts"
 BLOG_DIR = ROOT / "blog"
 
@@ -433,7 +433,7 @@ def footer(lang, depth):
     return f"""<footer>
   <div class="wrap">
     <span>© {date.today().year} My Tokyo · Tokyo, Japan</span>
-    <span><a href="{home}">mikurin39.github.io/my-tokyo</a> · <a href="https://www.instagram.com/mytokyo39/" target="_blank" rel="noopener">Instagram</a></span>
+    <span><a href="{home}">okaeritrip.com</a> · <a href="https://www.instagram.com/mytokyo39/" target="_blank" rel="noopener">Instagram</a></span>
   </div>
 </footer>
 <script>try{{localStorage.setItem('mytokyo_lang','{lang}')}}catch(e){{}}</script>

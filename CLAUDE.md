@@ -1,4 +1,4 @@
-# CLAUDE.md — My Tokyo（mikurin39.github.io/my-tokyo）
+# CLAUDE.md — My Tokyo（okaeritrip.com）
 
 英語のツアーガイド予約サイト。GitHub Pages で `main` を push すると数十秒で公開される静的サイト（ビルドサーバーなし）。
 
@@ -57,7 +57,7 @@ python3 tools/build_blog.py
    ```bash
    git add posts blog index.html sitemap.xml tools CLAUDE.md && git commit -m "Blog: <店名>" && git push
    ```
-3. 1分ほどして `https://mikurin39.github.io/my-tokyo/blog/en/<slug>/` が開けることを確かめてから、URL を伝える。
+3. 1分ほどして `https://okaeritrip.com/blog/en/<slug>/` が開けることを確かめてから、URL を伝える。
 
 記事の修正・削除も同じ流れ（JSON を直す／消す → ビルド → 確認 → OK → push）。写真を消すときは `blog/img/<slug>/` も消す。
 

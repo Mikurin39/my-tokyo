@@ -22,7 +22,7 @@ const weekday = (d, style) => d.toLocaleDateString(LOCALE, {weekday: style || "l
 // translated spot text (name, about, hours ...) from js/spots-<lang>.js, laid over the English
 const SPOT_TR = window.SPOTS_I18N || {};
 const SPOT_EN = {};   // English hours and closed days, which the route planner reads
-Object.keys(S).forEach(id => { SPOT_EN[id] = {hours: S[id].hours, closed: S[id].closed, parking: S[id].parking}; S[id].name_en = S[id].name; if(SPOT_TR[id]) Object.assign(S[id], SPOT_TR[id]); });
+Object.keys(S).forEach(id => { SPOT_EN[id] = {hours: S[id].hours, closed: S[id].closed, parking: S[id].parking, car: S[id].car}; S[id].name_en = S[id].name; if(SPOT_TR[id]) Object.assign(S[id], SPOT_TR[id]); });
 
 /* ---------- icons ---------- */
 const P = {
@@ -336,7 +336,13 @@ function renderDrawer(){
 /* ---------- wizard ---------- */
 /* same 21 keywords, in the same order, as the Nara planner the owner asked us to follow */
 const KEYWORDS = ["solo","friends","family","relax","learn","seasonal","unique","nature","history","art","onsen","beauty","active","hiking","food","cooking","shopping","music","photo","drive","reading"];
-const KW_TAGS = {cooking:["food"]};   // no cooking class in the list yet, so food places stand in
+/* which spot tags answer each keyword. "alt" tags are close cousins and count half,
+   so a keyword with few exact places (cooking, reading, drive…) still changes the list */
+const KW_TAGS = {
+  cooking:{alt:["food"]}, beauty:{alt:["onsen"]}, reading:{alt:["cafe"]},
+  hiking:{alt:["nature"]}, music:{alt:["art"]}, onsen:{alt:["beauty"]},
+  learn:{alt:["history","reading"]}, seasonal:{alt:["nature"]}, art:{alt:["learn"]}
+};
 let W = Object.assign({year:"", gender:"", kw:[], when:"", date:"", nights:0, mode:""}, store.get("mt_wz", {}));
 if(W.mode === "walk") W.mode = "train";   // walking and trains are now one choice
 W.kw = (W.kw || []).filter(k => KEYWORDS.includes(k));
@@ -410,18 +416,50 @@ function renderWcal(){
   box.querySelectorAll("[data-d]").forEach(b => b.addEventListener("click", () => { W.date = b.dataset.d; refocus(`#wzCal [data-d="${W.date}"]`); renderWizard(); }));
 }
 
-/* recommendation score: keyword match first, then the ranking position, then small nudges */
+/* ---------- recommendation score ----------
+   The answers decide the order: the keywords first (a matching place always comes before one that doesn't),
+   then who is travelling, age, transport, season, and only then how high the place is in the ranking. */
+const KW_W = [10, 8, 6];                        // 1st, 2nd, 3rd keyword
+const ADULTS = {"golden-gai":20, "omoide-yokocho":8, "harmonica-yokocho":8};   // tiny bars and smoky drinking alleys; not for children
+const carOk = id => { const e = SPOT_EN[id] || {}; return /^possible(, with|; there is)/i.test(e.car || "") || /on site/i.test(e.parking || ""); };
+const carNo = id => /^(not possible|not recommended|not practical)/i.test((SPOT_EN[id] || {}).car || "");
+function tagsOf(id){ const t = (S[id].tags || []).slice(); if(carOk(id)) t.push("drive"); if(bucket(id) === "cafe") t.push("cafe"); return t; }
+const ageNow = () => W.year && W.year !== "skip" ? new Date().getFullYear() - (+W.year) : null;
+/* which of the chosen keywords a place answers exactly (shown on the card; close cousins only change the order) */
+function matchesOf(id){ const tags = tagsOf(id); return W.kw.filter(k => tags.includes(k)); }
+const scoreCache = new Map();
 function score(id){
-  const s = S[id], tags = s.tags || []; let sc = 0;
-  W.kw.forEach((k, i) => { if((KW_TAGS[k] || [k]).some(t => tags.includes(t))) sc += 3 - i*.4; });   // first choice counts most
+  const key = id + "|" + JSON.stringify([W.kw, W.year, W.gender, W.mode, W.date]);
+  if(scoreCache.has(key)) return scoreCache.get(key);
+  const tags = tagsOf(id), has = t => tags.includes(t); let sc = 0;
+  W.kw.forEach((k, i) => {
+    if(has(k)) sc += KW_W[i];
+    else if(((KW_TAGS[k] || {}).alt || []).some(has)) sc += KW_W[i] / 2;
+  });
+  // ranking position: at most about 2.5, so it only orders places the answers treat the same
   DATA.genres.forEach(g => { if(g.key==="all") return; const i = g.ids.indexOf(id); if(i>=0) sc += (10-i)/10; });
   if(DATA.genres[0] && DATA.genres[0].ids.includes(id)) sc += .5;
-  const age = W.year && W.year !== "skip" ? new Date().getFullYear() - (+W.year) : null;
-  if(age !== null && age < 30 && (tags.includes("photo") || tags.includes("unique"))) sc += .4;
-  if(age !== null && age >= 60 && (tags.includes("relax") || tags.includes("history"))) sc += .4;
-  if(W.mode === "car" && SPOT_EN[id].parking && !/^no\b/i.test(SPOT_EN[id].parking)) sc += .5;
-  if(W.mode === "train" && s.walk_min != null && s.walk_min <= 5) sc += .3;
-  if(W.date){ const mo = +W.date.slice(5,7); if((mo===3||mo===4||mo===11||mo===12) && (tags.includes("seasonal")||tags.includes("nature"))) sc += .5; }
+  // who is travelling
+  if(W.kw.includes("family") && ADULTS[id]) sc -= ADULTS[id];
+  if(W.kw.includes("solo") && has("solo")) sc += 1;
+  // age
+  const age = ageNow();
+  if(age !== null && age < 30){ if(has("photo") || has("unique")) sc += 1; if(has("shopping") || has("music")) sc += .5; }
+  if(age !== null && age >= 30 && age < 60){ if(has("relax") || has("food")) sc += .5; }
+  if(age !== null && age >= 60){
+    if(has("relax") || has("history")) sc += 1;
+    if((has("hiking") || has("active")) && !W.kw.some(k => ["hiking","active"].includes(k))) sc -= 1.5;
+  }
+  // transport
+  if(W.mode === "car"){ if(carOk(id)) sc += 2; else if(carNo(id)) sc -= 2; }
+  if(W.mode === "train" && S[id].walk_min != null && S[id].walk_min <= 5) sc += .5;
+  // season of the chosen date: blossoms (Mar–Apr), autumn leaves (Nov–Dec), indoor places in the hot months
+  if(W.date){
+    const mo = +W.date.slice(5,7);
+    if([3,4,11,12].includes(mo) && (has("seasonal") || has("nature"))) sc += 1;
+    if([7,8].includes(mo) && (has("hiking") || has("active")) && !W.kw.includes("hiking")) sc -= .5;
+  }
+  scoreCache.set(key, sc);
   return sc;
 }
 const ids = Object.keys(S);
@@ -462,6 +500,7 @@ function renderResults(){
   body.innerHTML = `<div class="res-page">
     <div class="res-main">
       <div class="res-head"><h3 tabindex="-1">${X("recH")}</h3><p class="sub">${X("recSub", {plus: `<span class="plus-dot" aria-hidden="true">${ico("plus")}</span>`})}</p>
+      ${W.kw.length ? `<p class="res-basis">${X("basedOn", {list: W.kw.map(k => esc(X("kw." + k))).join(" / ")})}</p>` : ""}
       <p class="res-note" id="resNote"></p></div>
       ${secs.map(x => `<section class="res-sec" data-sec="${x.key}"><h4>${ico(x.icon)}${X(x.title)}</h4><div class="res-row" role="list"></div></section>`).join("")}
     </div>
@@ -471,6 +510,12 @@ function renderResults(){
   paintPlanCard();
   show(d); body.querySelector("h3").focus();
 }
+/* the chosen keywords this place answers, so the visitor can see why it is suggested */
+function why(id, meal){ const m = matchesOf(id).filter(k => {
+    if(k === "drive") return false;                      // "reachable by car" is not a driving spot
+    if(meal) return k !== "food" && k !== "cooking";     // every lunch/dinner place is food; saying so adds nothing
+    return k !== "food" || !!S[id].meal;                 // a shopping street is not "a place to eat"
+  }).slice(0, 2); return m.length ? `<span class="why">${ico("check")}<span>${m.map(k => esc(X("kw." + k))).join(" / ")}</span></span>` : ""; }
 function paintRow(x, keepFocus){
   const sec = page.querySelector(`[data-sec="${x.key}"]`); if(!sec) return;
   const note = $("#resNote"); if(note) note.textContent = plan.length ? X("distFirst", {name: S[plan[0]].name}) : X("distTokyo");
@@ -478,7 +523,7 @@ function paintRow(x, keepFocus){
   const row = sec.querySelector(".res-row"), keepX = row.scrollLeft;
   row.innerHTML = list.length ? list.map(id => { const s = S[id], dist = distOf(id);
     return `<div class="res-card ${s.img ? "" : "noimg"}" role="listitem" data-card="${esc(id)}">
-      <button type="button" class="pic" data-open="${esc(id)}" aria-label="${esc(X("details", {name: s.name}))}">${img(s).replace(' loading="lazy"','')}<span class="cap"><b>${esc(s.name)}</b>${dist ? `<small>${dist}</small>` : ""}</span>${s.stock ? `<span class="img-only">${X("imgOnly")}</span>` : ""}</button>
+      <button type="button" class="pic" data-open="${esc(id)}" aria-label="${esc(X("details", {name: s.name}))}">${img(s).replace(' loading="lazy"','')}<span class="cap"><b>${esc(s.name)}</b>${dist ? `<small>${dist}</small>` : ""}${why(id, !!x.slot)}</span>${s.stock ? `<span class="img-only">${X("imgOnly")}</span>` : ""}</button>
       <button type="button" class="add" data-add="${esc(id)}" data-slot="${x.slot}" aria-label="${esc(X("addTo", {name: s.name}))}">${ico("plus")}</button>
     </div>`; }).join("")
     // "show more" sits at the end of the row, where you land after swiping right

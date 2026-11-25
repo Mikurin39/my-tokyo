@@ -2358,7 +2358,8 @@ window.SPOTS = {
 "friends",
 "shopping",
 "food",
-"unique"
+"unique",
+"cooking"
 ],
 "duration_min": 90,
 "img": "img/rank/x-kappabashi-dougu-street.jpg",
