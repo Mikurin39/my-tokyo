@@ -6,7 +6,7 @@ window.TOUR_DATA = {
   tours: {
     izakaya: {
       type: "book", price: 15000, slots: ["19:00"], hours: 3, max: 12, minAge: 20,
-      small: {1: 33000, 2: 20000, 3: 16000},   // per person when only 1-3 book (a hired guide costs the same for 1 or 12)
+      small: {1: 22000},   // a solo booking pays more (a hired guide costs the same for 1 or 12); 2+ pay the normal price
       img: "img/goldengai.jpg",
       gallery: ["img/goldengai.jpg", "img/rank/t-omoide-night.jpg", "img/rank/food-omoide-yokocho.jpg", "img/rank/t-godzilla-road.jpg", "img/rank/stay-hotel-gracery-shinjuku.jpg"],
       i18n: { en: {

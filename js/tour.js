@@ -169,7 +169,7 @@ function renderBox(focusSel){
   const tiers = !T.small ? "" : (() => { const ns = Object.keys(T.small).map(Number).sort((a,b) => a-b), top = ns[ns.length-1] + 1;
     const rows = ns.map(n => [n, String(n), T.small[n]]).concat([[top, top + "–" + T.max, T.price]]);
     return `<div class="tiers"><div class="bl2">${t("tour.tierTitle")}</div><table aria-label="${esc(t("tour.tierTitle"))}">${rows.map(([n, lab, p]) => { const on = n === B.guests || (n === top && B.guests >= top);
-      return `<tr${on ? ' class="on"' : ""}><td>${guestsTxt(lab)}</td><td>${yen(p)}</td></tr>`; }).join("")}</table><p class="small muted">${t("tour.tierNote")}</p></div>`; })();
+      return `<tr${on ? ' class="on"' : ""}><td>${guestsTxt(lab)}</td><td>${yen(p)}</td></tr>`; }).join("")}</table></div>`; })();
   if(B.step === 1){
     box.innerHTML = `<div class="bcard">${priceBlock()}
       <div class="brow"><span class="bl">${ICON.people}${t("tour.guests")}</span>
