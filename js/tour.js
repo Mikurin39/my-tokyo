@@ -37,7 +37,7 @@ I.head({title: X.name + " | Okaeri Trip", desc: firstSentence(X.overview), path:
   if(T.type !== "book") return;   // price on request: nothing to show as a product price
   const url = site + "tour.html?t=" + tk + (I.lang !== "en" ? "&lang=" + I.lang : "");
   const ld = {"@context":"https://schema.org", "@type":"Product", name: X.name, description: firstSentence(X.overview), image: site + T.img, brand: {"@type":"Brand", name:"Okaeri Trip"},
-    offers: {"@type":"Offer", price: String(T.price), priceCurrency:"JPY", url}};
+    offers: {"@type":"Offer", price: String(T.price), priceCurrency:"JPY", availability:"https://schema.org/InStock", url}};
   const sc = document.createElement("script"); sc.type = "application/ld+json"; sc.textContent = JSON.stringify(ld); document.head.appendChild(sc); })();
 $("#langSlot").innerHTML = I.selector();
 I.apply();
